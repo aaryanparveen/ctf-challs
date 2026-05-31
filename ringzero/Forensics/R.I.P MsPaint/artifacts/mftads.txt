@@ -1,0 +1,23 @@
+Volatility 3 Framework 2.28.1
+
+Offset	Record Type	Record Number	MFT Type	Filename	ADS Filename	Hexdump
+
+0xa56e168	FILE	83976	DATA	DumpIt.exe	Zone.Identifier	
+5b 5a 6f 6e 65 54 72 61 6e 73 66 65 72 5d 0d 0a [ZoneTransfer]..
+5a 6f 6e 65 49 64 3d 33 0d 0a                   ZoneId=3..      
+0xa56e590	FILE	83977	DATA	README.txt	Zone.Identifier	
+5b 5a 6f 6e 65 54 72 61 6e 73 66 65 72 5d 0d 0a [ZoneTransfer]..
+5a 6f 6e 65 49 64 3d 33 0d 0a                   ZoneId=3..      
+0x257b3160	FILE	28	DATA	$Repair	$Config	
+01 00 00 00 03 00 00 00                         ........        
+0x260f4960	FILE	10	DATA	$UpCase	$Info	
+20 00 00 00 00 00 00 00 0c 69 1b 6b 77 7e dc da  ........i.kw~..
+06 00 00 00 03 00 00 00 80 25 00 00 00 00 00 00 .........%......
+0x2713f998	FILE	54	DATA	$UsnJrnl	$Max	
+00 00 00 02 00 00 00 00 00 00 40 00 00 00 00 00 ..........@.....
+aa 3c b8 da dd 79 d2 01 00 00 00 00 00 00 00 00 .<...y..........
+0x2723e160	FILE	28	DATA	$Repair	$Config	
+01 00 00 00 03 00 00 00                         ........        
+0x27446960	FILE	10	DATA	$UpCase	$Info	
+20 00 00 00 00 00 00 00 0c 69 1b 6b 77 7e dc da  ........i.kw~..
+06 00 00 00 03 00 00 00 80 25 00 00 00 00 00 00 .........%......

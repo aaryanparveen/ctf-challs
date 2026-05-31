@@ -1,0 +1,1506 @@
+$ binwalk pid.dmp
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+319488        0x4E000         Microsoft executable, portable (PE)
+362040        0x58638         XML document, version: "1.0"
+430080        0x69000         Microsoft executable, portable (PE)
+462848        0x71000         Microsoft executable, portable (PE)
+1025608       0xFA648         Intel x86 or x64 microcode, pf_mask 0xf42b63f8, 20F0-03-34, rev 0x0001, size 11
+1454944       0x163360        Intel x86 or x64 microcode, pf_mask 0x00, 1B70-03-33, rev 0x0006, size 2048
+1455040       0x1633C0        Intel x86 or x64 microcode, pf_mask 0x00, 1A90-03-33, rev 0x0006, size 2048
+1463248       0x1653D0        Intel x86 or x64 microcode, pf_mask 0x00, 20B0-03-33, rev 0x0006, size 2048
+1463728       0x1655B0        Intel x86 or x64 microcode, pf_mask 0x00, 1F90-03-33, rev 0x0006, size 2048
+1664000       0x196400        Intel x86 or x64 microcode, pf_mask 0x52a99dcd, 1930-03-33, rev 0x0001, size 6619218
+1664688       0x1966B0        Intel x86 or x64 microcode, pf_mask 0x34c6e0, 1B10-03-33, size 2048
+1664944       0x1967B0        Intel x86 or x64 microcode, pf_mask 0x34c7e0, 1BD0-03-33, size 2048
+1674744       0x198DF8        Intel x86 or x64 microcode, pf_mask 0x00, 1F10-03-34, rev 0x0001, size 2048
+1674824       0x198E48        Intel x86 or x64 microcode, pf_mask 0x00, 1F20-03-34, rev 0x0001, size 2048
+1675064       0x198F38        Intel x86 or x64 microcode, pf_mask 0x00, 1F70-03-34, rev 0x0001, size 2048
+1675144       0x198F88        Intel x86 or x64 microcode, pf_mask 0x00, 1F80-03-34, rev 0x0001, size 2048
+1675304       0x199028        Intel x86 or x64 microcode, pf_mask 0x00, 1F90-03-34, rev 0x0001, size 2048
+1675384       0x199078        Intel x86 or x64 microcode, pf_mask 0x00, 1FA0-03-34, rev 0x0001, size 2048
+1675624       0x199168        Intel x86 or x64 microcode, pf_mask 0x00, 1FB0-03-34, rev 0x0001, size 2048
+1675704       0x1991B8        Intel x86 or x64 microcode, pf_mask 0x00, 1FC0-03-34, rev 0x0001, size 2048
+1675864       0x199258        Intel x86 or x64 microcode, pf_mask 0x00, 1FD0-03-34, rev 0x0001, size 2048
+1675944       0x1992A8        Intel x86 or x64 microcode, pf_mask 0x00, 1FE0-03-34, rev 0x0001, size 2048
+1676024       0x1992F8        Intel x86 or x64 microcode, pf_mask 0x00, 1FF0-03-34, rev 0x0001, size 2048
+1676184       0x199398        Intel x86 or x64 microcode, pf_mask 0x00, 2000-03-34, rev 0x0001, size 2048
+1676264       0x1993E8        Intel x86 or x64 microcode, pf_mask 0x00, 2010-03-34, rev 0x0001, size 2048
+1676424       0x199488        Intel x86 or x64 microcode, pf_mask 0x00, 2020-03-34, rev 0x0001, size 2048
+3235840       0x316000        Microsoft executable, portable (PE)
+3321856       0x32B000        Microsoft executable, portable (PE)
+3702784       0x388000        Microsoft executable, portable (PE)
+5206071       0x4F7037        mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+5216311       0x4F9837        mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+6191032       0x5E77B8        Intel x86 or x64 microcode, pf_mask 0x01, 1ED0-03-35, size 16
+6470920       0x62BD08        Intel x86 or x64 microcode, pf_mask 0x33521d0, 2050-03-35, size 1
+6471112       0x62BDC8        Intel x86 or x64 microcode, pf_mask 0x3353250, 1ED0-03-35, size 1
+7445187       0x719AC3        Intel x86 or x64 microcode, sig 0x284c6a31, pf_mask 0x174163cb, 1A00-14-17, size 68
+8081408       0x7B5000        Microsoft executable, portable (PE)
+9887744       0x96E000        Microsoft executable, portable (PE)
+9955519       0x97E8BF        mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+11356480      0xAD4940        XML document, version: "1.0"
+14163968      0xD82000        Microsoft executable, portable (PE)
+14405632      0xDBD000        Microsoft executable, portable (PE)
+14417920      0xDC0000        Microsoft executable, portable (PE)
+14770176      0xE16000        Microsoft executable, portable (PE)
+14981943      0xE49B37        mcrypt 2.5 encrypted data, algorithm: "tlGetIntegerAtom", keysize: 1851 bytes, mode: "_",
+15011840      0xE51000        Microsoft executable, portable (PE)
+15577776      0xEDB2B0        CRC32 polynomial table, little endian
+15702339      0xEF9943        LZMA compressed data, properties: 0x76, dictionary size: 0 bytes, uncompressed size: 64 bytes
+15761408      0xF08000        Microsoft executable, portable (PE)
+16297296      0xF8AD50        XML document, version: "1.0"
+16297358      0xF8AD8E        Copyright string: "Copyright (c) Microsoft Corporation -->"
+16859136      0x1014000       Microsoft executable, portable (PE)
+17782512      0x10F56F0       XML document, version: "1.0"
+17782713      0x10F57B9       HTML document header
+17784832      0x10F6000       Microsoft executable, portable (PE)
+17850368      0x1106000       Microsoft executable, portable (PE)
+19794535      0x12E0A67       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+20330976      0x13639E0       XML document, version: "1.0"
+20331039      0x1363A1F       Copyright string: "Copyright (c) Microsoft Corporation -->"
+20348928      0x1368000       Microsoft executable, portable (PE)
+20481008      0x13883F0       XML document, version: "1.0"
+20481070      0x138842E       Copyright string: "Copyright (c) Microsoft Corporation -->"
+20484096      0x1389000       Microsoft executable, portable (PE)
+20508672      0x138F000       Microsoft executable, portable (PE)
+20566256      0x139D0F0       XML document, version: "1.0"
+20566318      0x139D12E       Copyright string: "Copyright (c) Microsoft Corporation -->"
+20570112      0x139E000       Microsoft executable, portable (PE)
+21073920      0x1419000       Microsoft executable, portable (PE)
+21430272      0x1470000       Microsoft executable, portable (PE)
+21446424      0x1473F18       GIF image data, version "89a", 18759 x 14406
+21446430      0x1473F1E       GIF image data, version "87a",
+21950464      0x14EF000       Microsoft executable, portable (PE)
+22339584      0x154E000       Microsoft executable, portable (PE)
+22368256      0x1555000       Microsoft executable, portable (PE)
+22403488      0x155D9A0       Intel x86 or x64 microcode, sig 0xf1840f00, pf_mask 0x48d88b48, 1F35-04-27, rev 0x39f98b48, size 145902
+22540864      0x157F240       XML document, version: "1.0"
+22540926      0x157F27E       Copyright string: "Copyright (c) Microsoft Corporation -->"
+22544384      0x1580000       Microsoft executable, portable (PE)
+22655456      0x159B1E0       XML document, version: "1.0"
+22655518      0x159B21E       Copyright string: "Copyright (c) Microsoft Corporation -->"
+22659072      0x159C000       Microsoft executable, portable (PE)
+22970368      0x15E8000       Microsoft executable, portable (PE)
+23011328      0x15F2000       Microsoft executable, portable (PE)
+23031808      0x15F7000       Microsoft executable, portable (PE)
+23075104      0x1601920       SHA256 hash constants, little endian
+23097344      0x1607000       Microsoft executable, portable (PE)
+23102864      0x1608590       SHA256 hash constants, little endian
+23146496      0x1613000       Microsoft executable, portable (PE)
+23191552      0x161E000       Microsoft executable, portable (PE)
+23224320      0x1626000       Microsoft executable, portable (PE)
+23471712      0x1662660       Base64 standard index table
+23494656      0x1668000       Microsoft executable, portable (PE)
+23662592      0x1691000       Microsoft executable, portable (PE)
+23667968      0x1692500       CRC32 polynomial table, little endian
+24014848      0x16E7000       Microsoft executable, portable (PE)
+24125440      0x1702000       Microsoft executable, portable (PE)
+24170496      0x170D000       Microsoft executable, portable (PE)
+24213888      0x1717980       XML document, version: "1.0"
+24213950      0x17179BE       Copyright string: "Copyright (c) Microsoft Corporation -->"
+24215552      0x1718000       Microsoft executable, portable (PE)
+24326144      0x1733000       Microsoft executable, portable (PE)
+25006080      0x17D9000       Microsoft executable, portable (PE)
+25108061      0x17F1E5D       mcrypt 2.5 encrypted data, algorithm: "tlGetGroupSecurityDescriptor", keysize: 1170 bytes, mode: "R",
+25133056      0x17F8000       Microsoft executable, portable (PE)
+25350144      0x182D000       Microsoft executable, portable (PE)
+25685573      0x187EE45       gzip compressed data, last modified: 2085-07-05 14:29:33 (bogus date)
+25862144      0x18AA000       Microsoft executable, portable (PE)
+25890816      0x18B1000       Microsoft executable, portable (PE)
+25993600      0x18CA180       XML document, version: "1.0"
+25993662      0x18CA1BE       Copyright string: "Copyright (c) Microsoft Corporation -->"
+25997312      0x18CB000       Microsoft executable, portable (PE)
+26058752      0x18DA000       Microsoft executable, portable (PE)
+26206208      0x18FE000       Microsoft executable, portable (PE)
+26667138      0x196E882       LZMA compressed data, properties: 0x93, dictionary size: 0 bytes, uncompressed size: 187 bytes
+26750354      0x1982D92       LZMA compressed data, properties: 0x88, dictionary size: 0 bytes, uncompressed size: 238 bytes
+
+hypernova@raspberrypi:~ $ binwalk pid.dmp
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+319488        0x4E000         Microsoft executable, portable (PE)
+362040        0x58638         XML document, version: "1.0"
+430080        0x69000         Microsoft executable, portable (PE)
+462848        0x71000         Microsoft executable, portable (PE)
+1025608       0xFA648         Intel x86 or x64 microcode, pf_mask 0xf42b63f8, 20F0-03-34, rev 0x0001, size 11
+1454944       0x163360        Intel x86 or x64 microcode, pf_mask 0x00, 1B70-03-33, rev 0x0006, size 2048
+1455040       0x1633C0        Intel x86 or x64 microcode, pf_mask 0x00, 1A90-03-33, rev 0x0006, size 2048
+1463248       0x1653D0        Intel x86 or x64 microcode, pf_mask 0x00, 20B0-03-33, rev 0x0006, size 2048
+1463728       0x1655B0        Intel x86 or x64 microcode, pf_mask 0x00, 1F90-03-33, rev 0x0006, size 2048
+1664000       0x196400        Intel x86 or x64 microcode, pf_mask 0x52a99dcd, 1930-03-33, rev 0x0001, size 6619218
+1664688       0x1966B0        Intel x86 or x64 microcode, pf_mask 0x34c6e0, 1B10-03-33, size 2048
+1664944       0x1967B0        Intel x86 or x64 microcode, pf_mask 0x34c7e0, 1BD0-03-33, size 2048
+1674744       0x198DF8        Intel x86 or x64 microcode, pf_mask 0x00, 1F10-03-34, rev 0x0001, size 2048
+1674824       0x198E48        Intel x86 or x64 microcode, pf_mask 0x00, 1F20-03-34, rev 0x0001, size 2048
+1675064       0x198F38        Intel x86 or x64 microcode, pf_mask 0x00, 1F70-03-34, rev 0x0001, size 2048
+1675144       0x198F88        Intel x86 or x64 microcode, pf_mask 0x00, 1F80-03-34, rev 0x0001, size 2048
+1675304       0x199028        Intel x86 or x64 microcode, pf_mask 0x00, 1F90-03-34, rev 0x0001, size 2048
+1675384       0x199078        Intel x86 or x64 microcode, pf_mask 0x00, 1FA0-03-34, rev 0x0001, size 2048
+1675624       0x199168        Intel x86 or x64 microcode, pf_mask 0x00, 1FB0-03-34, rev 0x0001, size 2048
+1675704       0x1991B8        Intel x86 or x64 microcode, pf_mask 0x00, 1FC0-03-34, rev 0x0001, size 2048
+1675864       0x199258        Intel x86 or x64 microcode, pf_mask 0x00, 1FD0-03-34, rev 0x0001, size 2048
+1675944       0x1992A8        Intel x86 or x64 microcode, pf_mask 0x00, 1FE0-03-34, rev 0x0001, size 2048
+1676024       0x1992F8        Intel x86 or x64 microcode, pf_mask 0x00, 1FF0-03-34, rev 0x0001, size 2048
+1676184       0x199398        Intel x86 or x64 microcode, pf_mask 0x00, 2000-03-34, rev 0x0001, size 2048
+1676264       0x1993E8        Intel x86 or x64 microcode, pf_mask 0x00, 2010-03-34, rev 0x0001, size 2048
+1676424       0x199488        Intel x86 or x64 microcode, pf_mask 0x00, 2020-03-34, rev 0x0001, size 2048
+3235840       0x316000        Microsoft executable, portable (PE)
+3321856       0x32B000        Microsoft executable, portable (PE)
+3702784       0x388000        Microsoft executable, portable (PE)
+5206071       0x4F7037        mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+5216311       0x4F9837        mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+6191032       0x5E77B8        Intel x86 or x64 microcode, pf_mask 0x01, 1ED0-03-35, size 16
+6470920       0x62BD08        Intel x86 or x64 microcode, pf_mask 0x33521d0, 2050-03-35, size 1
+6471112       0x62BDC8        Intel x86 or x64 microcode, pf_mask 0x3353250, 1ED0-03-35, size 1
+7445187       0x719AC3        Intel x86 or x64 microcode, sig 0x284c6a31, pf_mask 0x174163cb, 1A00-14-17, size 68
+8081408       0x7B5000        Microsoft executable, portable (PE)
+9887744       0x96E000        Microsoft executable, portable (PE)
+9955519       0x97E8BF        mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+11356480      0xAD4940        XML document, version: "1.0"
+12278245      0xBB59E5        Intel x86 or x64 microcode, sig 0x00561ca6, pf_mask 0x930000, 1903-19-06, rev 0x30093, size 24379702
+12278317      0xBB5A2D        Intel x86 or x64 microcode, sig 0x00261f42, pf_mask 0x930000, 1F03-01-10, rev 0x30093, size 15606144
+14163968      0xD82000        Microsoft executable, portable (PE)
+14405632      0xDBD000        Microsoft executable, portable (PE)
+14417920      0xDC0000        Microsoft executable, portable (PE)
+14770176      0xE16000        Microsoft executable, portable (PE)
+14981943      0xE49B37        mcrypt 2.5 encrypted data, algorithm: "tlGetIntegerAtom", keysize: 1851 bytes, mode: "_",
+15011840      0xE51000        Microsoft executable, portable (PE)
+15577776      0xEDB2B0        CRC32 polynomial table, little endian
+15702339      0xEF9943        LZMA compressed data, properties: 0x76, dictionary size: 0 bytes, uncompressed size: 64 bytes
+15761408      0xF08000        Microsoft executable, portable (PE)
+16297296      0xF8AD50        XML document, version: "1.0"
+16297358      0xF8AD8E        Copyright string: "Copyright (c) Microsoft Corporation -->"
+16859136      0x1014000       Microsoft executable, portable (PE)
+17782512      0x10F56F0       XML document, version: "1.0"
+17782713      0x10F57B9       HTML document header
+17784832      0x10F6000       Microsoft executable, portable (PE)
+17850368      0x1106000       Microsoft executable, portable (PE)
+19794535      0x12E0A67       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+20330976      0x13639E0       XML document, version: "1.0"
+20331039      0x1363A1F       Copyright string: "Copyright (c) Microsoft Corporation -->"
+20348928      0x1368000       Microsoft executable, portable (PE)
+20481008      0x13883F0       XML document, version: "1.0"
+20481070      0x138842E       Copyright string: "Copyright (c) Microsoft Corporation -->"
+20484096      0x1389000       Microsoft executable, portable (PE)
+20508672      0x138F000       Microsoft executable, portable (PE)
+20566256      0x139D0F0       XML document, version: "1.0"
+20566318      0x139D12E       Copyright string: "Copyright (c) Microsoft Corporation -->"
+20570112      0x139E000       Microsoft executable, portable (PE)
+21073920      0x1419000       Microsoft executable, portable (PE)
+21430272      0x1470000       Microsoft executable, portable (PE)
+21446424      0x1473F18       GIF image data, version "89a", 18759 x 14406
+21446430      0x1473F1E       GIF image data, version "87a",
+21950464      0x14EF000       Microsoft executable, portable (PE)
+22339584      0x154E000       Microsoft executable, portable (PE)
+22368256      0x1555000       Microsoft executable, portable (PE)
+22403488      0x155D9A0       Intel x86 or x64 microcode, sig 0xf1840f00, pf_mask 0x48d88b48, 1F35-04-27, rev 0x39f98b48, size 145902
+22540864      0x157F240       XML document, version: "1.0"
+22540926      0x157F27E       Copyright string: "Copyright (c) Microsoft Corporation -->"
+22544384      0x1580000       Microsoft executable, portable (PE)
+22655456      0x159B1E0       XML document, version: "1.0"
+22655518      0x159B21E       Copyright string: "Copyright (c) Microsoft Corporation -->"
+22659072      0x159C000       Microsoft executable, portable (PE)
+22970368      0x15E8000       Microsoft executable, portable (PE)
+23011328      0x15F2000       Microsoft executable, portable (PE)
+23031808      0x15F7000       Microsoft executable, portable (PE)
+23075104      0x1601920       SHA256 hash constants, little endian
+23097344      0x1607000       Microsoft executable, portable (PE)
+23102864      0x1608590       SHA256 hash constants, little endian
+23146496      0x1613000       Microsoft executable, portable (PE)
+23191552      0x161E000       Microsoft executable, portable (PE)
+23224320      0x1626000       Microsoft executable, portable (PE)
+23471712      0x1662660       Base64 standard index table
+23494656      0x1668000       Microsoft executable, portable (PE)
+23662592      0x1691000       Microsoft executable, portable (PE)
+23667968      0x1692500       CRC32 polynomial table, little endian
+24014848      0x16E7000       Microsoft executable, portable (PE)
+24125440      0x1702000       Microsoft executable, portable (PE)
+24170496      0x170D000       Microsoft executable, portable (PE)
+24213888      0x1717980       XML document, version: "1.0"
+24213950      0x17179BE       Copyright string: "Copyright (c) Microsoft Corporation -->"
+24215552      0x1718000       Microsoft executable, portable (PE)
+24326144      0x1733000       Microsoft executable, portable (PE)
+25006080      0x17D9000       Microsoft executable, portable (PE)
+25108061      0x17F1E5D       mcrypt 2.5 encrypted data, algorithm: "tlGetGroupSecurityDescriptor", keysize: 1170 bytes, mode: "R",
+25133056      0x17F8000       Microsoft executable, portable (PE)
+25350144      0x182D000       Microsoft executable, portable (PE)
+25685573      0x187EE45       gzip compressed data, last modified: 2085-07-05 14:29:33 (bogus date)
+25862144      0x18AA000       Microsoft executable, portable (PE)
+25890816      0x18B1000       Microsoft executable, portable (PE)
+25993600      0x18CA180       XML document, version: "1.0"
+25993662      0x18CA1BE       Copyright string: "Copyright (c) Microsoft Corporation -->"
+25997312      0x18CB000       Microsoft executable, portable (PE)
+26058752      0x18DA000       Microsoft executable, portable (PE)
+26206208      0x18FE000       Microsoft executable, portable (PE)
+26667138      0x196E882       LZMA compressed data, properties: 0x93, dictionary size: 0 bytes, uncompressed size: 187 bytes
+26750354      0x1982D92       LZMA compressed data, properties: 0x88, dictionary size: 0 bytes, uncompressed size: 238 bytes
+27354058      0x1A163CA       LZMA compressed data, properties: 0x76, dictionary size: 0 bytes, uncompressed size: 128 bytes
+28872704      0x1B89000       Microsoft executable, portable (PE)
+28901726      0x1B9015E       Copyright string: "Copyright Bitstream Inc. 1984. All rights reserved."
+28901850      0x1B901DA       Copyright string: "Copyright Bitstream Inc. 1984. All rights reserved."
+28909568      0x1B92000       Microsoft executable, portable (PE)
+30678720      0x1D41EC0       CRC32 polynomial table, little endian
+32518144      0x1F03000       Copyright string: "Copyright (C) Rational Systems, Inc."
+34713600      0x211B000       Microsoft executable, portable (PE)
+35127307      0x218000B       Copyright string: "Copyright (c) Microsoft Corporation.  All rights reserved."
+41009152      0x271C000       Microsoft executable, portable (PE)
+41046016      0x2725000       Intel x86 or x64 microcode, sig 0x000006f2, pf_mask 0x01, 2007-09-26, rev 0x005a, size 4096
+41050112      0x2726000       Intel x86 or x64 microcode, sig 0x000006f2, pf_mask 0x20, 2007-03-15, rev 0x0057, size 4096
+41054208      0x2727000       Intel x86 or x64 microcode, sig 0x000006f6, pf_mask 0x01, 2007-09-16, rev 0x00cb, size 4096
+41058304      0x2728000       Intel x86 or x64 microcode, sig 0x000006f6, pf_mask 0x04, 2007-09-16, rev 0x00cd, size 4096
+41062400      0x2729000       Intel x86 or x64 microcode, sig 0x000006f6, pf_mask 0x20, 2007-09-16, rev 0x00cc, size 4096
+41066496      0x272A000       Intel x86 or x64 microcode, sig 0x000006f7, pf_mask 0x10, 2007-09-16, rev 0x0068, size 4096
+41070592      0x272B000       Intel x86 or x64 microcode, sig 0x000006f7, pf_mask 0x40, 2007-09-17, rev 0x0069, size 4096
+41074688      0x272C000       Intel x86 or x64 microcode, sig 0x000006fa, pf_mask 0x80, 2007-09-24, rev 0x0094, size 4096
+41078784      0x272D000       Intel x86 or x64 microcode, sig 0x000006fb, pf_mask 0x01, 2007-07-13, rev 0x00b6, size 4096
+41082880      0x272E000       Intel x86 or x64 microcode, sig 0x000006fb, pf_mask 0x04, 2009-05-11, rev 0x00b9, size 4096
+41086976      0x272F000       Intel x86 or x64 microcode, sig 0x000006fb, pf_mask 0x08, 2009-04-28, rev 0x00b8, size 4096
+41091072      0x2730000       Intel x86 or x64 microcode, sig 0x000006fb, pf_mask 0x10, 2007-07-13, rev 0x00b6, size 4096
+41095168      0x2731000       Intel x86 or x64 microcode, sig 0x000006fb, pf_mask 0x40, 2009-05-11, rev 0x00b9, size 4096
+41099264      0x2732000       Intel x86 or x64 microcode, sig 0x000006fb, pf_mask 0x80, 2007-07-13, rev 0x00b6, size 4096
+41103360      0x2733000       Intel x86 or x64 microcode, sig 0x000006fd, pf_mask 0x01, 2007-08-13, rev 0x00a3, size 4096
+41107456      0x2734000       Intel x86 or x64 microcode, sig 0x000006fd, pf_mask 0x20, 2007-08-13, rev 0x00a3, size 4096
+41111552      0x2735000       Intel x86 or x64 microcode, sig 0x000006fd, pf_mask 0x80, 2007-08-13, rev 0x00a3, size 4096
+41115648      0x2736000       Intel x86 or x64 microcode, sig 0x00000f34, pf_mask 0x1d, 2005-04-21, rev 0x0017, size 7168
+41122816      0x2737C00       Intel x86 or x64 microcode, sig 0x00000f41, pf_mask 0x02, 2005-04-21, rev 0x0016, size 5120
+41127936      0x2739000       Intel x86 or x64 microcode, sig 0x00000f41, pf_mask 0xbd, 2005-04-22, rev 0x0017, size 5120
+41133056      0x273A400       Intel x86 or x64 microcode, sig 0x00000f44, pf_mask 0x9d, 2005-04-21, rev 0x0006, size 3072
+41136128      0x273B000       Intel x86 or x64 microcode, sig 0x00000f43, pf_mask 0x9d, 2005-04-21, rev 0x0005, size 2048
+41138176      0x273B800       Intel x86 or x64 microcode, sig 0x00000f49, pf_mask 0xbd, 2005-04-21, rev 0x0003, size 2048
+41140224      0x273C000       Intel x86 or x64 microcode, sig 0x00000f47, pf_mask 0x9d, 2005-04-21, rev 0x0003, size 3072
+41143296      0x273CC00       Intel x86 or x64 microcode, sig 0x000106a4, pf_mask 0x03, 2009-04-21, rev 0x0011, size 13312
+41156608      0x2740000       Intel x86 or x64 microcode, sig 0x00000f48, pf_mask 0x01, 2006-05-08, rev 0x000c, size 3072
+41159680      0x2740C00       Intel x86 or x64 microcode, sig 0x000106c2, pf_mask 0x04, 2009-04-10, rev 0x0218, size 5120
+41164800      0x2742000       Intel x86 or x64 microcode, sig 0x00000f48, pf_mask 0x02, 2008-01-15, rev 0x000e, size 3072
+41167872      0x2742C00       Intel x86 or x64 microcode, sig 0x000106c2, pf_mask 0x08, 2009-04-10, rev 0x0219, size 5120
+41172992      0x2744000       Intel x86 or x64 microcode, sig 0x00000f48, pf_mask 0x5f, 2005-06-30, rev 0x0007, size 3072
+41176064      0x2744C00       Intel x86 or x64 microcode, sig 0x000106ca, pf_mask 0x01, 2009-08-25, rev 0x0107, size 5120
+41181184      0x2746000       Intel x86 or x64 microcode, sig 0x00000f4a, pf_mask 0x5c, 2005-12-14, rev 0x0004, size 2048
+41183232      0x2746800       Intel x86 or x64 microcode, sig 0x00000f4a, pf_mask 0x5d, 2005-06-10, rev 0x0002, size 2048
+41185280      0x2747000       Intel x86 or x64 microcode, sig 0x00000f62, pf_mask 0x04, 2005-12-15, rev 0x000f, size 3072
+41188352      0x2747C00       Intel x86 or x64 microcode, sig 0x000106ca, pf_mask 0x04, 2009-08-25, rev 0x0107, size 5120
+41193472      0x2749000       Intel x86 or x64 microcode, sig 0x00000f64, pf_mask 0x01, 2005-12-15, rev 0x0002, size 3072
+41196544      0x2749C00       Intel x86 or x64 microcode, sig 0x000106ca, pf_mask 0x08, 2009-08-25, rev 0x0107, size 5120
+41201664      0x274B000       Intel x86 or x64 microcode, sig 0x00000f64, pf_mask 0x34, 2005-12-23, rev 0x0004, size 3072
+41204736      0x274BC00       Intel x86 or x64 microcode, sig 0x000106ca, pf_mask 0x10, 2009-08-25, rev 0x0107, size 5120
+41209856      0x274D000       Intel x86 or x64 microcode, sig 0x00000f65, pf_mask 0x01, 2006-04-26, rev 0x0008, size 2048
+41211904      0x274D800       Intel x86 or x64 microcode, sig 0x00000f65, pf_mask 0x04, 2006-04-28, rev 0x0009, size 2048
+41213952      0x274E000       Intel x86 or x64 microcode, sig 0x00000f68, pf_mask 0x22, 2006-07-14, rev 0x0009, size 2048
+41216000      0x274E800       Intel x86 or x64 microcode, sig 0x000106e5, pf_mask 0x13, 2010-04-05, rev 0x0004, size 6144
+41222144      0x2750000       Intel x86 or x64 microcode, sig 0x00010661, pf_mask 0x01, 2007-09-19, rev 0x0038, size 4096
+41226240      0x2751000       Intel x86 or x64 microcode, sig 0x00010661, pf_mask 0x02, 2007-03-16, rev 0x0031, size 4096
+41230336      0x2752000       Intel x86 or x64 microcode, sig 0x00010661, pf_mask 0x80, 2007-03-16, rev 0x0033, size 4096
+41234432      0x2753000       Intel x86 or x64 microcode, sig 0x00010676, pf_mask 0x01, 2008-01-19, rev 0x060c, size 4096
+41238528      0x2754000       Intel x86 or x64 microcode, sig 0x00010676, pf_mask 0x04, 2008-01-19, rev 0x060c, size 4096
+41242624      0x2755000       Intel x86 or x64 microcode, sig 0x00010676, pf_mask 0x10, 2008-01-19, rev 0x060c, size 4096
+41246720      0x2756000       Intel x86 or x64 microcode, sig 0x00010676, pf_mask 0x40, 2008-01-19, rev 0x060c, size 4096
+41250816      0x2757000       Intel x86 or x64 microcode, sig 0x00010676, pf_mask 0x80, 2008-01-19, rev 0x060c, size 4096
+41254912      0x2758000       Intel x86 or x64 microcode, sig 0x00010677, pf_mask 0x10, 2008-04-28, rev 0x0705, size 8192
+41263104      0x275A000       Intel x86 or x64 microcode, sig 0x0001067a, pf_mask 0x11, 2008-04-09, rev 0x0a07, size 8192
+41271296      0x275C000       Intel x86 or x64 microcode, sig 0x0001067a, pf_mask 0x44, 2008-04-09, rev 0x0a07, size 8192
+41279488      0x275E000       Intel x86 or x64 microcode, sig 0x0001067a, pf_mask 0xa0, 2008-04-09, rev 0x0a07, size 8192
+41287680      0x2760000       Intel x86 or x64 microcode, sig 0x000106a5, pf_mask 0x03, 2009-04-14, rev 0x0011, size 8192
+41295872      0x2762000       Intel x86 or x64 microcode, sig 0x000106d1, pf_mask 0x08, 2009-04-06, rev 0x0026, size 4096
+41299968      0x2763000       Intel x86 or x64 microcode, sig 0x000106e4, pf_mask 0x09, 2010-03-08, rev 0x0002, size 5120
+41305088      0x2764400       Intel x86 or x64 microcode, sig 0x00020652, pf_mask 0x12, 2010-06-10, rev 0x000c, size 7168
+41312256      0x2766000       Intel x86 or x64 microcode, sig 0x00020655, pf_mask 0x92, 2010-03-01, rev 0x0002, size 2048
+41316352      0x2767000       Intel x86 or x64 microcode, sig 0x000206c2, pf_mask 0x03, 2010-06-18, rev 0x000f, size 7168
+41324544      0x2769000       Microsoft executable, portable (PE)
+41377792      0x2776000       Microsoft executable, portable (PE)
+41486912      0x2790A40       CRC32 polynomial table, little endian
+41746432      0x27D0000       Microsoft executable, portable (PE)
+42180272      0x2839EB0       SHA256 hash constants, little endian
+42196992      0x283E000       Microsoft executable, portable (PE)
+42557440      0x2896000       Microsoft executable, portable (PE)
+42704896      0x28BA000       Microsoft executable, portable (PE)
+42758144      0x28C7000       Microsoft executable, portable (PE)
+42848256      0x28DD000       Microsoft executable, portable (PE)
+42876928      0x28E4000       Microsoft executable, portable (PE)
+42913792      0x28ED000       Microsoft executable, portable (PE)
+42946560      0x28F5000       Microsoft executable, portable (PE)
+43720704      0x29B2000       Microsoft executable, portable (PE)
+43773952      0x29BF000       Microsoft executable, portable (PE)
+44097536      0x2A0E000       Microsoft executable, portable (PE)
+44126208      0x2A15000       Microsoft executable, portable (PE)
+44154880      0x2A1C000       Microsoft executable, portable (PE)
+44347392      0x2A4B000       Microsoft executable, portable (PE)
+44384256      0x2A54000       Microsoft executable, portable (PE)
+44453888      0x2A65000       Microsoft executable, portable (PE)
+44482560      0x2A6C000       Microsoft executable, portable (PE)
+44515328      0x2A74000       Microsoft executable, portable (PE)
+44584960      0x2A85000       Microsoft executable, portable (PE)
+44847104      0x2AC5000       Microsoft executable, portable (PE)
+45129728      0x2B0A000       Microsoft executable, portable (PE)
+45195264      0x2B1A000       Microsoft executable, portable (PE)
+45568000      0x2B75000       Microsoft executable, portable (PE)
+45947504      0x2BD1A70       SHA256 hash constants, little endian
+45987776      0x2BDB7C0       Intel x86 or x64 microcode, sig 0xfffff880, pf_mask 0x11420b0, 20E0-01-14, size 18096288
+46018560      0x2BE3000       Microsoft executable, portable (PE)
+46127587      0x2BFD9E3       VMware4 disk image
+46219264      0x2C14000       Microsoft executable, portable (PE)
+46424064      0x2C46000       Microsoft executable, portable (PE)
+48132096      0x2DE7000       Microsoft executable, portable (PE)
+48230400      0x2DFF000       Microsoft executable, portable (PE)
+48287744      0x2E0D000       Microsoft executable, portable (PE)
+48316416      0x2E14000       Microsoft executable, portable (PE)
+48599040      0x2E59000       Microsoft executable, portable (PE)
+49483776      0x2F31000       Microsoft executable, portable (PE)
+49860608      0x2F8D000       Microsoft executable, portable (PE)
+49943680      0x2FA1480       CRC32 polynomial table, little endian
+49947840      0x2FA24C0       CRC32 polynomial table, little endian
+50028544      0x2FB6000       Microsoft executable, portable (PE)
+50053120      0x2FBC000       Microsoft executable, portable (PE)
+50114560      0x2FCB000       Microsoft executable, portable (PE)
+50143232      0x2FD2000       Microsoft executable, portable (PE)
+51028804      0x30AA344       Intel x86 or x64 microcode, sig 0x428b0000, pf_mask 0x3082ff00, 1994-01-10, rev 0x-76b5df8b, size 54037001
+51498643      0x311CE93       Neighborly text, "NeighborConnection"
+52076544      0x31AA000       Microsoft executable, portable (PE)
+52129792      0x31B7000       Microsoft executable, portable (PE)
+52178944      0x31C3000       Microsoft executable, portable (PE)
+52285440      0x31DD000       Microsoft executable, portable (PE)
+52342784      0x31EB000       Microsoft executable, portable (PE)
+52376896      0x31F3540       CRC32 polynomial table, little endian
+52384160      0x31F51A0       SHA256 hash constants, little endian
+52547584      0x321D000       Microsoft executable, portable (PE)
+52621312      0x322F000       Microsoft executable, portable (PE)
+52797440      0x325A000       Microsoft executable, portable (PE)
+52957184      0x3281000       Microsoft executable, portable (PE)
+52981760      0x3287000       Microsoft executable, portable (PE)
+53002240      0x328C000       Microsoft executable, portable (PE)
+53047296      0x3297000       Microsoft executable, portable (PE)
+53198848      0x32BC000       Microsoft executable, portable (PE)
+53264384      0x32CC000       Microsoft executable, portable (PE)
+53293056      0x32D3000       Microsoft executable, portable (PE)
+53321728      0x32DA000       Microsoft executable, portable (PE)
+53350400      0x32E1000       Microsoft executable, portable (PE)
+53387264      0x32EA000       Microsoft executable, portable (PE)
+53440512      0x32F7000       Microsoft executable, portable (PE)
+56300800      0x35B1500       CRC32 polynomial table, little endian
+56498288      0x35E1870       Intel x86 or x64 microcode, sig 0xfffff880, pf_mask 0x10b7bb7, 1990-02-06, rev 0x-580, size 29753474
+56499352      0x35E1C98       Intel x86 or x64 microcode, sig 0xfffffa80, pf_mask 0x00, 1B30-01-01, size 45503588
+56501928      0x35E26A8       Intel x86 or x64 microcode, sig 0xfffffa80, pf_mask 0x01, 1C00-01-01, size 16475720
+56533784      0x35EA318       Intel x86 or x64 microcode, sig 0xfffff880, pf_mask 0x01, 1B60-02-08, size 24187344
+56534912      0x35EA780       Intel x86 or x64 microcode, sig 0xfffff880, pf_mask 0x16e17c, 1B60-02-08, size 2048
+56797304      0x362A878       Intel x86 or x64 microcode, sig 0xfffffa80, pf_mask 0x01, 1C00-01-01, size 17303464
+57102336      0x3675000       Microsoft executable, portable (PE)
+57405440      0x36BF000       Microsoft executable, portable (PE)
+57536512      0x36DF000       Microsoft executable, portable (PE)
+57581568      0x36EA000       Microsoft executable, portable (PE)
+57683968      0x3703000       Microsoft executable, portable (PE)
+57724928      0x370D000       Microsoft executable, portable (PE)
+57921403      0x373CF7B       HTML document header
+57921653      0x373D075       HTML document footer
+57921755      0x373D0DB       HTML document header
+57922001      0x373D1D1       HTML document footer
+57922107      0x373D23B       HTML document header
+57922377      0x373D349       HTML document footer
+57922491      0x373D3BB       HTML document header
+57922717      0x373D49D       HTML document footer
+57922827      0x373D50B       HTML document header
+57923078      0x373D606       HTML document footer
+57923179      0x373D66B       HTML document header
+57923427      0x373D763       HTML document footer
+57923531      0x373D7CB       HTML document header
+57923793      0x373D8D1       HTML document footer
+57923899      0x373D93B       HTML document header
+57924148      0x373DA34       HTML document footer
+57924251      0x373DA9B       HTML document header
+57924477      0x373DB7D       HTML document footer
+57924587      0x373DBEB       HTML document header
+57924830      0x373DCDE       HTML document footer
+57924939      0x373DD4B       HTML document header
+57925179      0x373DE3B       HTML document footer
+57925291      0x373DEAB       HTML document header
+57925553      0x373DFB1       HTML document footer
+57925659      0x373E01B       HTML document header
+57925888      0x373E100       HTML document footer
+57925995      0x373E16B       HTML document header
+57926241      0x373E261       HTML document footer
+57926347      0x373E2CB       HTML document header
+57926578      0x373E3B2       HTML document footer
+57926683      0x373E41B       HTML document header
+57926927      0x373E50F       HTML document footer
+57927035      0x373E57B       HTML document header
+57927250      0x373E652       HTML document footer
+57927355      0x373E6BB       HTML document header
+57927567      0x373E78F       HTML document footer
+57927675      0x373E7FB       HTML document header
+57927916      0x373E8EC       HTML document footer
+57928027      0x373E95B       HTML document header
+57928273      0x373EA51       HTML document footer
+57928379      0x373EABB       HTML document header
+57928621      0x373EBAD       HTML document footer
+57928731      0x373EC1B       HTML document header
+57929005      0x373ED2D       HTML document footer
+57929115      0x373ED9B       HTML document header
+57929349      0x373EE85       HTML document footer
+57929451      0x373EEEB       HTML document header
+57929690      0x373EFDA       HTML document footer
+57929803      0x373F04B       HTML document header
+57930027      0x373F12B       HTML document footer
+57930139      0x373F19B       HTML document header
+57930365      0x373F27D       HTML document footer
+57930475      0x373F2EB       HTML document header
+57930686      0x373F3BE       HTML document footer
+57930827      0x373F44B       HTML document header
+57930983      0x373F4E7       HTML document footer
+57978624      0x374AF00       Base64 standard index table
+58421248      0x37B7000       Microsoft executable, portable (PE)
+58527744      0x37D1000       Microsoft executable, portable (PE)
+58613760      0x37E6000       Microsoft executable, portable (PE)
+59086768      0x38597B0       Intel x86 or x64 microcode, sig 0xfffffa80, pf_mask 0x00, 2060-01-05, rev 0x-580, size 2048
+59087872      0x3859C00       Intel x86 or x64 microcode, sig 0xfffffa80, pf_mask 0x25abb30, 2060-01-05, rev 0x1fffff, size 38778848
+59151864      0x38695F8       Intel x86 or x64 microcode, sig 0xfffffa80, pf_mask 0x2516d10, 2060-01-05, size 38894304
+59153280      0x3869B80       Intel x86 or x64 microcode, sig 0xfffffa80, pf_mask 0x00, 2060-01-05, size 38890752
+59153544      0x3869C88       Intel x86 or x64 microcode, sig 0xfffffa80, pf_mask 0x25abb30, 2060-01-05, size 12075136
+59153744      0x3869D50       Intel x86 or x64 microcode, sig 0xfffffa80, pf_mask 0x01, 2060-01-05, size 13890416
+59204864      0x3876500       XML document, version: "1.0"
+59204926      0x387653E       Copyright string: "Copyright (c) Microsoft Corporation -->"
+59206448      0x3876B30       XML document, version: "1.0"
+59239432      0x387EC08       Intel x86 or x64 microcode, sig 0xfffffa80, pf_mask 0x254cd10, 1B50-01-05, size 2048
+59239888      0x387EDD0       Intel x86 or x64 microcode, sig 0xfffffa80, pf_mask 0x00, 1B50-01-05, rev 0x-580, size 2048
+59539680      0x38C80E0       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x1dd1630, 1960-01-09, size 2048
+59924480      0x3926000       Microsoft executable, portable (PE)
+59932672      0x3928000       Microsoft executable, portable (PE)
+60502077      0x39B303D       Certificate in DER format (x509 v3), header length: 4, sequence length: 1190
+60503271      0x39B34E7       Certificate in DER format (x509 v3), header length: 4, sequence length: 1528
+60504861      0x39B3B1D       Certificate in DER format (x509 v3), header length: 4, sequence length: 1195
+60506060      0x39B3FCC       Certificate in DER format (x509 v3), header length: 4, sequence length: 1528
+60593408      0x39C9500       SHA256 hash constants, little endian
+60628992      0x39D2000       Microsoft executable, portable (PE)
+60661760      0x39DA000       Microsoft executable, portable (PE)
+60846080      0x3A07000       Microsoft executable, portable (PE)
+60903424      0x3A15000       Microsoft executable, portable (PE)
+61222912      0x3A63000       Microsoft executable, portable (PE)
+62304256      0x3B6B000       Microsoft executable, portable (PE)
+62590976      0x3BB1000       Microsoft executable, portable (PE)
+62926848      0x3C03000       Microsoft executable, portable (PE)
+63098880      0x3C2D000       Microsoft executable, portable (PE)
+63197184      0x3C45000       Microsoft executable, portable (PE)
+63320064      0x3C63000       Microsoft executable, portable (PE)
+63414272      0x3C7A000       Microsoft executable, portable (PE)
+63418368      0x3C7B000       Microsoft executable, portable (PE)
+63692800      0x3CBE000       Microsoft executable, portable (PE)
+63754240      0x3CCD000       Microsoft executable, portable (PE)
+64069632      0x3D1A000       Microsoft executable, portable (PE)
+65640864      0x3E999A0       Intel x86 or x64 microcode, pf_mask 0x27cef50, 1A01-03-28, size 14417392
+66742854      0x3FA6A46       Certificate in DER format (x509 v3), header length: 4, sequence length: 673
+66770032      0x3FAD470       Intel x86 or x64 microcode, sig 0xfffffa80, pf_mask 0x2b6cf84, 1B30-01-01, size 16849712
+66770072      0x3FAD498       Intel x86 or x64 microcode, sig 0xfffffa80, pf_mask 0x38d05a0, 1B30-01-01, size 2048
+66884720      0x3FC9470       Intel x86 or x64 microcode, sig 0xfffffa80, pf_mask 0x2b6cf84, 1B30-01-01, size 16849712
+66884760      0x3FC9498       Intel x86 or x64 microcode, sig 0xfffffa80, pf_mask 0x39445a0, 1B30-01-01, size 2048
+66885216      0x3FC9660       Intel x86 or x64 microcode, sig 0xfffffa80, pf_mask 0x2876600, 1B30-01-01, size 40452976
+66907272      0x3FCEC88       Intel x86 or x64 microcode, sig 0xfffffa80, pf_mask 0x27e5b30, 1B50-01-11, size 12075136
+66907472      0x3FCED50       Intel x86 or x64 microcode, sig 0xfffffa80, pf_mask 0x01, 1B50-01-11, size 21165232
+66909720      0x3FCF618       Intel x86 or x64 microcode, sig 0xfffffa80, pf_mask 0x00, 1C58-01-11, size 2048
+66910504      0x3FCF928       Intel x86 or x64 microcode, sig 0xfffffa80, pf_mask 0x27ee120, 1C58-01-11, size 17898320
+67665920      0x4088000       Microsoft executable, portable (PE)
+67690496      0x408E000       Microsoft executable, portable (PE)
+67993600      0x40D8000       Microsoft executable, portable (PE)
+68034560      0x40E2000       Microsoft executable, portable (PE)
+68067328      0x40EA000       Microsoft executable, portable (PE)
+68550656      0x4160000       Microsoft executable, portable (PE)
+68812800      0x41A0000       Microsoft executable, portable (PE)
+68837376      0x41A6000       Microsoft executable, portable (PE)
+68943872      0x41C0000       Microsoft executable, portable (PE)
+68997120      0x41CD000       Microsoft executable, portable (PE)
+69110115      0x41E8963       VMware4 disk image
+69324800      0x421D000       Microsoft executable, portable (PE)
+69419008      0x4234000       Microsoft executable, portable (PE)
+69484544      0x4244000       Microsoft executable, portable (PE)
+69836800      0x429A000       Microsoft executable, portable (PE)
+69853184      0x429E000       Microsoft executable, portable (PE)
+69914624      0x42AD000       Microsoft executable, portable (PE)
+69967872      0x42BA000       Microsoft executable, portable (PE)
+70086656      0x42D7000       Microsoft executable, portable (PE)
+70184960      0x42EF000       Microsoft executable, portable (PE)
+70230016      0x42FA000       Microsoft executable, portable (PE)
+70319483      0x430FD7B       VMware4 disk image
+70422528      0x4329000       Microsoft executable, portable (PE)
+70467584      0x4334000       Microsoft executable, portable (PE)
+70568635      0x434CABB       VMware4 disk image
+70684672      0x4369000       Microsoft executable, portable (PE)
+70811648      0x4388000       Microsoft executable, portable (PE)
+70946816      0x43A9000       Microsoft executable, portable (PE)
+70983680      0x43B2000       Microsoft executable, portable (PE)
+71061504      0x43C5000       Microsoft executable, portable (PE)
+71196672      0x43E6000       Microsoft executable, portable (PE)
+71991296      0x44A8000       Microsoft executable, portable (PE)
+72097792      0x44C2000       Microsoft executable, portable (PE)
+72163328      0x44D2000       Microsoft executable, portable (PE)
+72245248      0x44E6000       Microsoft executable, portable (PE)
+72684576      0x4551420       SHA256 hash constants, little endian
+72708096      0x4557000       Microsoft executable, portable (PE)
+72957952      0x4594000       Microsoft executable, portable (PE)
+73097216      0x45B6000       Microsoft executable, portable (PE)
+73117696      0x45BB000       Microsoft executable, portable (PE)
+73220096      0x45D4000       Microsoft executable, portable (PE)
+73256960      0x45DD000       Microsoft executable, portable (PE)
+73314304      0x45EB000       Microsoft executable, portable (PE)
+73363456      0x45F7000       Microsoft executable, portable (PE)
+73408512      0x4602000       Microsoft executable, portable (PE)
+73454256      0x460D2B0       SHA256 hash constants, little endian
+73486336      0x4615000       Microsoft executable, portable (PE)
+73535488      0x4621000       Microsoft executable, portable (PE)
+73778576      0x465C590       SHA256 hash constants, little endian
+76251544      0x48B8198       Intel x86 or x64 microcode, sig 0x00000001, pf_mask 0x01, 2004-04-20, rev 0x0282, size 2048
+85119346      0x512D172       Neighborly text, "Neighbor"
+85122146      0x512DC62       Neighborly text, "Neighbor"
+85126186      0x512EC2A       Neighborly text, "Neighbor"
+88511266      0x5469322       Neighborly text, "Neighbor"
+88515306      0x546A2EA       Neighborly text, "Neighbor"
+93776454      0x596EA46       Certificate in DER format (x509 v3), header length: 4, sequence length: 673
+93860040      0x59830C8       Certificate in DER format (x509 v3), header length: 4, sequence length: 1299
+94007717      0x59A71A5       Certificate in DER format (x509 v3), header length: 4, sequence length: 1235
+94294866      0x59ED352       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+94304274      0x59EF812       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+94554874      0x5A2CAFA       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+95706575      0x5B45DCF       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+97128008      0x5CA0E48       Boot section Start 0x3030109 End 0x6944624F
+97128012      0x5CA0E4C       Boot section Start 0x6944624F End 0x0
+100646996     0x5FFC054       PC bitmap, Windows 3.x format,, 16 x 64 x 32
+100648377     0x5FFC5B9       Boot section Start 0xB0B0BF4 End 0x81
+100651146     0x5FFD08A       PC bitmap, Windows 3.x format,, 16 x 64 x 1
+100683914     0x600508A       PC bitmap, Windows 3.x format,, 16 x 192 x 1
+100687956     0x6006054       PC bitmap, Windows 3.x format,, 16 x 192 x 32
+100694457     0x60079B9       Boot section Start 0xB0B0BF4 End 0x81
+100697529     0x60085B9       Boot section Start 0xB0B0BF4 End 0x81
+100700298     0x600908A       PC bitmap, Windows 3.x format,, 16 x 192 x 1
+100704340     0x600A054       PC bitmap, Windows 3.x format,, 16 x 192 x 32
+100707769     0x600ADB9       Boot section Start 0xB0B0BF4 End 0x81
+100710841     0x600B9B9       Boot section Start 0xB0B0BF4 End 0x81
+100713913     0x600C5B9       Boot section Start 0xB0B0BF4 End 0x81
+100716682     0x600D08A       PC bitmap, Windows 3.x format,, 16 x 192 x 1
+100720724     0x600E054       PC bitmap, Windows 3.x format,, 16 x 576 x 32
+100740537     0x6012DB9       Boot section Start 0xB0B0BF4 End 0x81
+100744633     0x6013DB9       Boot section Start 0xB0B0BF4 End 0x81
+100748729     0x6014DB9       Boot section Start 0xB0B0BF4 End 0x81
+100751801     0x60159B9       Boot section Start 0xB0B0BF4 End 0x81
+100754873     0x60165B9       Boot section Start 0xB0B0BF4 End 0x81
+100757642     0x601708A       PC bitmap, Windows 3.x format,, 16 x 576 x 1
+101438871     0x60BD597       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+101797386     0x6114E0A       Ubiquiti firmware header, third party, ~CRC32: 0x0, version: "D"
+101814317     0x611902D       Certificate in DER format (x509 v3), header length: 4, sequence length: 1195
+101815516     0x61194DC       Certificate in DER format (x509 v3), header length: 4, sequence length: 1528
+101817095     0x6119B07       Certificate in DER format (x509 v3), header length: 4, sequence length: 1190
+101818289     0x6119FB1       Certificate in DER format (x509 v3), header length: 4, sequence length: 1528
+102151487     0x616B53F       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+102163847     0x616E587       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+102176135     0x6171587       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+104219912     0x6364508       Boot section Start 0x150F204 End 0x0
+104219916     0x636450C       Boot section Start 0x0 End 0x0
+104721356     0x63DEBCC       Boot section Start 0x-1DB1B2BD End 0x10CCDEC3
+105143496     0x6445CC8       Boot section Start 0xB0 End 0x0
+105143528     0x6445CE8       Boot section Start 0x1 End 0x0 Load-by-Bootrom
+105143532     0x6445CEC       Boot section Start 0x0 End 0x1
+107049832     0x6617368       Boot section Start 0x1 End 0x0 Load-by-Bootrom
+107049836     0x661736C       Boot section Start 0x0 End 0x1
+107049868     0x661738C       Boot section Start 0x-800 End 0x0
+107386902     0x6669816       StuffIt Deluxe Segment (data): f
+107773184     0x66C7D00       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x00, 1C90-02-06, size 2048
+108428576     0x6767D20       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x00, 1CB0-02-10, size 2048
+108432584     0x6768CC8       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x2102bb0, 1F80-02-10, size 1
+108559792     0x6787DB0       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x00, 1D40-02-12, size 2048
+108756224     0x67B7D00       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x00, 1C90-02-15, size 2048
+108821936     0x67C7DB0       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x00, 1D40-02-16, size 2048
+109673728     0x6897D00       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x00, 1C90-02-23, size 2048
+110722928     0x6997F70       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x00, 1FE0-02-33, size 2048
+110919088     0x69C7DB0       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x00, 1D40-02-36, size 2048
+
+hypernova@raspberrypi:~ $ binwalk pid.dmp
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+319488        0x4E000         Microsoft executable, portable (PE)
+362040        0x58638         XML document, version: "1.0"
+430080        0x69000         Microsoft executable, portable (PE)
+462848        0x71000         Microsoft executable, portable (PE)
+1025608       0xFA648         Intel x86 or x64 microcode, pf_mask 0xf42b63f8, 20F0-03-34, rev 0x0001, size 11
+1454944       0x163360        Intel x86 or x64 microcode, pf_mask 0x00, 1B70-03-33, rev 0x0006, size 2048
+1455040       0x1633C0        Intel x86 or x64 microcode, pf_mask 0x00, 1A90-03-33, rev 0x0006, size 2048
+1463248       0x1653D0        Intel x86 or x64 microcode, pf_mask 0x00, 20B0-03-33, rev 0x0006, size 2048
+1463728       0x1655B0        Intel x86 or x64 microcode, pf_mask 0x00, 1F90-03-33, rev 0x0006, size 2048
+1664000       0x196400        Intel x86 or x64 microcode, pf_mask 0x52a99dcd, 1930-03-33, rev 0x0001, size 6619218
+1664688       0x1966B0        Intel x86 or x64 microcode, pf_mask 0x34c6e0, 1B10-03-33, size 2048
+1664944       0x1967B0        Intel x86 or x64 microcode, pf_mask 0x34c7e0, 1BD0-03-33, size 2048
+1674744       0x198DF8        Intel x86 or x64 microcode, pf_mask 0x00, 1F10-03-34, rev 0x0001, size 2048
+1674824       0x198E48        Intel x86 or x64 microcode, pf_mask 0x00, 1F20-03-34, rev 0x0001, size 2048
+1675064       0x198F38        Intel x86 or x64 microcode, pf_mask 0x00, 1F70-03-34, rev 0x0001, size 2048
+1675144       0x198F88        Intel x86 or x64 microcode, pf_mask 0x00, 1F80-03-34, rev 0x0001, size 2048
+1675304       0x199028        Intel x86 or x64 microcode, pf_mask 0x00, 1F90-03-34, rev 0x0001, size 2048
+1675384       0x199078        Intel x86 or x64 microcode, pf_mask 0x00, 1FA0-03-34, rev 0x0001, size 2048
+1675624       0x199168        Intel x86 or x64 microcode, pf_mask 0x00, 1FB0-03-34, rev 0x0001, size 2048
+1675704       0x1991B8        Intel x86 or x64 microcode, pf_mask 0x00, 1FC0-03-34, rev 0x0001, size 2048
+1675864       0x199258        Intel x86 or x64 microcode, pf_mask 0x00, 1FD0-03-34, rev 0x0001, size 2048
+1675944       0x1992A8        Intel x86 or x64 microcode, pf_mask 0x00, 1FE0-03-34, rev 0x0001, size 2048
+1676024       0x1992F8        Intel x86 or x64 microcode, pf_mask 0x00, 1FF0-03-34, rev 0x0001, size 2048
+1676184       0x199398        Intel x86 or x64 microcode, pf_mask 0x00, 2000-03-34, rev 0x0001, size 2048
+1676264       0x1993E8        Intel x86 or x64 microcode, pf_mask 0x00, 2010-03-34, rev 0x0001, size 2048
+1676424       0x199488        Intel x86 or x64 microcode, pf_mask 0x00, 2020-03-34, rev 0x0001, size 2048
+3235840       0x316000        Microsoft executable, portable (PE)
+3321856       0x32B000        Microsoft executable, portable (PE)
+3702784       0x388000        Microsoft executable, portable (PE)
+5206071       0x4F7037        mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+5216311       0x4F9837        mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+6191032       0x5E77B8        Intel x86 or x64 microcode, pf_mask 0x01, 1ED0-03-35, size 16
+6470920       0x62BD08        Intel x86 or x64 microcode, pf_mask 0x33521d0, 2050-03-35, size 1
+6471112       0x62BDC8        Intel x86 or x64 microcode, pf_mask 0x3353250, 1ED0-03-35, size 1
+7445187       0x719AC3        Intel x86 or x64 microcode, sig 0x284c6a31, pf_mask 0x174163cb, 1A00-14-17, size 68
+8081408       0x7B5000        Microsoft executable, portable (PE)
+9887744       0x96E000        Microsoft executable, portable (PE)
+9955519       0x97E8BF        mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+11356480      0xAD4940        XML document, version: "1.0"
+12278245      0xBB59E5        Intel x86 or x64 microcode, sig 0x00561ca6, pf_mask 0x930000, 1903-19-06, rev 0x30093, size 24379702
+12278317      0xBB5A2D        Intel x86 or x64 microcode, sig 0x00261f42, pf_mask 0x930000, 1F03-01-10, rev 0x30093, size 15606144
+14163968      0xD82000        Microsoft executable, portable (PE)
+14405632      0xDBD000        Microsoft executable, portable (PE)
+14417920      0xDC0000        Microsoft executable, portable (PE)
+14770176      0xE16000        Microsoft executable, portable (PE)
+14981943      0xE49B37        mcrypt 2.5 encrypted data, algorithm: "tlGetIntegerAtom", keysize: 1851 bytes, mode: "_",
+15011840      0xE51000        Microsoft executable, portable (PE)
+15577776      0xEDB2B0        CRC32 polynomial table, little endian
+15702339      0xEF9943        LZMA compressed data, properties: 0x76, dictionary size: 0 bytes, uncompressed size: 64 bytes
+15761408      0xF08000        Microsoft executable, portable (PE)
+16297296      0xF8AD50        XML document, version: "1.0"
+16297358      0xF8AD8E        Copyright string: "Copyright (c) Microsoft Corporation -->"
+16859136      0x1014000       Microsoft executable, portable (PE)
+17782512      0x10F56F0       XML document, version: "1.0"
+17782713      0x10F57B9       HTML document header
+17784832      0x10F6000       Microsoft executable, portable (PE)
+17850368      0x1106000       Microsoft executable, portable (PE)
+19794535      0x12E0A67       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+20330976      0x13639E0       XML document, version: "1.0"
+20331039      0x1363A1F       Copyright string: "Copyright (c) Microsoft Corporation -->"
+20348928      0x1368000       Microsoft executable, portable (PE)
+20481008      0x13883F0       XML document, version: "1.0"
+20481070      0x138842E       Copyright string: "Copyright (c) Microsoft Corporation -->"
+20484096      0x1389000       Microsoft executable, portable (PE)
+20508672      0x138F000       Microsoft executable, portable (PE)
+20566256      0x139D0F0       XML document, version: "1.0"
+20566318      0x139D12E       Copyright string: "Copyright (c) Microsoft Corporation -->"
+20570112      0x139E000       Microsoft executable, portable (PE)
+21073920      0x1419000       Microsoft executable, portable (PE)
+21430272      0x1470000       Microsoft executable, portable (PE)
+21446424      0x1473F18       GIF image data, version "89a", 18759 x 14406
+21446430      0x1473F1E       GIF image data, version "87a",
+21950464      0x14EF000       Microsoft executable, portable (PE)
+22339584      0x154E000       Microsoft executable, portable (PE)
+22368256      0x1555000       Microsoft executable, portable (PE)
+22403488      0x155D9A0       Intel x86 or x64 microcode, sig 0xf1840f00, pf_mask 0x48d88b48, 1F35-04-27, rev 0x39f98b48, size 145902
+22540864      0x157F240       XML document, version: "1.0"
+22540926      0x157F27E       Copyright string: "Copyright (c) Microsoft Corporation -->"
+22544384      0x1580000       Microsoft executable, portable (PE)
+22655456      0x159B1E0       XML document, version: "1.0"
+22655518      0x159B21E       Copyright string: "Copyright (c) Microsoft Corporation -->"
+22659072      0x159C000       Microsoft executable, portable (PE)
+22970368      0x15E8000       Microsoft executable, portable (PE)
+23011328      0x15F2000       Microsoft executable, portable (PE)
+23031808      0x15F7000       Microsoft executable, portable (PE)
+23075104      0x1601920       SHA256 hash constants, little endian
+23097344      0x1607000       Microsoft executable, portable (PE)
+23102864      0x1608590       SHA256 hash constants, little endian
+23146496      0x1613000       Microsoft executable, portable (PE)
+23191552      0x161E000       Microsoft executable, portable (PE)
+23224320      0x1626000       Microsoft executable, portable (PE)
+23471712      0x1662660       Base64 standard index table
+23494656      0x1668000       Microsoft executable, portable (PE)
+23662592      0x1691000       Microsoft executable, portable (PE)
+23667968      0x1692500       CRC32 polynomial table, little endian
+24014848      0x16E7000       Microsoft executable, portable (PE)
+24125440      0x1702000       Microsoft executable, portable (PE)
+24170496      0x170D000       Microsoft executable, portable (PE)
+24213888      0x1717980       XML document, version: "1.0"
+24213950      0x17179BE       Copyright string: "Copyright (c) Microsoft Corporation -->"
+24215552      0x1718000       Microsoft executable, portable (PE)
+24326144      0x1733000       Microsoft executable, portable (PE)
+25006080      0x17D9000       Microsoft executable, portable (PE)
+25108061      0x17F1E5D       mcrypt 2.5 encrypted data, algorithm: "tlGetGroupSecurityDescriptor", keysize: 1170 bytes, mode: "R",
+25133056      0x17F8000       Microsoft executable, portable (PE)
+25350144      0x182D000       Microsoft executable, portable (PE)
+25685573      0x187EE45       gzip compressed data, last modified: 2085-07-05 14:29:33 (bogus date)
+25862144      0x18AA000       Microsoft executable, portable (PE)
+25890816      0x18B1000       Microsoft executable, portable (PE)
+25993600      0x18CA180       XML document, version: "1.0"
+25993662      0x18CA1BE       Copyright string: "Copyright (c) Microsoft Corporation -->"
+25997312      0x18CB000       Microsoft executable, portable (PE)
+26058752      0x18DA000       Microsoft executable, portable (PE)
+26206208      0x18FE000       Microsoft executable, portable (PE)
+26667138      0x196E882       LZMA compressed data, properties: 0x93, dictionary size: 0 bytes, uncompressed size: 187 bytes
+26750354      0x1982D92       LZMA compressed data, properties: 0x88, dictionary size: 0 bytes, uncompressed size: 238 bytes
+27354058      0x1A163CA       LZMA compressed data, properties: 0x76, dictionary size: 0 bytes, uncompressed size: 128 bytes
+28872704      0x1B89000       Microsoft executable, portable (PE)
+28901726      0x1B9015E       Copyright string: "Copyright Bitstream Inc. 1984. All rights reserved."
+28901850      0x1B901DA       Copyright string: "Copyright Bitstream Inc. 1984. All rights reserved."
+28909568      0x1B92000       Microsoft executable, portable (PE)
+30678720      0x1D41EC0       CRC32 polynomial table, little endian
+32518144      0x1F03000       Copyright string: "Copyright (C) Rational Systems, Inc."
+34713600      0x211B000       Microsoft executable, portable (PE)
+35127307      0x218000B       Copyright string: "Copyright (c) Microsoft Corporation.  All rights reserved."
+41009152      0x271C000       Microsoft executable, portable (PE)
+41046016      0x2725000       Intel x86 or x64 microcode, sig 0x000006f2, pf_mask 0x01, 2007-09-26, rev 0x005a, size 4096
+41050112      0x2726000       Intel x86 or x64 microcode, sig 0x000006f2, pf_mask 0x20, 2007-03-15, rev 0x0057, size 4096
+41054208      0x2727000       Intel x86 or x64 microcode, sig 0x000006f6, pf_mask 0x01, 2007-09-16, rev 0x00cb, size 4096
+41058304      0x2728000       Intel x86 or x64 microcode, sig 0x000006f6, pf_mask 0x04, 2007-09-16, rev 0x00cd, size 4096
+41062400      0x2729000       Intel x86 or x64 microcode, sig 0x000006f6, pf_mask 0x20, 2007-09-16, rev 0x00cc, size 4096
+41066496      0x272A000       Intel x86 or x64 microcode, sig 0x000006f7, pf_mask 0x10, 2007-09-16, rev 0x0068, size 4096
+41070592      0x272B000       Intel x86 or x64 microcode, sig 0x000006f7, pf_mask 0x40, 2007-09-17, rev 0x0069, size 4096
+41074688      0x272C000       Intel x86 or x64 microcode, sig 0x000006fa, pf_mask 0x80, 2007-09-24, rev 0x0094, size 4096
+41078784      0x272D000       Intel x86 or x64 microcode, sig 0x000006fb, pf_mask 0x01, 2007-07-13, rev 0x00b6, size 4096
+41082880      0x272E000       Intel x86 or x64 microcode, sig 0x000006fb, pf_mask 0x04, 2009-05-11, rev 0x00b9, size 4096
+41086976      0x272F000       Intel x86 or x64 microcode, sig 0x000006fb, pf_mask 0x08, 2009-04-28, rev 0x00b8, size 4096
+41091072      0x2730000       Intel x86 or x64 microcode, sig 0x000006fb, pf_mask 0x10, 2007-07-13, rev 0x00b6, size 4096
+41095168      0x2731000       Intel x86 or x64 microcode, sig 0x000006fb, pf_mask 0x40, 2009-05-11, rev 0x00b9, size 4096
+41099264      0x2732000       Intel x86 or x64 microcode, sig 0x000006fb, pf_mask 0x80, 2007-07-13, rev 0x00b6, size 4096
+41103360      0x2733000       Intel x86 or x64 microcode, sig 0x000006fd, pf_mask 0x01, 2007-08-13, rev 0x00a3, size 4096
+41107456      0x2734000       Intel x86 or x64 microcode, sig 0x000006fd, pf_mask 0x20, 2007-08-13, rev 0x00a3, size 4096
+41111552      0x2735000       Intel x86 or x64 microcode, sig 0x000006fd, pf_mask 0x80, 2007-08-13, rev 0x00a3, size 4096
+41115648      0x2736000       Intel x86 or x64 microcode, sig 0x00000f34, pf_mask 0x1d, 2005-04-21, rev 0x0017, size 7168
+41122816      0x2737C00       Intel x86 or x64 microcode, sig 0x00000f41, pf_mask 0x02, 2005-04-21, rev 0x0016, size 5120
+41127936      0x2739000       Intel x86 or x64 microcode, sig 0x00000f41, pf_mask 0xbd, 2005-04-22, rev 0x0017, size 5120
+41133056      0x273A400       Intel x86 or x64 microcode, sig 0x00000f44, pf_mask 0x9d, 2005-04-21, rev 0x0006, size 3072
+41136128      0x273B000       Intel x86 or x64 microcode, sig 0x00000f43, pf_mask 0x9d, 2005-04-21, rev 0x0005, size 2048
+41138176      0x273B800       Intel x86 or x64 microcode, sig 0x00000f49, pf_mask 0xbd, 2005-04-21, rev 0x0003, size 2048
+41140224      0x273C000       Intel x86 or x64 microcode, sig 0x00000f47, pf_mask 0x9d, 2005-04-21, rev 0x0003, size 3072
+41143296      0x273CC00       Intel x86 or x64 microcode, sig 0x000106a4, pf_mask 0x03, 2009-04-21, rev 0x0011, size 13312
+41156608      0x2740000       Intel x86 or x64 microcode, sig 0x00000f48, pf_mask 0x01, 2006-05-08, rev 0x000c, size 3072
+41159680      0x2740C00       Intel x86 or x64 microcode, sig 0x000106c2, pf_mask 0x04, 2009-04-10, rev 0x0218, size 5120
+41164800      0x2742000       Intel x86 or x64 microcode, sig 0x00000f48, pf_mask 0x02, 2008-01-15, rev 0x000e, size 3072
+41167872      0x2742C00       Intel x86 or x64 microcode, sig 0x000106c2, pf_mask 0x08, 2009-04-10, rev 0x0219, size 5120
+41172992      0x2744000       Intel x86 or x64 microcode, sig 0x00000f48, pf_mask 0x5f, 2005-06-30, rev 0x0007, size 3072
+41176064      0x2744C00       Intel x86 or x64 microcode, sig 0x000106ca, pf_mask 0x01, 2009-08-25, rev 0x0107, size 5120
+41181184      0x2746000       Intel x86 or x64 microcode, sig 0x00000f4a, pf_mask 0x5c, 2005-12-14, rev 0x0004, size 2048
+41183232      0x2746800       Intel x86 or x64 microcode, sig 0x00000f4a, pf_mask 0x5d, 2005-06-10, rev 0x0002, size 2048
+41185280      0x2747000       Intel x86 or x64 microcode, sig 0x00000f62, pf_mask 0x04, 2005-12-15, rev 0x000f, size 3072
+41188352      0x2747C00       Intel x86 or x64 microcode, sig 0x000106ca, pf_mask 0x04, 2009-08-25, rev 0x0107, size 5120
+41193472      0x2749000       Intel x86 or x64 microcode, sig 0x00000f64, pf_mask 0x01, 2005-12-15, rev 0x0002, size 3072
+41196544      0x2749C00       Intel x86 or x64 microcode, sig 0x000106ca, pf_mask 0x08, 2009-08-25, rev 0x0107, size 5120
+41201664      0x274B000       Intel x86 or x64 microcode, sig 0x00000f64, pf_mask 0x34, 2005-12-23, rev 0x0004, size 3072
+41204736      0x274BC00       Intel x86 or x64 microcode, sig 0x000106ca, pf_mask 0x10, 2009-08-25, rev 0x0107, size 5120
+41209856      0x274D000       Intel x86 or x64 microcode, sig 0x00000f65, pf_mask 0x01, 2006-04-26, rev 0x0008, size 2048
+41211904      0x274D800       Intel x86 or x64 microcode, sig 0x00000f65, pf_mask 0x04, 2006-04-28, rev 0x0009, size 2048
+41213952      0x274E000       Intel x86 or x64 microcode, sig 0x00000f68, pf_mask 0x22, 2006-07-14, rev 0x0009, size 2048
+41216000      0x274E800       Intel x86 or x64 microcode, sig 0x000106e5, pf_mask 0x13, 2010-04-05, rev 0x0004, size 6144
+41222144      0x2750000       Intel x86 or x64 microcode, sig 0x00010661, pf_mask 0x01, 2007-09-19, rev 0x0038, size 4096
+41226240      0x2751000       Intel x86 or x64 microcode, sig 0x00010661, pf_mask 0x02, 2007-03-16, rev 0x0031, size 4096
+41230336      0x2752000       Intel x86 or x64 microcode, sig 0x00010661, pf_mask 0x80, 2007-03-16, rev 0x0033, size 4096
+41234432      0x2753000       Intel x86 or x64 microcode, sig 0x00010676, pf_mask 0x01, 2008-01-19, rev 0x060c, size 4096
+41238528      0x2754000       Intel x86 or x64 microcode, sig 0x00010676, pf_mask 0x04, 2008-01-19, rev 0x060c, size 4096
+41242624      0x2755000       Intel x86 or x64 microcode, sig 0x00010676, pf_mask 0x10, 2008-01-19, rev 0x060c, size 4096
+41246720      0x2756000       Intel x86 or x64 microcode, sig 0x00010676, pf_mask 0x40, 2008-01-19, rev 0x060c, size 4096
+41250816      0x2757000       Intel x86 or x64 microcode, sig 0x00010676, pf_mask 0x80, 2008-01-19, rev 0x060c, size 4096
+41254912      0x2758000       Intel x86 or x64 microcode, sig 0x00010677, pf_mask 0x10, 2008-04-28, rev 0x0705, size 8192
+41263104      0x275A000       Intel x86 or x64 microcode, sig 0x0001067a, pf_mask 0x11, 2008-04-09, rev 0x0a07, size 8192
+41271296      0x275C000       Intel x86 or x64 microcode, sig 0x0001067a, pf_mask 0x44, 2008-04-09, rev 0x0a07, size 8192
+41279488      0x275E000       Intel x86 or x64 microcode, sig 0x0001067a, pf_mask 0xa0, 2008-04-09, rev 0x0a07, size 8192
+41287680      0x2760000       Intel x86 or x64 microcode, sig 0x000106a5, pf_mask 0x03, 2009-04-14, rev 0x0011, size 8192
+41295872      0x2762000       Intel x86 or x64 microcode, sig 0x000106d1, pf_mask 0x08, 2009-04-06, rev 0x0026, size 4096
+41299968      0x2763000       Intel x86 or x64 microcode, sig 0x000106e4, pf_mask 0x09, 2010-03-08, rev 0x0002, size 5120
+41305088      0x2764400       Intel x86 or x64 microcode, sig 0x00020652, pf_mask 0x12, 2010-06-10, rev 0x000c, size 7168
+41312256      0x2766000       Intel x86 or x64 microcode, sig 0x00020655, pf_mask 0x92, 2010-03-01, rev 0x0002, size 2048
+41316352      0x2767000       Intel x86 or x64 microcode, sig 0x000206c2, pf_mask 0x03, 2010-06-18, rev 0x000f, size 7168
+41324544      0x2769000       Microsoft executable, portable (PE)
+41377792      0x2776000       Microsoft executable, portable (PE)
+41486912      0x2790A40       CRC32 polynomial table, little endian
+41746432      0x27D0000       Microsoft executable, portable (PE)
+42180272      0x2839EB0       SHA256 hash constants, little endian
+42196992      0x283E000       Microsoft executable, portable (PE)
+42557440      0x2896000       Microsoft executable, portable (PE)
+42704896      0x28BA000       Microsoft executable, portable (PE)
+42758144      0x28C7000       Microsoft executable, portable (PE)
+42848256      0x28DD000       Microsoft executable, portable (PE)
+42876928      0x28E4000       Microsoft executable, portable (PE)
+42913792      0x28ED000       Microsoft executable, portable (PE)
+42946560      0x28F5000       Microsoft executable, portable (PE)
+43720704      0x29B2000       Microsoft executable, portable (PE)
+43773952      0x29BF000       Microsoft executable, portable (PE)
+44097536      0x2A0E000       Microsoft executable, portable (PE)
+44126208      0x2A15000       Microsoft executable, portable (PE)
+44154880      0x2A1C000       Microsoft executable, portable (PE)
+44347392      0x2A4B000       Microsoft executable, portable (PE)
+44384256      0x2A54000       Microsoft executable, portable (PE)
+44453888      0x2A65000       Microsoft executable, portable (PE)
+44482560      0x2A6C000       Microsoft executable, portable (PE)
+44515328      0x2A74000       Microsoft executable, portable (PE)
+44584960      0x2A85000       Microsoft executable, portable (PE)
+44847104      0x2AC5000       Microsoft executable, portable (PE)
+45129728      0x2B0A000       Microsoft executable, portable (PE)
+45195264      0x2B1A000       Microsoft executable, portable (PE)
+45568000      0x2B75000       Microsoft executable, portable (PE)
+45947504      0x2BD1A70       SHA256 hash constants, little endian
+45987776      0x2BDB7C0       Intel x86 or x64 microcode, sig 0xfffff880, pf_mask 0x11420b0, 20E0-01-14, size 18096288
+46018560      0x2BE3000       Microsoft executable, portable (PE)
+46127587      0x2BFD9E3       VMware4 disk image
+46219264      0x2C14000       Microsoft executable, portable (PE)
+46424064      0x2C46000       Microsoft executable, portable (PE)
+48132096      0x2DE7000       Microsoft executable, portable (PE)
+48230400      0x2DFF000       Microsoft executable, portable (PE)
+48287744      0x2E0D000       Microsoft executable, portable (PE)
+48316416      0x2E14000       Microsoft executable, portable (PE)
+48599040      0x2E59000       Microsoft executable, portable (PE)
+49483776      0x2F31000       Microsoft executable, portable (PE)
+49860608      0x2F8D000       Microsoft executable, portable (PE)
+49943680      0x2FA1480       CRC32 polynomial table, little endian
+49947840      0x2FA24C0       CRC32 polynomial table, little endian
+50028544      0x2FB6000       Microsoft executable, portable (PE)
+50053120      0x2FBC000       Microsoft executable, portable (PE)
+50114560      0x2FCB000       Microsoft executable, portable (PE)
+50143232      0x2FD2000       Microsoft executable, portable (PE)
+51028804      0x30AA344       Intel x86 or x64 microcode, sig 0x428b0000, pf_mask 0x3082ff00, 1994-01-10, rev 0x-76b5df8b, size 54037001
+51498643      0x311CE93       Neighborly text, "NeighborConnection"
+52076544      0x31AA000       Microsoft executable, portable (PE)
+52129792      0x31B7000       Microsoft executable, portable (PE)
+52178944      0x31C3000       Microsoft executable, portable (PE)
+52285440      0x31DD000       Microsoft executable, portable (PE)
+52342784      0x31EB000       Microsoft executable, portable (PE)
+52376896      0x31F3540       CRC32 polynomial table, little endian
+52384160      0x31F51A0       SHA256 hash constants, little endian
+52547584      0x321D000       Microsoft executable, portable (PE)
+52621312      0x322F000       Microsoft executable, portable (PE)
+52797440      0x325A000       Microsoft executable, portable (PE)
+52957184      0x3281000       Microsoft executable, portable (PE)
+52981760      0x3287000       Microsoft executable, portable (PE)
+53002240      0x328C000       Microsoft executable, portable (PE)
+53047296      0x3297000       Microsoft executable, portable (PE)
+53198848      0x32BC000       Microsoft executable, portable (PE)
+53264384      0x32CC000       Microsoft executable, portable (PE)
+53293056      0x32D3000       Microsoft executable, portable (PE)
+53321728      0x32DA000       Microsoft executable, portable (PE)
+53350400      0x32E1000       Microsoft executable, portable (PE)
+53387264      0x32EA000       Microsoft executable, portable (PE)
+53440512      0x32F7000       Microsoft executable, portable (PE)
+56300800      0x35B1500       CRC32 polynomial table, little endian
+56498288      0x35E1870       Intel x86 or x64 microcode, sig 0xfffff880, pf_mask 0x10b7bb7, 1990-02-06, rev 0x-580, size 29753474
+56499352      0x35E1C98       Intel x86 or x64 microcode, sig 0xfffffa80, pf_mask 0x00, 1B30-01-01, size 45503588
+56501928      0x35E26A8       Intel x86 or x64 microcode, sig 0xfffffa80, pf_mask 0x01, 1C00-01-01, size 16475720
+56533784      0x35EA318       Intel x86 or x64 microcode, sig 0xfffff880, pf_mask 0x01, 1B60-02-08, size 24187344
+56534912      0x35EA780       Intel x86 or x64 microcode, sig 0xfffff880, pf_mask 0x16e17c, 1B60-02-08, size 2048
+56797304      0x362A878       Intel x86 or x64 microcode, sig 0xfffffa80, pf_mask 0x01, 1C00-01-01, size 17303464
+57102336      0x3675000       Microsoft executable, portable (PE)
+57405440      0x36BF000       Microsoft executable, portable (PE)
+57536512      0x36DF000       Microsoft executable, portable (PE)
+57581568      0x36EA000       Microsoft executable, portable (PE)
+57683968      0x3703000       Microsoft executable, portable (PE)
+57724928      0x370D000       Microsoft executable, portable (PE)
+57921403      0x373CF7B       HTML document header
+57921653      0x373D075       HTML document footer
+57921755      0x373D0DB       HTML document header
+57922001      0x373D1D1       HTML document footer
+57922107      0x373D23B       HTML document header
+57922377      0x373D349       HTML document footer
+57922491      0x373D3BB       HTML document header
+57922717      0x373D49D       HTML document footer
+57922827      0x373D50B       HTML document header
+57923078      0x373D606       HTML document footer
+57923179      0x373D66B       HTML document header
+57923427      0x373D763       HTML document footer
+57923531      0x373D7CB       HTML document header
+57923793      0x373D8D1       HTML document footer
+57923899      0x373D93B       HTML document header
+57924148      0x373DA34       HTML document footer
+57924251      0x373DA9B       HTML document header
+57924477      0x373DB7D       HTML document footer
+57924587      0x373DBEB       HTML document header
+57924830      0x373DCDE       HTML document footer
+57924939      0x373DD4B       HTML document header
+57925179      0x373DE3B       HTML document footer
+57925291      0x373DEAB       HTML document header
+57925553      0x373DFB1       HTML document footer
+57925659      0x373E01B       HTML document header
+57925888      0x373E100       HTML document footer
+57925995      0x373E16B       HTML document header
+57926241      0x373E261       HTML document footer
+57926347      0x373E2CB       HTML document header
+57926578      0x373E3B2       HTML document footer
+57926683      0x373E41B       HTML document header
+57926927      0x373E50F       HTML document footer
+57927035      0x373E57B       HTML document header
+57927250      0x373E652       HTML document footer
+57927355      0x373E6BB       HTML document header
+57927567      0x373E78F       HTML document footer
+57927675      0x373E7FB       HTML document header
+57927916      0x373E8EC       HTML document footer
+57928027      0x373E95B       HTML document header
+57928273      0x373EA51       HTML document footer
+57928379      0x373EABB       HTML document header
+57928621      0x373EBAD       HTML document footer
+57928731      0x373EC1B       HTML document header
+57929005      0x373ED2D       HTML document footer
+57929115      0x373ED9B       HTML document header
+57929349      0x373EE85       HTML document footer
+57929451      0x373EEEB       HTML document header
+57929690      0x373EFDA       HTML document footer
+57929803      0x373F04B       HTML document header
+57930027      0x373F12B       HTML document footer
+57930139      0x373F19B       HTML document header
+57930365      0x373F27D       HTML document footer
+57930475      0x373F2EB       HTML document header
+57930686      0x373F3BE       HTML document footer
+57930827      0x373F44B       HTML document header
+57930983      0x373F4E7       HTML document footer
+57978624      0x374AF00       Base64 standard index table
+58421248      0x37B7000       Microsoft executable, portable (PE)
+58527744      0x37D1000       Microsoft executable, portable (PE)
+58613760      0x37E6000       Microsoft executable, portable (PE)
+59086768      0x38597B0       Intel x86 or x64 microcode, sig 0xfffffa80, pf_mask 0x00, 2060-01-05, rev 0x-580, size 2048
+59087872      0x3859C00       Intel x86 or x64 microcode, sig 0xfffffa80, pf_mask 0x25abb30, 2060-01-05, rev 0x1fffff, size 38778848
+59151864      0x38695F8       Intel x86 or x64 microcode, sig 0xfffffa80, pf_mask 0x2516d10, 2060-01-05, size 38894304
+59153280      0x3869B80       Intel x86 or x64 microcode, sig 0xfffffa80, pf_mask 0x00, 2060-01-05, size 38890752
+59153544      0x3869C88       Intel x86 or x64 microcode, sig 0xfffffa80, pf_mask 0x25abb30, 2060-01-05, size 12075136
+59153744      0x3869D50       Intel x86 or x64 microcode, sig 0xfffffa80, pf_mask 0x01, 2060-01-05, size 13890416
+59204864      0x3876500       XML document, version: "1.0"
+59204926      0x387653E       Copyright string: "Copyright (c) Microsoft Corporation -->"
+59206448      0x3876B30       XML document, version: "1.0"
+59239432      0x387EC08       Intel x86 or x64 microcode, sig 0xfffffa80, pf_mask 0x254cd10, 1B50-01-05, size 2048
+59239888      0x387EDD0       Intel x86 or x64 microcode, sig 0xfffffa80, pf_mask 0x00, 1B50-01-05, rev 0x-580, size 2048
+59539680      0x38C80E0       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x1dd1630, 1960-01-09, size 2048
+59924480      0x3926000       Microsoft executable, portable (PE)
+59932672      0x3928000       Microsoft executable, portable (PE)
+60502077      0x39B303D       Certificate in DER format (x509 v3), header length: 4, sequence length: 1190
+60503271      0x39B34E7       Certificate in DER format (x509 v3), header length: 4, sequence length: 1528
+60504861      0x39B3B1D       Certificate in DER format (x509 v3), header length: 4, sequence length: 1195
+60506060      0x39B3FCC       Certificate in DER format (x509 v3), header length: 4, sequence length: 1528
+60593408      0x39C9500       SHA256 hash constants, little endian
+60628992      0x39D2000       Microsoft executable, portable (PE)
+60661760      0x39DA000       Microsoft executable, portable (PE)
+60846080      0x3A07000       Microsoft executable, portable (PE)
+60903424      0x3A15000       Microsoft executable, portable (PE)
+61222912      0x3A63000       Microsoft executable, portable (PE)
+62304256      0x3B6B000       Microsoft executable, portable (PE)
+62590976      0x3BB1000       Microsoft executable, portable (PE)
+62926848      0x3C03000       Microsoft executable, portable (PE)
+63098880      0x3C2D000       Microsoft executable, portable (PE)
+63197184      0x3C45000       Microsoft executable, portable (PE)
+63320064      0x3C63000       Microsoft executable, portable (PE)
+63414272      0x3C7A000       Microsoft executable, portable (PE)
+63418368      0x3C7B000       Microsoft executable, portable (PE)
+63692800      0x3CBE000       Microsoft executable, portable (PE)
+63754240      0x3CCD000       Microsoft executable, portable (PE)
+64069632      0x3D1A000       Microsoft executable, portable (PE)
+65640736      0x3E99920       Intel x86 or x64 microcode, sig 0xfffff880, pf_mask 0x00, 1A68-03-28, size 52960096
+65640864      0x3E999A0       Intel x86 or x64 microcode, pf_mask 0x27cef50, 1A01-03-28, size 14417392
+66742854      0x3FA6A46       Certificate in DER format (x509 v3), header length: 4, sequence length: 673
+66770032      0x3FAD470       Intel x86 or x64 microcode, sig 0xfffffa80, pf_mask 0x2b6cf84, 1B30-01-01, size 16849712
+66770072      0x3FAD498       Intel x86 or x64 microcode, sig 0xfffffa80, pf_mask 0x38d05a0, 1B30-01-01, size 2048
+66884720      0x3FC9470       Intel x86 or x64 microcode, sig 0xfffffa80, pf_mask 0x2b6cf84, 1B30-01-01, size 16849712
+66884760      0x3FC9498       Intel x86 or x64 microcode, sig 0xfffffa80, pf_mask 0x39445a0, 1B30-01-01, size 2048
+66885216      0x3FC9660       Intel x86 or x64 microcode, sig 0xfffffa80, pf_mask 0x2876600, 1B30-01-01, size 40452976
+66905592      0x3FCE5F8       Intel x86 or x64 microcode, sig 0xfffffa80, pf_mask 0x3977d10, 1B50-01-11, size 60263136
+66907008      0x3FCEB80       Intel x86 or x64 microcode, sig 0xfffffa80, pf_mask 0x00, 1B50-01-11, size 60259584
+66907272      0x3FCEC88       Intel x86 or x64 microcode, sig 0xfffffa80, pf_mask 0x27e5b30, 1B50-01-11, size 12075136
+66907472      0x3FCED50       Intel x86 or x64 microcode, sig 0xfffffa80, pf_mask 0x01, 1B50-01-11, size 21165232
+66909720      0x3FCF618       Intel x86 or x64 microcode, sig 0xfffffa80, pf_mask 0x00, 1C58-01-11, size 2048
+66910504      0x3FCF928       Intel x86 or x64 microcode, sig 0xfffffa80, pf_mask 0x27ee120, 1C58-01-11, size 17898320
+67665920      0x4088000       Microsoft executable, portable (PE)
+67690496      0x408E000       Microsoft executable, portable (PE)
+67993600      0x40D8000       Microsoft executable, portable (PE)
+68034560      0x40E2000       Microsoft executable, portable (PE)
+68067328      0x40EA000       Microsoft executable, portable (PE)
+68550656      0x4160000       Microsoft executable, portable (PE)
+68812800      0x41A0000       Microsoft executable, portable (PE)
+68837376      0x41A6000       Microsoft executable, portable (PE)
+68943872      0x41C0000       Microsoft executable, portable (PE)
+68997120      0x41CD000       Microsoft executable, portable (PE)
+69110115      0x41E8963       VMware4 disk image
+69324800      0x421D000       Microsoft executable, portable (PE)
+69419008      0x4234000       Microsoft executable, portable (PE)
+69484544      0x4244000       Microsoft executable, portable (PE)
+69836800      0x429A000       Microsoft executable, portable (PE)
+69853184      0x429E000       Microsoft executable, portable (PE)
+69914624      0x42AD000       Microsoft executable, portable (PE)
+69967872      0x42BA000       Microsoft executable, portable (PE)
+70086656      0x42D7000       Microsoft executable, portable (PE)
+70184960      0x42EF000       Microsoft executable, portable (PE)
+70230016      0x42FA000       Microsoft executable, portable (PE)
+70319483      0x430FD7B       VMware4 disk image
+70422528      0x4329000       Microsoft executable, portable (PE)
+70467584      0x4334000       Microsoft executable, portable (PE)
+70568635      0x434CABB       VMware4 disk image
+70684672      0x4369000       Microsoft executable, portable (PE)
+70811648      0x4388000       Microsoft executable, portable (PE)
+70946816      0x43A9000       Microsoft executable, portable (PE)
+70983680      0x43B2000       Microsoft executable, portable (PE)
+71061504      0x43C5000       Microsoft executable, portable (PE)
+71196672      0x43E6000       Microsoft executable, portable (PE)
+71991296      0x44A8000       Microsoft executable, portable (PE)
+72097792      0x44C2000       Microsoft executable, portable (PE)
+72163328      0x44D2000       Microsoft executable, portable (PE)
+72245248      0x44E6000       Microsoft executable, portable (PE)
+72684576      0x4551420       SHA256 hash constants, little endian
+72708096      0x4557000       Microsoft executable, portable (PE)
+72957952      0x4594000       Microsoft executable, portable (PE)
+73097216      0x45B6000       Microsoft executable, portable (PE)
+73117696      0x45BB000       Microsoft executable, portable (PE)
+73220096      0x45D4000       Microsoft executable, portable (PE)
+73256960      0x45DD000       Microsoft executable, portable (PE)
+73314304      0x45EB000       Microsoft executable, portable (PE)
+73363456      0x45F7000       Microsoft executable, portable (PE)
+73408512      0x4602000       Microsoft executable, portable (PE)
+73454256      0x460D2B0       SHA256 hash constants, little endian
+73486336      0x4615000       Microsoft executable, portable (PE)
+73535488      0x4621000       Microsoft executable, portable (PE)
+73778576      0x465C590       SHA256 hash constants, little endian
+76251544      0x48B8198       Intel x86 or x64 microcode, sig 0x00000001, pf_mask 0x01, 2004-04-20, rev 0x0282, size 2048
+85119346      0x512D172       Neighborly text, "Neighbor"
+85122146      0x512DC62       Neighborly text, "Neighbor"
+85126186      0x512EC2A       Neighborly text, "Neighbor"
+88511266      0x5469322       Neighborly text, "Neighbor"
+88515306      0x546A2EA       Neighborly text, "Neighbor"
+93776454      0x596EA46       Certificate in DER format (x509 v3), header length: 4, sequence length: 673
+93860040      0x59830C8       Certificate in DER format (x509 v3), header length: 4, sequence length: 1299
+94007717      0x59A71A5       Certificate in DER format (x509 v3), header length: 4, sequence length: 1235
+94294866      0x59ED352       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+94304274      0x59EF812       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+94554874      0x5A2CAFA       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+95706575      0x5B45DCF       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+97128008      0x5CA0E48       Boot section Start 0x3030109 End 0x6944624F
+97128012      0x5CA0E4C       Boot section Start 0x6944624F End 0x0
+100646996     0x5FFC054       PC bitmap, Windows 3.x format,, 16 x 64 x 32
+100648377     0x5FFC5B9       Boot section Start 0xB0B0BF4 End 0x81
+100651146     0x5FFD08A       PC bitmap, Windows 3.x format,, 16 x 64 x 1
+100683914     0x600508A       PC bitmap, Windows 3.x format,, 16 x 192 x 1
+100687956     0x6006054       PC bitmap, Windows 3.x format,, 16 x 192 x 32
+100694457     0x60079B9       Boot section Start 0xB0B0BF4 End 0x81
+100697529     0x60085B9       Boot section Start 0xB0B0BF4 End 0x81
+100700298     0x600908A       PC bitmap, Windows 3.x format,, 16 x 192 x 1
+100704340     0x600A054       PC bitmap, Windows 3.x format,, 16 x 192 x 32
+100707769     0x600ADB9       Boot section Start 0xB0B0BF4 End 0x81
+100710841     0x600B9B9       Boot section Start 0xB0B0BF4 End 0x81
+100713913     0x600C5B9       Boot section Start 0xB0B0BF4 End 0x81
+100716682     0x600D08A       PC bitmap, Windows 3.x format,, 16 x 192 x 1
+100720724     0x600E054       PC bitmap, Windows 3.x format,, 16 x 576 x 32
+100740537     0x6012DB9       Boot section Start 0xB0B0BF4 End 0x81
+100744633     0x6013DB9       Boot section Start 0xB0B0BF4 End 0x81
+100748729     0x6014DB9       Boot section Start 0xB0B0BF4 End 0x81
+100751801     0x60159B9       Boot section Start 0xB0B0BF4 End 0x81
+100754873     0x60165B9       Boot section Start 0xB0B0BF4 End 0x81
+100757642     0x601708A       PC bitmap, Windows 3.x format,, 16 x 576 x 1
+101438871     0x60BD597       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+101797386     0x6114E0A       Ubiquiti firmware header, third party, ~CRC32: 0x0, version: "D"
+101814317     0x611902D       Certificate in DER format (x509 v3), header length: 4, sequence length: 1195
+101815516     0x61194DC       Certificate in DER format (x509 v3), header length: 4, sequence length: 1528
+101817095     0x6119B07       Certificate in DER format (x509 v3), header length: 4, sequence length: 1190
+101818289     0x6119FB1       Certificate in DER format (x509 v3), header length: 4, sequence length: 1528
+102151487     0x616B53F       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+102163847     0x616E587       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+102176135     0x6171587       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+104219912     0x6364508       Boot section Start 0x150F204 End 0x0
+104219916     0x636450C       Boot section Start 0x0 End 0x0
+104721356     0x63DEBCC       Boot section Start 0x-1DB1B2BD End 0x10CCDEC3
+105143496     0x6445CC8       Boot section Start 0xB0 End 0x0
+105143528     0x6445CE8       Boot section Start 0x1 End 0x0 Load-by-Bootrom
+105143532     0x6445CEC       Boot section Start 0x0 End 0x1
+107049832     0x6617368       Boot section Start 0x1 End 0x0 Load-by-Bootrom
+107049836     0x661736C       Boot section Start 0x0 End 0x1
+107049868     0x661738C       Boot section Start 0x-800 End 0x0
+107386902     0x6669816       StuffIt Deluxe Segment (data): f
+107773184     0x66C7D00       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x00, 1C90-02-06, size 2048
+108428576     0x6767D20       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x00, 1CB0-02-10, size 2048
+108432584     0x6768CC8       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x2102bb0, 1F80-02-10, size 1
+108559792     0x6787DB0       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x00, 1D40-02-12, size 2048
+108756224     0x67B7D00       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x00, 1C90-02-15, size 2048
+108821936     0x67C7DB0       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x00, 1D40-02-16, size 2048
+109673728     0x6897D00       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x00, 1C90-02-23, size 2048
+110722928     0x6997F70       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x00, 1FE0-02-33, size 2048
+110917952     0x69C7940       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x2361a64, 1980-02-36, size 37100240
+110919088     0x69C7DB0       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x00, 1D40-02-36, size 2048
+116988088     0x6F918B8       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x292b7a0, 1E60-02-38, size 1
+117054856     0x6FA1D88       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x293bc70, 1D70-02-32, size 1
+121081996     0x737908C       Certificate in DER format (x509 v3), header length: 4, sequence length: 1039
+121083236     0x7379564       Certificate in DER format (x509 v3), header length: 4, sequence length: 899
+121084252     0x737995C       Certificate in DER format (x509 v3), header length: 4, sequence length: 458
+121084768     0x7379B60       Certificate in DER format (x509 v3), header length: 4, sequence length: 433
+121086348     0x737A18C       Certificate in DER format (x509 v3), header length: 4, sequence length: 602
+121088472     0x737A9D8       Certificate in DER format (x509 v3), header length: 4, sequence length: 572
+121089393     0x737AD71       Certificate in DER format (x509 v3), header length: 4, sequence length: 1235
+121091870     0x737B71E       Certificate in DER format (x509 v3), header length: 4, sequence length: 887
+121092946     0x737BB52       Intel x86 or x64 microcode, sig 0x0501062b, pf_mask 0x7050501, 1E30-08-06, rev 0x0020, size 83953195
+121093121     0x737BC01       Certificate in DER format (x509 v3), header length: 4, sequence length: 800
+121098504     0x737D108       Certificate in DER format (x509 v3), header length: 4, sequence length: 1508
+121100272     0x737D7F0       Certificate in DER format (x509 v3), header length: 4, sequence length: 1219
+121102596     0x737E104       Certificate in DER format (x509 v3), header length: 4, sequence length: 1336
+121104168     0x737E728       Certificate in DER format (x509 v3), header length: 4, sequence length: 1528
+121106772     0x737F154       Certificate in DER format (x509 v3), header length: 4, sequence length: 1352
+121108352     0x737F780       Certificate in DER format (x509 v3), header length: 4, sequence length: 1265
+121110760     0x73800E8       Certificate in DER format (x509 v3), header length: 4, sequence length: 1160
+121112140     0x738064C       Certificate in DER format (x509 v3), header length: 4, sequence length: 1424
+121113792     0x7380CC0       Certificate in DER format (x509 v3), header length: 4, sequence length: 700
+121114888     0x7381108       Certificate in DER format (x509 v3), header length: 4, sequence length: 1519
+121116644     0x73817E4       Certificate in DER format (x509 v3), header length: 4, sequence length: 971
+121117846     0x7381C96       Certificate in DER format (x509 v3), header length: 4, sequence length: 685
+121118964     0x73820F4       Certificate in DER format (x509 v3), header length: 4, sequence length: 1692
+121120896     0x7382880       Certificate in DER format (x509 v3), header length: 4, sequence length: 1757
+121122988     0x73830AC       Certificate in DER format (x509 v3), header length: 4, sequence length: 2226
+121123157     0x7383155       Digi International firmware, load address: 0x204D6963, entry point: 0x66742053,
+121124300     0x73835CC       Copyright string: "Copyright (c)1996 VeriSign, Inc.  All Rights Reserved. CERTAIN"
+121125520     0x7383A90       Certificate in DER format (x509 v3), header length: 4, sequence length: 1230
+121127176     0x7384108       Certificate in DER format (x509 v3), header length: 4, sequence length: 1519
+121128936     0x73847E8       Certificate in DER format (x509 v3), header length: 4, sequence length: 1518
+121131180     0x73850AC       Certificate in DER format (x509 v3), header length: 4, sequence length: 2244
+121131349     0x7385155       Digi International firmware, load address: 0x204D6963, entry point: 0x66742053,
+121132510     0x73855DE       Copyright string: "Copyright (c)1996 VeriSign, Inc.  All Rights Reserved. CERTAIN"
+121133740     0x7385AAC       Certificate in DER format (x509 v3), header length: 4, sequence length: 1352
+121135368     0x7386108       Certificate in DER format (x509 v3), header length: 4, sequence length: 1497
+121137100     0x73867CC       Certificate in DER format (x509 v3), header length: 4, sequence length: 1370
+121139432     0x73870E8       Certificate in DER format (x509 v3), header length: 4, sequence length: 1147
+121140812     0x738764C       Certificate in DER format (x509 v3), header length: 4, sequence length: 1336
+121143528     0x73880E8       Certificate in DER format (x509 v3), header length: 4, sequence length: 1418
+121145184     0x7388760       Certificate in DER format (x509 v3), header length: 4, sequence length: 1516
+121147656     0x7389108       Certificate in DER format (x509 v3), header length: 4, sequence length: 1497
+121149468     0x738981C       Certificate in DER format (x509 v3), header length: 4, sequence length: 973
+121151748     0x738A104       Certificate in DER format (x509 v3), header length: 4, sequence length: 1465
+121153516     0x738A7EC       Certificate in DER format (x509 v3), header length: 4, sequence length: 1517
+121155862     0x738B116       Certificate in DER format (x509 v3), header length: 4, sequence length: 982
+121157166     0x738B62E       Certificate in DER format (x509 v3), header length: 4, sequence length: 1517
+121158966     0x738BD36       Certificate in DER format (x509 v3), header length: 4, sequence length: 673
+121159954     0x738C112       Certificate in DER format (x509 v3), header length: 4, sequence length: 1042
+121161270     0x738C636       Certificate in DER format (x509 v3), header length: 4, sequence length: 1433
+123493044     0x75C5AB4       Ubiquiti firmware header, third party, ~CRC32: 0x2000080, version: "BOGUSCTRLID"
+123497484     0x75C6C0C       Ubiquiti firmware header, third party, ~CRC32: 0x54000000, version: "BOGUSCTRLID"
+124450257     0x76AF5D1       MPEG transport stream data
+126672885     0x78CDFF5       Certificate in DER format (x509 v3), header length: 4, sequence length: 160
+142268876     0x87AD9CC       End of Zip archive, footer length: 22
+150601925     0x8FA00C5       Linux EXT filesystem, rev 0.0, ext2 filesystem data, UUID=00000030-0030-0007-0000-005479707970, volume name "ib"
+152095232     0x910CA00       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x1240, 1B80-02-06, size 10551328
+152095656     0x910CBA8       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x8b8, 1D20-02-06, size 10485792
+152292440     0x913CC58       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x1240, 1DD0-02-09, size 10551328
+152750328     0x91AC8F8       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x8b8, 1A68-02-10, size 10485770
+152751352     0x91ACCF8       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x8b8, 1E70-02-10, size 10485770
+152815808     0x91BC8C0       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x1240, 1A78-02-11, size 10485770
+152816288     0x91BCAA0       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x1240, 1C60-02-11, size 10485770
+152816776     0x91BCC88       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x1240, 1E40-02-11, size 10485770
+152817256     0x91BCE68       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x1240, 1FD8-02-11, size 10485770
+152945548     0x91DC38C       GIF image data 4960
+152946888     0x91DC8C8       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x8b8, 1A78-02-13, size 10485768
+152947928     0x91DCCD8       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x8b8, 1EF8-02-13, size 10485768
+153012304     0x91EC850       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x210, 1968-02-14, size 10551306
+153012624     0x91EC990       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x210, 1AB0-02-14, size 10551306
+153012952     0x91ECAD8       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x210, 1BF8-02-14, size 10551306
+153013280     0x91ECC20       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x210, 1D38-02-14, size 10551306
+153013600     0x91ECD60       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x210, 1E78-02-14, size 10551306
+153078288     0x91FCA10       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x1240, 1BA8-02-15, size 10485770
+153079416     0x91FCE78       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x1240, 1FD8-02-15, size 10485770
+153143872     0x920CA40       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x210, 1B80-02-16, size 10551310
+153144128     0x920CB40       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x210, 1BF8-02-16, size 10551338
+153144232     0x920CBA8       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x210, 1CF8-02-16, size 10551362
+153209064     0x921C8E8       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x1240, 1980-02-17, size 10485768
+153210472     0x921CE68       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x1240, 1FA8-02-17, size 10485768
+153274584     0x922C8D8       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x1240, 1A50-02-18, size 10551306
+153275568     0x922CCB0       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x1240, 1E20-02-18, size 10551306
+153275976     0x922CE48       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x1240, 1FA8-02-18, size 10551306
+153798856     0x92AC8C8       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x210, 1A50-02-20, size 10551306
+153799288     0x92ACA78       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x210, 1BF0-02-20, size 10551306
+153799704     0x92ACC18       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x210, 1DA0-02-20, size 10551306
+153800136     0x92ACDC8       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x210, 1F40-02-20, size 10551306
+153864200     0x92BC808       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x210, 19C8-02-21, size 10551306
+153864688     0x92BC9F0       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x210, 1BC8-02-21, size 10551306
+153865200     0x92BCBF0       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x210, 1DC8-02-21, size 10551306
+153865712     0x92BCDF0       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x210, 1FB8-02-21, size 10551306
+153929808     0x92CC850       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x210, 19C8-02-22, size 10551306
+153930224     0x92CC9F0       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x210, 1B78-02-22, size 10551306
+153930656     0x92CCBA0       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x210, 1D38-02-22, size 10551306
+153931104     0x92CCD60       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x210, 1F18-02-22, size 10551306
+153931584     0x92CCF40       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x210, 1FE8-02-22, size 10551306
+153995480     0x92DC8D8       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x210, 1AE8-02-23, size 10551334
+153995568     0x92DC930       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x210, 1C30-02-23, size 10551310
+153996376     0x92DCC58       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x8b8, 1D00-02-23, size 10485798
+153996464     0x92DCCB0       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x8b8, 1DF0-02-23, size 10485794
+153996824     0x92DCE18       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x210, 1EF8-02-23, size 10551310
+153996984     0x92DCEB8       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x210, 2020-02-23, size 10551372
+154128136     0x92FCF08       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x210, 1FE0-02-25, size 10485836
+154128528     0x92FD090       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x210, 1FF0-02-25, size 10485774
+154190392     0x930C238       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x210, 1CB8-02-26, size 10485774
+154193016     0x930CC78       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x210, 1DB0-02-26, size 10485836
+154193368     0x930CDD8       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x210, 1FD8-02-26, size 10485774
+154257992     0x931CA48       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x1240, 1BB0-02-27, size 10485770
+154258944     0x931CE00       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x1240, 1F58-02-27, size 10485770
+154323288     0x932C958       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x1240, 1A60-02-28, size 10551302
+154324416     0x932CDC0       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x1240, 1EE8-02-28, size 10551302
+154324752     0x932CF10       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x9abf0, 1FE8-02-28, size 10551306
+154389056     0x933CA40       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x1240, 1B58-02-29, size 10551302
+154389376     0x933CB80       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x9abf0, 1CE8-02-29, size 10551306
+154389896     0x933CD88       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x1240, 1EA0-02-29, size 10551302
+154848760     0x93ACDF8       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x1240, 1F88-02-30, size 10485788
+154914040     0x93BCCF8       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x1240, 1EB0-02-31, size 10485788
+154914520     0x93BCED8       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x1240, 20C8-02-31, size 10485788
+155044376     0x93DCA18       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x9abf0, 1AC0-02-33, size 10551334
+155044464     0x93DCA70       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x9abf0, 1B48-02-33, size 10551372
+155108528     0x93EC4B0       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x9abf0, 1908-02-34, size 10551310
+155109904     0x93ECA10       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x1240, 1BE8-02-34, size 10551324
+155110416     0x93ECC10       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x1240, 1DE0-02-34, size 10551324
+155110920     0x93ECE08       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x1240, 1FA8-02-34, size 10485788
+155240712     0x940C908       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x1240, 1B78-02-36, size 10485788
+155241376     0x940CBA0       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x1240, 1D50-02-36, size 10485788
+155372888     0x942CD58       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x1240, 1F08-02-38, size 10551324
+155437376     0x943C940       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x1240, 1AD8-02-39, size 10485788
+155437824     0x943CB00       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x1240, 1CD8-02-39, size 10485788
+155438336     0x943CD00       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x8b8, 1FE8-02-39, size 10485788
+155438572     0x943CDEC       Intel x86 or x64 microcode, sig 0xffffffa0, pf_mask 0x1d07ecf, 1D60-02-39, rev 0x-008, size 37297384
+158838957     0x977B0AD       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+158839109     0x977B145       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+167198796     0x9F7404C       Ubiquiti firmware header, third party, ~CRC32: 0x2000080, version: "BOGUSCTRLID"
+167203228     0x9F7519C       Ubiquiti firmware header, third party, ~CRC32: 0x54000000, version: "BOGUSCTRLID"
+167822658     0xA00C542       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+167844770     0xA011BA2       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+168546128     0xA0BCF50       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x1d970, 1FE8-03-01, size 16
+168681032     0xA0DDE48       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x302fde0, 1FF0-03-03, size 10485762
+168773073     0xA0F45D1       Certificate in DER format (x509 v3), header length: 4, sequence length: 885
+168774321     0xA0F4AB1       Certificate in DER format (x509 v3), header length: 4, sequence length: 965
+168776157     0xA0F51DD       Certificate in DER format (x509 v3), header length: 4, sequence length: 1209
+168781275     0xA0F65DB       Certificate in DER format (x509 v3), header length: 4, sequence length: 1380
+168782659     0xA0F6B43       Certificate in DER format (x509 v3), header length: 4, sequence length: 1514
+168784917     0xA0F7415       Certificate in DER format (x509 v3), header length: 4, sequence length: 1568
+168786489     0xA0F7A39       Certificate in DER format (x509 v3), header length: 4, sequence length: 1805
+168789408     0xA0F85A0       Certificate in DER format (x509 v3), header length: 4, sequence length: 1078
+168790849     0xA0F8B41       Certificate in DER format (x509 v3), header length: 4, sequence length: 943
+168909281     0xA1159E1       Certificate in DER format (x509 v3), header length: 4, sequence length: 1380
+168910665     0xA115F49       Certificate in DER format (x509 v3), header length: 4, sequence length: 1514
+168912971     0xA11684B       Certificate in DER format (x509 v3), header length: 4, sequence length: 1568
+168914543     0xA116E6F       Certificate in DER format (x509 v3), header length: 4, sequence length: 1805
+168937640     0xA11C8A8       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x1d970, 1940-03-07, size 4
+168937728     0xA11C900       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x1d970, 1AC8-03-07, size 36
+168938328     0xA11CB58       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x1d970, 1BF0-03-07, size 16
+168938416     0xA11CBB0       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x1d970, 1C58-03-07, size 4
+168939842     0xA11D142       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+169003344     0xA12C950       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x1d970, 19E8-03-08, size 16
+169003432     0xA12C9A8       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x1d970, 1A50-03-08, size 4
+169003536     0xA12CA10       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x1d970, 1C30-03-08, size 36
+169004712     0xA12CEA8       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x1d970, 1EE8-03-08, size 16
+169004912     0xA12CF70       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x1d970, 2008-03-08, size 16
+169005000     0xA12CFC8       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x1d970, 2070-03-08, size 4
+169068296     0xA13C708       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x1d970, 1BC0-03-09, size 36
+169069592     0xA13CC18       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x1d970, 1CB0-03-09, size 16
+169069680     0xA13CC70       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x1d970, 1D18-03-09, size 4
+169069784     0xA13CCD8       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x1d970, 1EF0-03-09, size 36
+169070456     0xA13CF78       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x1d970, 1FB8-03-09, size 4
+169528352     0xA1ACC20       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x1d970, 1CB8-03-10, size 16
+169528440     0xA1ACC78       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x1d970, 1D20-03-10, size 4
+169593720     0xA1BCB78       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x1d970, 1BB8-03-11, size 16
+169593904     0xA1BCC30       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x1d970, 1CC8-03-11, size 16
+169593992     0xA1BCC88       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x1d970, 1CD8-03-11, size 4
+169594200     0xA1BCD58       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x1d970, 1F18-03-11, size 36
+169660216     0xA1CCF38       Intel x86 or x64 microcode, sig 0xffffffff, pf_mask 0x1d970, 1FF0-03-12, size 36
+170534507     0xA2A266B       Intel x86 or x64 microcode, sig 0xffff9800, pf_mask 0xca043f89, 2000-01-21, rev 0x0800, size 307200
+170565888     0xA2AA100       Certificate in DER format (x509 v3), header length: 4, sequence length: 1792
+175505344     0xA75FFC0       LZMA compressed data, properties: 0x91, dictionary size: 0 bytes, uncompressed size: 64 bytes
+177732873     0xA97FD09       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+179190533     0xAAE3B05       LZMA compressed data, properties: 0x5B, dictionary size: 0 bytes, uncompressed size: 27159 bytes
+182811164     0xAE57A1C       Boot section Start 0x-67676768 End 0x4E000000
+182811168     0xAE57A20       Boot section Start 0x4E000000 End 0x0
+183901479     0xAF61D27       Boot section Start 0xB0B0BF4 End 0x81
+186097664     0xB17A000       Microsoft executable, portable (PE)
+188446460     0xB3B76FC       eCos RTOS string reference: "eCosmetic:bStorkeCosmetic's style index (pla->cstyle) is greater than STYLE_MAX_COUNT."
+188446476     0xB3B770C       eCos RTOS string reference: "eCosmetic's style index (pla->cstyle) is greater than STYLE_MAX_COUNT."
+188751872     0xB402000       Microsoft executable, portable (PE)
+188813312     0xB411000       Microsoft executable, portable (PE)
+189782464     0xB4FD9C0       Certificate in DER format (x509 v3), header length: 4, sequence length: 551
+192254510     0xB75922E       Copyright string: "Copyright"
+195108351     0xBA11DFF       Copyright string: "Copyright (C) 2000 Microsoft Corporation"
+197832232     0xBCAAE28       XML document, version: "1.0"
+197904750     0xBCBC96E       Copyright string: "Copyright (c) 2001 Microsoft Corporation"
+197918743     0xBCC0017       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+197919587     0xBCC0363       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: SHA-1 hash
+198246455     0xBD10037       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+198603967     0xBD674BF       Copyright string: "Copyright (c) 2001 Microsoft Corporation"
+199553486     0xBE4F1CE       LZMA compressed data, properties: 0x8A, dictionary size: 0 bytes, uncompressed size: 194560 bytes
+200246266     0xBEF83FA       Microsoft executable, MS-DOS
+200246475     0xBEF84CB       Microsoft executable, MS-DOS
+201941439     0xC0961BF       HTML document header
+201941638     0xC096286       HTML document footer
+201997752     0xC0A3DB8       XML document, version: "1.0"
+204083506     0xC2A1132       Copyright string: "Copyright (c) Microsoft Corporation.  All rights reserved."
+205296070     0xC3C91C6       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+206063496     0xC484788       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x72c00420, 1D98-02-20, size 203215
+206092344     0xC48B838       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x9ab004c0, 1CD8-02-04, size 176016
+206159015     0xC49BCA7       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+206190696     0xC4A3868       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x9ab004c0, 1CE0-02-04, size 176016
+206233608     0xC4AE008       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x9ab004c0, 1CD0-02-04, size 176016
+206260440     0xC4B48D8       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x72180460, 1D60-02-20, size 203215
+206260488     0xC4B4908       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x72180460, 1D68-02-20, size 203215
+206316120     0xC4C2258       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x72180460, 1CA0-02-20, size 203215
+206316168     0xC4C2288       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x72180460, 1CA8-02-20, size 203215
+206455224     0xC4E41B8       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x9ab004c0, 1FF0-02-04, size 176016
+206473560     0xC4E8958       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x9ab004c0, 1FE0-02-04, size 176016
+206591343     0xC50556F       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+206634936     0xC50FFB8       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0xccc80460, 1978-02-20, size 203215
+207765471     0xC623FDF       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+208096143     0xC674B8F       mcrypt 2.2 encrypted data, algorithm: DES, mode: CBC, keymode: 8bit
+209026032     0xC757BF0       Linux EXT filesystem, rev 0.0, ext2 filesystem data (mounted or unclean), UUID=567b0200-0000-0000-1891-2202a0f8a0f8
+209353799     0xC7A7C47       mcrypt 2.2 encrypted data, algorithm: DES, mode: CBC, keymode: 8bit
+209550360     0xC7D7C18       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x491004c0, 1B60-02-04, size 176016
+209575032     0xC7DDC78       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x491004c0, 1B70-02-04, size 176016
+209605800     0xC7E54A8       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x491004c0, 1B78-02-04, size 176016
+209617992     0xC7E8448       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x491004c0, 1B68-02-04, size 176016
+209636616     0xC7ECD08       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x491004c0, 1B88-02-04, size 176016
+209642712     0xC7EE4D8       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x491004c0, 1B80-02-04, size 176016
+209822376     0xC81A2A8       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0xcd000420, 1B40-02-20, size 203215
+209889912     0xC82AA78       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0xcd000420, 1B38-02-20, size 203215
+209902056     0xC82D9E8       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0xcc900420, 1968-02-20, size 203215
+209908296     0xC82F248       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0xcd000420, 1B30-02-20, size 203215
+209938968     0xC836A18       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0xcda80420, 1BB8-02-20, size 203215
+210075999     0xC85815F       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+210333480     0xC896F28       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x71e00420, 1C68-02-20, size 203215
+211174575     0xC9644AF       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+211212744     0xC96D9C8       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x809004c0, 2010-02-37, size 47795
+211384200     0xC997788       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0xccc80460, 1970-02-20, size 203215
+212085192     0xCA429C8       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0xcd000420, 1B18-02-20, size 203215
+212122416     0xCA4BB30       Linux EXT filesystem, rev 0.0, ext2 filesystem data, UUID=d4ec0100-0000-0000-5082-0350fcf6fcf6
+212365800     0xCA871E8       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x9ab004c0, 1FF8-02-04, size 176016
+212376647     0xCA89C47       mcrypt 2.2 encrypted data, algorithm: 3DES, mode: CBC, keymode: 8bit
+212389023     0xCA8CC9F       mcrypt 2.2 encrypted data, algorithm: 3DES, mode: CBC, keymode: 8bit
+212421768     0xCA94C88       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x9ab004c0, 1CB8-02-04, size 176016
+212760936     0xCAE7968       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x72180460, 1C78-02-20, size 203215
+212785608     0xCAED9C8       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x72180460, 1C88-02-20, size 203215
+212816280     0xCAF5198       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x72180460, 1C80-02-20, size 203215
+212857224     0xCAFF188       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x9ab004c0, 1FE8-02-04, size 176016
+212871672     0xCB029F8       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x72180460, 1C90-02-20, size 203215
+212910696     0xCB0C268       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x72180460, 1D10-02-20, size 203215
+212922936     0xCB0F238       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x72180460, 1D08-02-20, size 203215
+212959704     0xCB181D8       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x72180460, 1CF8-02-20, size 203215
+213002664     0xCB229A8       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x72180460, 1CF0-02-20, size 203215
+213052344     0xCB2EBB8       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x72180460, 1CB0-02-20, size 203215
+213545016     0xCBA7038       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+213747664     0xCBD87D0       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+213936648     0xCC06A08       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x72180460, 1D00-02-20, size 203215
+213967896     0xCC0E418       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x72180460, 1CC0-02-20, size 203215
+213986280     0xCC12BE8       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x72180460, 1CB8-02-20, size 203215
+214004856     0xCC17478       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x72180460, 1CD0-02-20, size 203215
+214017192     0xCC1A4A8       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x72180460, 1CD8-02-20, size 203215
+214029384     0xCC1D448       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x72180460, 1CC8-02-20, size 203215
+214066392     0xCC264D8       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x72180460, 1CE0-02-20, size 203215
+214091016     0xCC2C508       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x72180460, 1CE8-02-20, size 203215
+215406015     0xCD6D5BF       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+215522471     0xCD89CA7       mcrypt 2.2 encrypted data, algorithm: 3-WAY, mode: CBC, keymode: 8bit
+215605176     0xCD9DFB8       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x72180460, 1D30-02-20, size 203215
+216004632     0xCDFF818       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x491004c0, 1AD0-02-04, size 176016
+216059976     0xCE0D048       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x491004c0, 1AD8-02-04, size 176016
+216061608     0xCE0D6A8       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x9ab004c0, 1CF0-02-04, size 176016
+216066312     0xCE0E908       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x491004c0, 1AF8-02-04, size 176016
+216073848     0xCE10678       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x9ab004c0, 1CE8-02-04, size 176016
+216078504     0xCE118A8       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x491004c0, 1AE8-02-04, size 176016
+216098568     0xCE16708       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x9ab004c0, 1D00-02-04, size 176016
+216098616     0xCE16738       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x9ab004c0, 1D08-02-04, size 176016
+216103224     0xCE17938       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x491004c0, 1B00-02-04, size 176016
+216109176     0xCE19078       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x491004c0, 1AE0-02-04, size 176016
+216127704     0xCE1D8D8       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x491004c0, 1AF0-02-04, size 176016
+216140136     0xCE20968       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x491004c0, 1B08-02-04, size 176016
+216140328     0xCE20A28       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x491004c0, 1B28-02-04, size 176016
+216153816     0xCE23ED8       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x9ab004c0, 1CF8-02-04, size 176016
+216164808     0xCE269C8       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x491004c0, 1B18-02-04, size 176016
+216183192     0xCE2B198       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x491004c0, 1B10-02-04, size 176016
+216185112     0xCE2B918       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x9ab004c0, 1EA0-02-04, size 176016
+216190920     0xCE2CFC8       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x9ab004c0, 1D20-02-04, size 176016
+216197112     0xCE2E7F8       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x9ab004c0, 1E70-02-04, size 176016
+216203112     0xCE2FF68       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x9ab004c0, 1D10-02-04, size 176016
+216215448     0xCE32F98       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x9ab004c0, 1D18-02-04, size 176016
+216226296     0xCE359F8       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x491004c0, 1B20-02-04, size 176016
+216234984     0xCE37BE8       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x491004c0, 1B58-02-04, size 176016
+216238728     0xCE38A88       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x491004c0, 1B38-02-04, size 176016
+216241176     0xCE39418       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x9ab004c0, 1E60-02-04, size 176016
+216246696     0xCE3A9A8       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x9ab004c0, 1D30-02-04, size 176016
+216257256     0xCE3D2E8       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x491004c0, 1B48-02-04, size 176016
+216259560     0xCE3DBE8       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x9ab004c0, 1E58-02-04, size 176016
+216263256     0xCE3EA58       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x491004c0, 1B30-02-04, size 176016
+216269496     0xCE402B8       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x491004c0, 1B40-02-04, size 176016
+216277656     0xCE42298       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x9ab004c0, 1D58-02-04, size 176016
+216277704     0xCE422C8       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x9ab004c0, 1D60-02-04, size 176016
+216289608     0xCE45148       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x9ab004c0, 1EA8-02-04, size 176016
+216307896     0xCE498B8       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x9ab004c0, 1E90-02-04, size 176016
+216313896     0xCE4B028       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x9ab004c0, 1E78-02-04, size 176016
+216314952     0xCE4B448       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x9ab004c0, 1E68-02-04, size 176016
+216320952     0xCE4CBB8       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x9ab004c0, 1E50-02-04, size 176016
+216326376     0xCE4E0E8       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x9ab004c0, 1E98-02-04, size 176016
+216338568     0xCE51088       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x9ab004c0, 1E88-02-04, size 176016
+216339480     0xCE51418       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x491004c0, 1B50-02-04, size 176016
+216344664     0xCE52858       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x9ab004c0, 1E80-02-04, size 176016
+216368232     0xCE58468       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x491004c0, 1C40-02-04, size 176016
+216382056     0xCE5BA68       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x9ab004c0, 1D50-02-04, size 176016
+216394200     0xCE5E9D8       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x9ab004c0, 1D38-02-04, size 176016
+216394248     0xCE5EA08       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x9ab004c0, 1D40-02-04, size 176016
+216394296     0xCE5EA38       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x9ab004c0, 1D48-02-04, size 176016
+216429624     0xCE67438       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x491004c0, 1C38-02-04, size 176016
+216492408     0xCE76978       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x9ab004c0, 1D28-02-04, size 176016
+216610248     0xCE935C8       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x9ab004c0, 1C68-02-04, size 176016
+216616344     0xCE94D98       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x9ab004c0, 1C60-02-04, size 176016
+216647160     0xCE9C5F8       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x9ab004c0, 1C70-02-04, size 176016
+216727320     0xCEAFF18       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x9ab004c0, 1CA8-02-04, size 176016
+216727464     0xCEAFFA8       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x9ab004c0, 1CC0-02-04, size 176016
+216745944     0xCEB47D8       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x9ab004c0, 1CC8-02-04, size 176016
+216751704     0xCEB5E58       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x9ab004c0, 1C80-02-04, size 176016
+216757992     0xCEB76E8       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x9ab004c0, 1C98-02-04, size 176016
+216758088     0xCEB7748       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x9ab004c0, 1CB0-02-04, size 176016
+216763944     0xCEB8E28       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x9ab004c0, 1C78-02-04, size 176016
+216764088     0xCEB8EB8       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x9ab004c0, 1C90-02-04, size 176016
+216770184     0xCEBA688       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x9ab004c0, 1C88-02-04, size 176016
+217131183     0xCF128AF       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+219862640     0xD1AD670       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x00, 2028-02-06, rev 0x0001, size 2
+220264288     0xD20F760       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x00, 1BA8-02-38, size 2
+221663840     0xD365260       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x00, 2028-02-33, size 2
+221816641     0xD38A741       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+221824552     0xD38C628       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0xf8e8f8, 2010-02-36, size 2048
+222188272     0xD3E52F0       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x00, 1A08-02-24, rev 0x-760, size 2
+222656480     0xD4577E0       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x00, 1ED8-02-32, size 2
+223162536     0xD4D30A8       Intel x86 or x64 microcode, sig 0xfffffa80, pf_mask 0x10520c0, 20B0-01-05, rev 0x1021, size 17113280
+223947672     0xD592B98       Intel x86 or x64 microcode, sig 0xfffffa80, pf_mask 0x1111bb0, 1BA0-01-11, rev 0x0001, size 17898416
+229748857     0xDB1B079       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+229763713     0xDB1EA81       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+232246945     0xDD7CEA1       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+233506829     0xDEB080D       Intel x86 or x64 microcode, sig 0x00000002, pf_mask 0x46028d1e, 1C4C-03-01, rev 0x4600003c, size 2
+233751943     0xDEEC587       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+234858103     0xDFFA677       mcrypt 2.2 encrypted data, algorithm: 3DES, mode: CBC, keymode: 4bit
+235245583     0xE05900F       mcrypt 2.2 encrypted data, algorithm: 3DES, mode: CBC, keymode: 8bit
+235823340     0xE0E60EC       Certificate in DER format (x509 v3), header length: 4, sequence length: 1226
+236125919     0xE12FEDF       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+236260726     0xE150D76       StuffIt Deluxe Segment (data): f
+236448879     0xE17EC6F       mcrypt 2.2 encrypted data, algorithm: 3DES, mode: nOFB, keymode: 8bit
+236594747     0xE1A263B       mcrypt 2.2 encrypted data, algorithm: 3DES, mode: nOFB, keymode: 8bit
+236640682     0xE1AD9AA       Certificate in DER format (x509 v3), header length: 4, sequence length: 1697
+236704882     0xE1BD472       Certificate in DER format (x509 v3), header length: 4, sequence length: 4773
+236710802     0xE1BEB92       Certificate in DER format (x509 v3), header length: 4, sequence length: 4797
+236715876     0xE1BFF64       Certificate in DER format (x509 v3), header length: 4, sequence length: 429
+236718032     0xE1C07D0       Certificate in DER format (x509 v3), header length: 4, sequence length: 381
+236719568     0xE1C0DD0       Certificate in DER format (x509 v3), header length: 4, sequence length: 3621
+236723466     0xE1C1D0A       Certificate in DER format (x509 v3), header length: 4, sequence length: 405
+236723970     0xE1C1F02       Certificate in DER format (x509 v3), header length: 4, sequence length: 1226
+236725200     0xE1C23D0       Certificate in DER format (x509 v3), header length: 4, sequence length: 1229
+236726433     0xE1C28A1       Certificate in DER format (x509 v3), header length: 4, sequence length: 1543
+236727980     0xE1C2EAC       Certificate in DER format (x509 v3), header length: 4, sequence length: 1697
+236732416     0xE1C4000       Microsoft executable, portable (PE)
+237249693     0xE24249D       Certificate in DER format (x509 v3), header length: 4, sequence length: 1211
+237250908     0xE24295C       Certificate in DER format (x509 v3), header length: 4, sequence length: 1430
+237252342     0xE242EF6       Certificate in DER format (x509 v3), header length: 4, sequence length: 1543
+237253889     0xE243501       Certificate in DER format (x509 v3), header length: 4, sequence length: 1697
+238261432     0xE3394B8       Intel x86 or x64 microcode, sig 0xfffffa80, pf_mask 0x00, 1990-01-01, size 33022
+238495392     0xE3726A0       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x00, 1D18-02-01, rev 0x-001, size 2
+238798880     0xE3BC820       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x00, 2028-02-17, rev 0x-580, size 2
+244192955     0xE8E16BB       mcrypt 2.2 encrypted data, algorithm: 3DES, mode: nOFB, keymode: 8bit
+245785264     0xEA662B0       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x00, 1958-02-23, rev 0x-580, size 2
+247226493     0xEBC607D       Certificate in DER format (x509 v3), header length: 4, sequence length: 10730
+247237322     0xEBC8ACA       Certificate in DER format (x509 v3), header length: 4, sequence length: 1211
+247238537     0xEBC8F89       Certificate in DER format (x509 v3), header length: 4, sequence length: 1305
+247239846     0xEBC94A6       Certificate in DER format (x509 v3), header length: 4, sequence length: 1543
+247241393     0xEBC9AB1       Certificate in DER format (x509 v3), header length: 4, sequence length: 1697
+248235128     0xECBC478       gzip compressed data, from FAT filesystem (MS-DOS, OS/2, NT), last modified: 1970-01-01 00:49:23 (bogus date)
+248368483     0xECDCD63       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+248379471     0xECDF84F       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+248582231     0xED11057       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+248778688     0xED40FC0       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x00, 2028-02-23, rev 0x-580, size 2
+248951344     0xED6B230       Intel x86 or x64 microcode, sig 0xfffff880, pf_mask 0x00, 1AE0-03-24, size 2048
+249504440     0xEDF22B8       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+249625055     0xEE0F9DF       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+249975761     0xEE653D1       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+250425152     0xEED2F40       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x00, 1E78-02-01, rev 0x-001, size 2
+250515783     0xEEE9147       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+250561871     0xEEF454F       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+250692334     0xEF142EE       Certificate in DER format (x509 v3), header length: 4, sequence length: 1226
+251050243     0xEF6B903       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+251122580     0xEF7D394       gzip compressed data, from FAT filesystem (MS-DOS, OS/2, NT), last modified: 1972-02-20 05:13:25 (bogus date)
+251626903     0xEFF8597       mcrypt 2.2 encrypted data, algorithm: DES, mode: CBC, keymode: 8bit
+252091267     0xF069B83       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+252532555     0xF0D574B       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+253683040     0xF1EE560       XML document, version: "1.0"
+253683102     0xF1EE59E       Copyright string: "Copyright (c) Microsoft Corporation -->"
+253747136     0xF1FDFC0       Intel x86 or x64 microcode, sig 0xfffff8a0, pf_mask 0x00, 1CF8-02-19, rev 0x-580, size 2
+253909307     0xF22593B       LZMA compressed data, properties: 0xB7, dictionary size: 0 bytes, uncompressed size: 46 bytes

@@ -1,0 +1,37 @@
+Volatility 3 Framework 2.28.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+4	0	System	0xfa8000c41740	81	503	N/A	False	2017-07-29 20:02:04.000000 UTC	N/A	-	-	-
+* 272	4	smss.exe	0xfa8001d86040	2	29	N/A	False	2017-07-29 20:02:05.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\smss.exe	\SystemRoot\System32\smss.exe	\SystemRoot\System32\smss.exe
+348	340	csrss.exe	0xfa80024fbb30	8	343	0	False	2017-07-29 20:02:10.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\csrss.exe	%SystemRoot%\system32\csrss.exe ObjectDirectory=\Windows SharedSection=1024,20480,768 Windows=On SubSystemType=Windows ServerDll=basesrv,1 ServerDll=winsrv:UserServerDllInitialization,3 ServerDll=winsrv:ConServerDllInitialization,2 ServerDll=sxssrv,4 ProfileControl=Off MaxRequestThreads=16	C:\Windows\system32\csrss.exe
+396	388	csrss.exe	0xfa8002520b30	7	158	1	False	2017-07-29 20:02:11.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\csrss.exe	%SystemRoot%\system32\csrss.exe ObjectDirectory=\Windows SharedSection=1024,20480,768 Windows=On SubSystemType=Windows ServerDll=basesrv,1 ServerDll=winsrv:UserServerDllInitialization,3 ServerDll=winsrv:ConServerDllInitialization,2 ServerDll=sxssrv,4 ProfileControl=Off MaxRequestThreads=16	C:\Windows\system32\csrss.exe
+404	340	wininit.exe	0xfa8002527910	3	74	0	False	2017-07-29 20:02:11.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\wininit.exe	wininit.exe	C:\Windows\system32\wininit.exe
+* 508	404	lsm.exe	0xfa80025abb30	10	143	0	False	2017-07-29 20:02:12.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\lsm.exe	C:\Windows\system32\lsm.exe	C:\Windows\system32\lsm.exe
+* 492	404	services.exe	0xfa800258fb30	7	195	0	False	2017-07-29 20:02:12.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\services.exe	C:\Windows\system32\services.exe	C:\Windows\system32\services.exe
+** 672	492	VBoxService.ex	0xfa8002684b30	11	116	0	False	2017-07-29 20:02:13.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\VBoxService.exe	C:\Windows\System32\VBoxService.exe	C:\Windows\System32\VBoxService.exe
+** 1660	492	sppsvc.exe	0xfa8002a0e060	6	142	0	False	2017-07-29 20:02:22.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\sppsvc.exe	C:\Windows\system32\sppsvc.exe	C:\Windows\system32\sppsvc.exe
+** 1952	492	SearchIndexer.	0xfa8002ce2060	12	554	0	False	2017-07-29 20:03:03.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\SearchIndexer.exe	C:\Windows\system32\SearchIndexer.exe /Embedding	C:\Windows\system32\SearchIndexer.exe
+** 2360	492	svchost.exe	0xfa80025c1060	6	101	0	False	2017-07-29 20:03:35.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\svchost.exe	C:\Windows\system32\svchost.exe -k imgsvc	C:\Windows\system32\svchost.exe
+** 612	492	svchost.exe	0xfa80025a4b30	10	343	0	False	2017-07-29 20:02:13.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\svchost.exe	C:\Windows\system32\svchost.exe -k DcomLaunch	C:\Windows\system32\svchost.exe
+*** 2108	612	WmiPrvSE.exe	0xfa8000da2060	6	109	0	False	2017-07-29 20:06:24.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\wbem\WmiPrvSE.exe	C:\Windows\system32\wbem\wmiprvse.exe	C:\Windows\system32\wbem\wmiprvse.exe
+** 356	492	svchost.exe	0xfa80028c8890	5	100	0	False	2017-07-29 20:02:16.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\svchost.exe	C:\Windows\system32\svchost.exe -k GPSvcGroup	C:\Windows\system32\svchost.exe
+** 776	492	svchost.exe	0xfa80027e5b30	22	490	0	False	2017-07-29 20:02:14.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\svchost.exe	C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted	C:\Windows\System32\svchost.exe
+*** 2804	776	audiodg.exe	0xfa8000ea3b30	4	120	0	False	2017-07-29 20:09:31.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\audiodg.exe	C:\Windows\system32\AUDIODG.EXE 0x430	C:\Windows\system32\AUDIODG.EXE
+** 1288	492	taskhost.exe	0xfa800260c340	7	168	1	False	2017-07-29 20:02:19.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\taskhost.exe	"taskhost.exe"	C:\Windows\system32\taskhost.exe
+** 2600	492	svchost.exe	0xfa8000e31b30	11	320	0	False	2017-07-29 20:04:21.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\svchost.exe	C:\Windows\System32\svchost.exe -k secsvcs	C:\Windows\System32\svchost.exe
+** 2028	492	wmpnetwk.exe	0xfa8002d94060	10	213	0	False	2017-07-29 20:03:03.000000 UTC	N/A	\Device\HarddiskVolume2\Program Files\Windows Media Player\wmpnetwk.exe	"C:\Program Files\Windows Media Player\wmpnetwk.exe"	C:\Program Files\Windows Media Player\wmpnetwk.exe
+** 752	492	svchost.exe	0xfa80028f5060	15	363	0	False	2017-07-29 20:02:16.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\svchost.exe	C:\Windows\system32\svchost.exe -k NetworkService	C:\Windows\system32\svchost.exe
+** 1136	492	svchost.exe	0xfa8002502060	17	305	0	False	2017-07-29 20:02:18.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\svchost.exe	C:\Windows\system32\svchost.exe -k LocalServiceNoNetwork	C:\Windows\system32\svchost.exe
+** 1168	492	svchost.exe	0xfa8002da1b30	12	211	0	False	2017-07-29 20:03:04.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\svchost.exe	C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation	C:\Windows\system32\svchost.exe
+** 724	492	svchost.exe	0xfa8000ca7b30	6	245	0	False	2017-07-29 20:02:14.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\svchost.exe	C:\Windows\system32\svchost.exe -k RPCSS	C:\Windows\system32\svchost.exe
+** 920	492	svchost.exe	0xfa8002825b30	27	809	0	False	2017-07-29 20:02:14.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\svchost.exe	C:\Windows\system32\svchost.exe -k netsvcs	C:\Windows\system32\svchost.exe
+** 1108	492	spoolsv.exe	0xfa80024e0340	12	263	0	False	2017-07-29 20:02:18.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\spoolsv.exe	C:\Windows\System32\spoolsv.exe	C:\Windows\System32\spoolsv.exe
+** 856	492	svchost.exe	0xfa800280f9e0	12	306	0	False	2017-07-29 20:02:14.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\svchost.exe	C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted	C:\Windows\System32\svchost.exe
+*** 1232	856	dwm.exe	0xfa800261b060	3	71	1	False	2017-07-29 20:02:56.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\dwm.exe	"C:\Windows\system32\Dwm.exe"	C:\Windows\system32\Dwm.exe
+** 892	492	svchost.exe	0xfa800283d290	19	448	0	False	2017-07-29 20:02:14.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\svchost.exe	C:\Windows\system32\svchost.exe -k LocalService	C:\Windows\system32\svchost.exe
+* 500	404	lsass.exe	0xfa80025a3b30	7	543	0	False	2017-07-29 20:02:12.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\lsass.exe	C:\Windows\system32\lsass.exe	C:\Windows\system32\lsass.exe
+444	388	winlogon.exe	0xfa800253fb30	3	111	1	False	2017-07-29 20:02:11.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\winlogon.exe	winlogon.exe	C:\Windows\system32\winlogon.exe
+1380	1156	explorer.exe	0xfa800262d110	23	674	1	False	2017-07-29 20:02:56.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\explorer.exe	C:\Windows\Explorer.EXE	C:\Windows\Explorer.EXE
+* 1704	1380	VBoxTray.exe	0xfa8002c85930	13	154	1	False	2017-07-29 20:02:57.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\VBoxTray.exe	"C:\Windows\System32\VBoxTray.exe" 	C:\Windows\System32\VBoxTray.exe
+* 2332	1380	mspaint.exe	0xfa8002b19060	6	137	1	False	2017-07-29 20:03:34.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\mspaint.exe	"C:\Windows\system32\mspaint.exe" 	C:\Windows\system32\mspaint.exe

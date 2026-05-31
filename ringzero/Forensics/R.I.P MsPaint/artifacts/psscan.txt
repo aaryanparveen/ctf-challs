@@ -1,0 +1,37 @@
+Volatility 3 Framework 2.28.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	File output
+
+1704	1380	VBoxTray.exe	0x3de85930	13	154	1	False	2017-07-29 20:02:57.000000 UTC	N/A	Disabled
+1952	492	SearchIndexer.	0x3dee2060	12	554	0	False	2017-07-29 20:03:03.000000 UTC	N/A	Disabled
+2028	492	wmpnetwk.exe	0x3df94060	10	213	0	False	2017-07-29 20:03:03.000000 UTC	N/A	Disabled
+1168	492	svchost.exe	0x3dfa1b30	12	211	0	False	2017-07-29 20:03:04.000000 UTC	N/A	Disabled
+1660	492	sppsvc.exe	0x3e00e060	6	142	0	False	2017-07-29 20:02:22.000000 UTC	N/A	Disabled
+2332	1380	mspaint.exe	0x3e119060	6	137	1	False	2017-07-29 20:03:34.000000 UTC	N/A	Disabled
+856	492	svchost.exe	0x3e20f9e0	12	306	0	False	2017-07-29 20:02:14.000000 UTC	N/A	Disabled
+920	492	svchost.exe	0x3e225b30	27	809	0	False	2017-07-29 20:02:14.000000 UTC	N/A	Disabled
+892	492	svchost.exe	0x3e23d290	19	448	0	False	2017-07-29 20:02:14.000000 UTC	N/A	Disabled
+356	492	svchost.exe	0x3e2c8890	5	100	0	False	2017-07-29 20:02:16.000000 UTC	N/A	Disabled
+752	492	svchost.exe	0x3e2f5060	15	363	0	False	2017-07-29 20:02:16.000000 UTC	N/A	Disabled
+1288	492	taskhost.exe	0x3e40c340	7	168	1	False	2017-07-29 20:02:19.000000 UTC	N/A	Disabled
+1232	856	dwm.exe	0x3e41b060	3	71	1	False	2017-07-29 20:02:56.000000 UTC	N/A	Disabled
+1380	1156	explorer.exe	0x3e42d110	23	674	1	False	2017-07-29 20:02:56.000000 UTC	N/A	Disabled
+672	492	VBoxService.ex	0x3e484b30	11	116	0	False	2017-07-29 20:02:13.000000 UTC	N/A	Disabled
+776	492	svchost.exe	0x3e5e5b30	22	490	0	False	2017-07-29 20:02:14.000000 UTC	N/A	Disabled
+1108	492	spoolsv.exe	0x3e6e0340	12	263	0	False	2017-07-29 20:02:18.000000 UTC	N/A	Disabled
+348	340	csrss.exe	0x3e6fbb30	8	343	0	False	2017-07-29 20:02:10.000000 UTC	N/A	Disabled
+1136	492	svchost.exe	0x3e702060	17	305	0	False	2017-07-29 20:02:18.000000 UTC	N/A	Disabled
+396	388	csrss.exe	0x3e720b30	7	158	1	False	2017-07-29 20:02:11.000000 UTC	N/A	Disabled
+404	340	wininit.exe	0x3e727910	3	74	0	False	2017-07-29 20:02:11.000000 UTC	N/A	Disabled
+444	388	winlogon.exe	0x3e73fb30	3	111	1	False	2017-07-29 20:02:11.000000 UTC	N/A	Disabled
+492	404	services.exe	0x3e78fb30	7	195	0	False	2017-07-29 20:02:12.000000 UTC	N/A	Disabled
+500	404	lsass.exe	0x3e7a3b30	7	543	0	False	2017-07-29 20:02:12.000000 UTC	N/A	Disabled
+612	492	svchost.exe	0x3e7a4b30	10	343	0	False	2017-07-29 20:02:13.000000 UTC	N/A	Disabled
+508	404	lsm.exe	0x3e7abb30	10	143	0	False	2017-07-29 20:02:12.000000 UTC	N/A	Disabled
+2360	492	svchost.exe	0x3e7c1060	6	101	0	False	2017-07-29 20:03:35.000000 UTC	N/A	Disabled
+272	4	smss.exe	0x3ef86040	2	29	N/A	False	2017-07-29 20:02:05.000000 UTC	N/A	Disabled
+2600	492	svchost.exe	0x3fc31b30	11	320	0	False	2017-07-29 20:04:21.000000 UTC	N/A	Disabled
+2804	776	audiodg.exe	0x3fca3b30	4	120	0	False	2017-07-29 20:09:31.000000 UTC	N/A	Disabled
+2108	612	WmiPrvSE.exe	0x3fe1f060	6	109	0	False	2017-07-29 20:06:24.000000 UTC	N/A	Disabled
+724	492	svchost.exe	0x3ff24b30	6	245	0	False	2017-07-29 20:02:14.000000 UTC	N/A	Disabled
+4	0	System	0x3ffbe740	81	503	N/A	False	2017-07-29 20:02:04.000000 UTC	N/A	Disabled
