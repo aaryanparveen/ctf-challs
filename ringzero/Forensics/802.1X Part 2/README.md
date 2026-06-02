@@ -19,6 +19,7 @@ An encrypted MPPE Send Key: `c8f03c0585fd2574d22d297c00505de15dcb23c2ecc186bbcc3
 Let's now decrypt the 802.1X packets, setting karaoke key in wireshark:
 ![](attachments/2.png)
 ![](attachments/3.png)
+
 And the MPPE Send key decodes nicely.
 MPPE Send Key used: `VSA: t=MS-MPPE-Send-Key(16) l=52 val=Decrypted: cb82872f36525451cc576634af61b5543a81fb2d634e261e668573ebebffee43`
 But I couldn't find a way to supply this directly to wireshark to get it to decode the traffic, looking online I found that wireshark needs the PMK itself. 
@@ -36,9 +37,12 @@ So, now it can treat the key we got as a wpa-psk pmk.
 This is the protected data we are trying to decrypt:
 ![](attachments/6.png)
 ![](attachments/7.png)
+
 Setting the key:
 ![](attachments/8.png)
+
 And.. it still says encrypted data..?
+
 ![](attachments/9.png)
 That's weird.. maybe wireshark's failing because of the psk and enterprise difference? Let's just derive the MSK ourselves and supply that as the keytype.
 The MSK would be:
@@ -52,7 +56,9 @@ Therefore, our MSK is:
 `MSK: 5f765b0403478e2da4520fe5332089654bbb18cb3d363828d5ee3b16438d7cc1cb82872f36525451cc576634af61b5543a81fb2d634e261e668573ebebffee43`
 
 Let's try this.
+
 ![](attachments/10.png)
+
 Hmm, still no luck. Let's confirm I'm not being an idiot by checking the EAPoL MIC. The MIC is the Message Integrity Code inside the 4-way handshake, calculated for each of the EAPoL Key packets.
 
 Recalculating the MIC should reproduce the captured MIC as the one captured from the EAPoL Key packet: `e763edf509c6c77cf137312b0412b54f`
