@@ -14,6 +14,7 @@ https://ringzer0ctf.com/files/ae5b20f66d8d7d96e2269c2731dad045.zip
 First part was an exercise in understanding WPA enterprise and EAPoL. Now we have to decrypt the traffic. We initially got the RADIUS shared secret: karaoke.
 Before telling wireshark this, the Accept-Accept packet shows:
 ![](attachments/1.png)
+
 An encrypted MPPE Send Key: `c8f03c0585fd2574d22d297c00505de15dcb23c2ecc186bbcc31fae1a9c8f2ba2a22d01f988393488bdf827b3dcc724f91b5`
 Let's now decrypt the 802.1X packets, setting karaoke key in wireshark:
 ![](attachments/2.png)
@@ -207,6 +208,7 @@ Yay it worked!
 Let's extract the HTTP objects, I see a flag.png:
 ![](attachments/19.png)
 And there it is :)
+
 ![](flag.png)
 
 # Flag
