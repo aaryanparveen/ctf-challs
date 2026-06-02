@@ -743,7 +743,8 @@ karaoke          (192.168.10.13(/mnt/d/CTF/ringzer0ctf/forensics/802/radius_only
 Use the "--show --format=dynamic_1017" options to display all of the cracked passwords reliably
 Session completed.
 ```
-AND IT'S DONE! `karaoke`
+AND IT'S DONE! `karaoke` 
+
 ![image 20260530111958](attachments/5.png)
 
 # FLAG
