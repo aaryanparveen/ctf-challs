@@ -551,7 +551,7 @@ $ i=0; for f in thumbs/dumps/*.dat; do foremost -i "$f" -o "thumbs/out_$i"; i=$(
 ```
 These images were absolutely useless, some thumbnails seemed corrupted, and I tried fixing them using a hexeditor, imagemagick and pngcheck/relevant tool but I couldn't get anything other than standard windows thumbnails.
 Let's just look at the raw image data once, colour mode could be brga or rgb, let's try bgra for now, and a random 600 width just to test the waters:
-![[rawtest.png]]
+![](rawtest.png)
 
 This is the raw memory data represented as a 32 bit image, obviously it doesn't make sense because we don't know the width, but playing around with the dimensions I found a few things:
 ![recovered paint ui at width 272](attachments/2.png)

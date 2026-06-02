@@ -68,7 +68,7 @@ $ icat BK 15 > secret.odg && file secret.odg
 secret.odg: OpenDocument Drawing
 ```
 Let's open it in libreoffice. As odg, and other office files are essentially zip files, we could also looking at zip contents if we're at a dead end.
-![[Pasted image 20260601164405.png]]
+![](attachments/1.png)
 Yup, they're right it WOULD have been too easy. Let's look at the zip structure:
 ```bash
 $ unzip -l secret.odg
@@ -334,7 +334,7 @@ We got the files! The one at inode 12, `secret.sve` identified as a zip file, co
 $ cp RESTORED_FILES/inode.16 RESTORED_FILES/secretdeleted.odg
 ```
 It seems to be the exact same as before:
-![[Pasted image 20260601165910.png]]
+![](attachments/2.png)
 Let's verify:
 ```bash
 $ md5sum RESTORED_FILES/secretdeleted.odg secret.odg

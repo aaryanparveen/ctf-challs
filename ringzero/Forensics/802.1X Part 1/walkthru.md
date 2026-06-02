@@ -141,19 +141,20 @@ EAPOL Key Message 2 of 4
 EAPOL Key Message 3 of 4
 EAPOL Key Message 4 of 4
 ```
+At this point I realize that the challenge had always wanted us to crack the RADIUS shared secret!
 Notice how the PSK standard doesn't have a TLS Login, or the PEAP auth. For the most obvious difference, there was no username exchange like we see here.
 Looking online, this trace matches that of WPA Enterprise. That's why aircrack-ng couldn't find it!
-In WPA Enterprise, the PMK is not derived from a shared Wi-Fi password and SSID using PBKDF2 like we just saw. 
+In WPA Enterprise, the PMK is not derived from a shared Wi-Fi password and SSID using PBKDF2 like we just saw.  
 Instead, the client authenticates using 802.1X/EAP,  through an authentication server such as RADIUS (which we see here!). 
 In a PEAP network, a TLS tunnel is first created, and the actual user authentication happens inside that encrypted tunnel (hence the *protected*-eap). 
 
-After this the MSK is derived, or Master Session Key. The PMK is then derived from this EAP-generated key.
+After this the MSK is derived, or Master Session Key. The PMK is then derived from this EAP-generated key. The RADIUS server sends the `MS-MPPE-Send-Key` and `MS-MPPE-Recv-Key` to the AP, in the RADIUS `Access-Accept` packet. These MPPE attributes are protected using the RADIUS shared secret (which we are cracking here!)
 
 Then the normal WPA 4-way handshake still happens like normal:
 
 PMK + AP address + client MAC + ANonce + SNonce > PTK
 
-So the PTK derivation step is still similar to WPA-PSK, but the PMK source is completely different! In WPA-PSK, aircrack-ng can guess the password and recreate the PMK directly. 
+So the PTK derivation step is still similar to WPA-PSK, but the PMK source is completely different! In WPA-PSK, aircrack-ng can guess the password and recreate the PMK directly, but here, we need to get the radius secret, then then the mppe key to get to the PMK.
 
 We got the identity from the packets before, but let's extract properly:
 ```bash
@@ -718,7 +719,6 @@ Interface #1 info:
 Okay, so it's a merged pcap file from 2 different files /Users/ggermain/Desktop/chal1-radius.pcap and /Users/ggermain/Desktop/final-no-radius.pcap, presumably one contains the radius data we saw and the other the eap capture.
 The only real thing we have got so far is:
 `ARUBANETWORKS\rao:Rao likes 1X Movies`
-At this point I realize that the challenge had always wanted us to crack the RADIUS shared secret!
 The wireless side shows the 802.1X/PEAP exchange, but the Linux cooked-mode side contains the backend RADIUS traffic. That is what we need.
 
 For RADIUS packets, the shared secret can be tested (or cracked) using fields already present in the capture:
