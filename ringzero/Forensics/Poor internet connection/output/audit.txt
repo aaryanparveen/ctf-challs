@@ -1,0 +1,23 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Wed Jun  3 18:09:09 2026
+Invocation: foremost 4545700e0e0dbc27cc964791f1cd30fa.pcap 
+Output directory: /mnt/d/ctf/ringzer0ctf/forensics/conn/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: 4545700e0e0dbc27cc964791f1cd30fa.pcap
+Start: Wed Jun  3 18:09:09 2026
+Length: 2 MB (2179445 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00002159.zip 	      291 B 	    1105434 	 
+Finish: Wed Jun  3 18:09:10 2026
+
+1 FILES EXTRACTED
+	
+zip:= 1
+------------------------------------------------------------------
+
+Foremost finished at Wed Jun  3 18:09:10 2026

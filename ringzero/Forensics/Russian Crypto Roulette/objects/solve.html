@@ -1,0 +1,47 @@
+<html>
+<head>
+<script src="./gibberish-aes.js"></script>
+<script src="./pbkdf2.js"></script>
+<script src="./sha1.js"></script>
+</head>
+
+<body>
+<pre id="out"></pre>
+
+<script>
+CT = "U2FsdGVkX18Mh114rFHq+vbhlQzYkcj41H6RQVW0BkKynMKl3pUrRvZosjANhTN9/ZtpPAa0DvEZNOelr7RJBTmgh9tm9GRFwQAhgNQBe2W+69Bl8KFD1DNQ442VDBmtEAWe8KyMgPf6Riycpz/oHQhNbGyHWu0bW6uVdJ7P5Fo=";
+
+function expandkey(c){
+    b64token = '';
+    for(i = 0; i < c.length; i++){
+        b64Token = btoa(c[i]) + b64token;
+    }
+    return b64Token;
+}
+
+CT = decodeURIComponent(CT);
+
+out = "";
+
+for(code = 32; code < 127; code++){
+    ch = String.fromCharCode(code);
+
+    fakekey = "A".repeat(299) + ch;
+
+    y = expandkey(fakekey);
+    key = new PBKDF2(y, "NaCl", 1000, 16);
+
+    try{
+        pt = GibberishAES.dec(CT, key);
+
+        if(pt){
+            out += "char: " + ch + "\n";
+            out += pt + "\n\n";
+        }
+    }catch(e){}
+}
+
+document.getElementById("out").textContent = out;
+</script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<html>
+<META http-equiv="content-type" content="text/html; charset=UTF-8">
+<script src='./gibberish-aes.js'></script>
+<script src='./pbkdf2.js'></script>
+<script src='./sha1.js'></script>
+<script>
+function expandkey(c){
+b64token = '';
+for (i=0;i < c.length;i++){
+	b64Token = btoa(c[i]) + b64token;
+}
+return b64Token;
+}
+
+function doIt() {
+x = Crypto.key1.value;
+if (x.length < 300) {
+	alert("Ваш ключ слишком мал. Перейти больше или идти домой");
+} else {
+y = expandkey(x);
+pbkdf2 = new PBKDF2(y, "NaCl", 1000, 16)
+msg = Crypto.plaintext.value;
+CT = GibberishAES.enc(msg,pbkdf2);
+console.log(CT);
+xmlhttp = new XMLHttpRequest();
+var url = "http://kowaynnkrapto.ctf/kotehok/sekpet.html";
+var params = "var="+CT;
+xmlhttp.open("POST", url, true);
+xmlhttp.send(params);
+}
+}
+
+//doIt();
+</script>
+<body bgcolor='red'><font color='yellow'>
+<h1>криптографски котка</h1>
+<div>Кошка является тайным. секреты хороши. Кошка держит тайны. Секреты хороши. Пожалуйста, введите ключ и кошка будет шифровать. Очень секрет. Многое ничего себе. Очень кошачий криптография
+</div>
+<div>
+<form name='Crypto'>
+<label>пожалуйста, введите свой ключ здесь</label><input type='password' id='key1' name='key1' ></input><br />
+<label>Введите ваш секрет здесь</label><textarea rows='20' cols='50' id='text' name='plaintext' ></textarea><br />
+<input type='button' value='узнайте' onclick='doIt()' />
+</form>
+</div>
+<div>Спокойная музыка, чтобы помочь вам сконцентрироваться  <iframe width="560" height="315" src="http://www.youtube.com/embed/ocW3fBqPQkU?autoplay=1" frameborder="0"></iframe></div>
+</font></body>
+</html>
