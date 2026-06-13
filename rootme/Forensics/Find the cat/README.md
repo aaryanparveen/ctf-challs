@@ -95,7 +95,7 @@ revindicationprocess.odt: OpenDocument Text
 ```
 It is an odt as per the extension, let's open it:
 
-![[Pasted image 20260613034350.png]]
+![image 20260613034350](attachments/1.png)
 
 Cute. Interestingly the odt itself doesn't contain any exif data for location:
 ```bash
@@ -235,7 +235,7 @@ Light Value                     : 6.2
 
 And indeed! it contains gps coordinates: `47 deg 36' 16.15" N, 7 deg 24' 52.48" E`, looking these up, this is in Helfrantzkirch, France (qui aurait pense with the aigue accent)
 
-![[Pasted image 20260613035438.png]]
+![image 20260613035438](attachments/2.png)
 
 As per the instructions, helfrantzkirch is our flag!
 # FLAG

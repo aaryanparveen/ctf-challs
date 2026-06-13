@@ -145,11 +145,11 @@ $ cat windows.py | grep 12
 Let's modify this.
 So it says its looking for 12 but actually checks for 10..?
 
-![[Pasted image 20260613063009.png]]
+![image 20260613063009](attachments/1.png)
 
 Weird quirk of the volatility codebase. Let's change this to 4 for now
 
-![[Pasted image 20260613063122.png]]
+![image 20260613063122](attachments/2.png)
 
 
 ```bash
@@ -183,27 +183,27 @@ PE Machine      332
 PE TimeDateStamp        Mon Jul 13 23:15:19 2009
 ```
 
-And it works now yay! What an ancient version of windows. Let's get the hostname using envvars.
+And it works now yay! What an ancient build of windows 7. Let's get the hostname using envars.
 
 ```bash
 $ vol -f ch2.dmp  windows.env > env.txt && grep computername -i env.txt
 560gressservices.exe    0x120ea8PDB scanCOMPUTERNAME    WIN-ETSA91RKCFP
 576     lsass.exe       0x250ea8        COMPUTERNAME    WIN-ETSA91RKCFP
-584     lsm.exe 0x190ea8        COMPUTERNAME    WIN-ETSA91RKCFP
+584     lsm.exe         0x190ea8        COMPUTERNAME    WIN-ETSA91RKCFP
 692     svchost.exe     0x2c0ff0        COMPUTERNAME    WIN-ETSA91RKCFP
 764     svchost.exe     0x2b1070        COMPUTERNAME    WIN-ETSA91RKCFP
 832     svchost.exe     0x301068        COMPUTERNAME    WIN-ETSA91RKCFP
 904     svchost.exe     0x140ff0        COMPUTERNAME    WIN-ETSA91RKCFP
 928     svchost.exe     0x5c0ff0        COMPUTERNAME    WIN-ETSA91RKCFP
 1084    svchost.exe     0x131068        COMPUTERNAME    WIN-ETSA91RKCFP
-1172    svchost.exe     0xb1070 COMPUTERNAME    WIN-ETSA91RKCFP
+1172    svchost.exe     0xb1070         COMPUTERNAME    WIN-ETSA91RKCFP
 1220    AvastSvc.exe    0x520ff0        COMPUTERNAME    WIN-ETSA91RKCFP
 1712    spoolsv.exe     0x670ff0        COMPUTERNAME    WIN-ETSA91RKCFP
 1748    svchost.exe     0x171068        COMPUTERNAME    WIN-ETSA91RKCFP
 1968    vmtoolsd.exe    0x220ff0        COMPUTERNAME    WIN-ETSA91RKCFP
 1612    TPAutoConnSvc.  0x2f0ff0        COMPUTERNAME    WIN-ETSA91RKCFP
 2352    taskhost.exe    0x341038        COMPUTERNAME    WIN-ETSA91RKCFP
-2496    dwm.exe 0x171038        COMPUTERNAME    WIN-ETSA91RKCFP
+2496    dwm.exe         0x171038        COMPUTERNAME    WIN-ETSA91RKCFP
 2548    explorer.exe    0x2e1060        COMPUTERNAME    WIN-ETSA91RKCFP
 2568    TPAutoConnect.  0x670ff0        COMPUTERNAME    WIN-ETSA91RKCFP
 2660    VMwareTray.exe  0x2610b0        COMPUTERNAME    WIN-ETSA91RKCFP
@@ -216,8 +216,8 @@ $ vol -f ch2.dmp  windows.env > env.txt && grep computername -i env.txt
 3564    soffice.bin     0xc91108        COMPUTERNAME    WIN-ETSA91RKCFP
 3624    svchost.exe     0x5b0ff0        COMPUTERNAME    WIN-ETSA91RKCFP
 1232    taskmgr.exe     0x1c1070        COMPUTERNAME    WIN-ETSA91RKCFP
-3152    cmd.exe 0x441038        COMPUTERNAME    WIN-ETSA91RKCFP
-1616    cmd.exe 0x3110b8        COMPUTERNAME    WIN-ETSA91RKCFP
+3152    cmd.exe         0x441038        COMPUTERNAME    WIN-ETSA91RKCFP
+1616    cmd.exe         0x3110b8        COMPUTERNAME    WIN-ETSA91RKCFP
 1136    iexplore.exe    0x3c10b8        COMPUTERNAME    WIN-ETSA91RKCFP
 3044    iexplore.exe    0x4510b8        COMPUTERNAME    WIN-ETSA91RKCFP
 3144    winpmem-1.3.1.  0x3c10b8        COMPUTERNAME    WIN-ETSA91RKCFP
