@@ -6,7 +6,7 @@
 - Points: 25
 - Validation: 16399
 - Author: Thanat0s
-- Status: TODO
+- Status: Done
 # Handout
 `Command & Control - level 5: Memory analysis; Berthier, the malware seems to be manually maintened on the workstations. Therefore it’s likely that the hackers have found all of the computers’ passwords. Since ACME’s computer fleet seems to be up to date, it’s probably only due to password weakness. John, the system administrator doesn’t believe you. Prove him wrong! Find john password.`
 https://static.root-me.org/forensic/ch2/ch2.tbz2

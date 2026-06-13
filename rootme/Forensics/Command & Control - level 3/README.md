@@ -6,7 +6,7 @@
 - Points: 30
 - Validation: 12804
 - Author: Thanat0s
-- Status: TODO
+- Status: Done
 # Handout
 `Command & Control - level 3: Memory analysis; Berthier, the antivirus software didn’t find anything. It’s up to you now. Try to find the malware in the memory dump. The validation flag is the md5 checksum of the full path of the executable.`
 https://static.root-me.org/forensic/ch2/ch2.tbz2

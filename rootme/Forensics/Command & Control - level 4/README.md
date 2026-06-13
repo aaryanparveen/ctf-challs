@@ -6,7 +6,7 @@
 - Points: 35
 - Validation: 9623
 - Author: Thanat0s
-- Status: TODO
+- Status: Done
 # Handout
 `Command & Control - level 4: Malware analysis; Berthier, thanks to this new information about the processes running on the workstation, it’s clear that this malware is used to exfiltrate data. Find out the ip of the internal server targeted by the hackers! The validation flag should have this format : IP:PORT`
 https://static.root-me.org/forensic/ch2/ch2.tbz2

@@ -6,7 +6,7 @@
 - Points: 15
 - Validation: 27305
 - Author: Thanat0s
-- Status: TODO
+- Status: Done
 # Handout
 `Command & Control - level 2: Memory analysis; Congratulations Berthier, thanks to your help the computer has been identified. You have requested a memory dump but before starting your analysis you wanted to take a look at the antivirus’ logs. Unfortunately, you forgot to write down the workstation’s hostname. But since you have its memory dump you should be able to get it back! The validation flag is the workstation’s hostname.`
 https://static.root-me.org/forensic/ch2/ch2.tbz2
