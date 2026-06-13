@@ -108,8 +108,11 @@ A symbol table requirement was not fulfilled.  Please verify that:
 ```
 
 Old windows being old windows. Key lines being:
+
 `DEBUG    volatility3.framework.automagic.windows: Found 4 valid pointers`
+
 `DEBUG    volatility3.framework.automagic.windows: DTB 185000 contains less than 12 valid pointers, ignoring`
+
 So volatility  found a valid directory table base for a dump.. but rejected it? Because it found only 4 valid pointers when it has a threshold of 12.
 
 We can confirm i am not being stupid by looking for banners:
