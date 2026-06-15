@@ -1,0 +1,9 @@
+Todo :
+- Upgrade old tools (Keepass, Teamviewer, ...)
+- Find blogs about Teamviewer crypto
+- Compare different remote administration tools to change them !
+- Explanation on DPAPI crypto
+- Sometimes wxHeditor (or an another tool) and file magic numbers can help you ;-)
+- Read "The Holy Bible" : https://downloads.volatilityfoundation.org/releases/2.4/CheatSheet_v2.4.pdf
+- Hardening again & again :-(
+- The flag is sha256(part1+part2+part3+part4+part5)

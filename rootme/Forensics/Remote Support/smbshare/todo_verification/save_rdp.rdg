@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RDCMan programVersion="2.93" schemaVersion="3">
+  <file>
+    <credentialsProfiles />
+    <properties>
+      <expanded>True</expanded>
+      <name>save_rdp</name>
+    </properties>
+    <server>
+      <properties>
+        <name>10.13.13.103</name>
+        <comment>Just for Fun</comment>
+      </properties>
+      <logonCredentials inherit="None">
+        <profileName scope="Local">Custom</profileName>
+        <userName>forensic</userName>
+        <password>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA9fFW4YM7FkexTMDZVoSSRgAAAAACAAAAAAAQZgAAAAEAACAAAACGikb/Wn5Fs9X6Ia6sW9SbJtkAhl1QRXi/vKnrnQ90bAAAAAAOgAAAAAIAACAAAACMjvY1CihQ7oiw4Lbf0RjBlEdBD/ulPrlAGiEUGycjD0AAAAA70WN+m2kMOcdoZ2/aPHLS9D4VvbDC8U56BE2CtZWGnbbRc0VnYElm1zKQxJ4FYCRshGarVdOgLX3TDKKE1eV2QAAAAO02VD2Nx7El4EE1qKBklgFuLCESc9bhp6I6r7BVfvX8AwcOoMvy3Gzf6rdgpCSE1dcJmNSvFNGhiA3WoAmpcEI=</password>
+        <domain>ROOTME</domain>
+      </logonCredentials>
+    </server>
+  </file>
+  <connected />
+  <favorites />
+  <recentlyUsed />
+</RDCMan>

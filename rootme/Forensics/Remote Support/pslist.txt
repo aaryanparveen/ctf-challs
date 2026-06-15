@@ -1,0 +1,48 @@
+Volatility 3 Framework 2.28.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	File output
+
+4	0	System	0xe00074666680	102	-	N/A	False	2023-07-28 06:38:23.000000 UTC	N/A	Disabled
+264	4	smss.exe	0xe000759e8040	2	-	N/A	False	2023-07-28 06:38:23.000000 UTC	N/A	Disabled
+340	332	csrss.exe	0xe00076bb1080	8	-	0	False	2023-07-28 06:38:23.000000 UTC	N/A	Disabled
+412	332	wininit.exe	0xe00076dfc080	1	-	0	False	2023-07-28 06:38:23.000000 UTC	N/A	Disabled
+420	404	csrss.exe	0xe00077044080	10	-	1	False	2023-07-28 06:38:23.000000 UTC	N/A	Disabled
+472	404	winlogon.exe	0xe0007708c080	2	-	1	False	2023-07-28 06:38:23.000000 UTC	N/A	Disabled
+496	412	services.exe	0xe000770dd080	5	-	0	False	2023-07-28 06:38:23.000000 UTC	N/A	Disabled
+504	412	lsass.exe	0xe000770f2340	5	-	0	False	2023-07-28 06:38:23.000000 UTC	N/A	Disabled
+600	496	svchost.exe	0xe000771c17c0	16	-	0	False	2023-07-28 06:38:23.000000 UTC	N/A	Disabled
+632	496	svchost.exe	0xe000772267c0	10	-	0	False	2023-07-28 06:38:23.000000 UTC	N/A	Disabled
+724	472	dwm.exe	0xe000772b0080	10	-	1	False	2023-07-28 06:38:24.000000 UTC	N/A	Disabled
+824	496	svchost.exe	0xe000772e77c0	23	-	0	False	2023-07-28 06:38:24.000000 UTC	N/A	Disabled
+884	496	svchost.exe	0xe000746af080	11	-	0	False	2023-07-28 06:38:24.000000 UTC	N/A	Disabled
+916	496	svchost.exe	0xe000746c6080	13	-	0	False	2023-07-28 06:38:24.000000 UTC	N/A	Disabled
+924	496	VBoxService.ex	0xe000746c1080	11	-	0	False	2023-07-28 06:38:24.000000 UTC	N/A	Disabled
+996	496	svchost.exe	0xe0007468b240	18	-	0	False	2023-07-28 06:38:24.000000 UTC	N/A	Disabled
+1016	496	svchost.exe	0xe0007468f080	45	-	0	False	2023-07-28 06:38:24.000000 UTC	N/A	Disabled
+96	496	svchost.exe	0xe00074690080	19	-	0	False	2023-07-28 06:38:24.000000 UTC	N/A	Disabled
+344	496	svchost.exe	0xe000772e47c0	17	-	0	False	2023-07-28 06:38:24.000000 UTC	N/A	Disabled
+1068	496	spoolsv.exe	0xe000773777c0	9	-	0	False	2023-07-28 06:38:24.000000 UTC	N/A	Disabled
+1476	496	svchost.exe	0xe000775fd080	4	-	0	False	2023-07-28 06:38:25.000000 UTC	N/A	Disabled
+1540	496	svchost.exe	0xe0007763d7c0	11	-	0	False	2023-07-28 06:38:25.000000 UTC	N/A	Disabled
+1580	496	svchost.exe	0xe00076e274c0	5	-	0	False	2023-07-28 06:38:25.000000 UTC	N/A	Disabled
+1588	496	MsMpEng.exe	0xe00077675080	20	-	0	False	2023-07-28 06:38:25.000000 UTC	N/A	Disabled
+1612	496	TeamViewer_Ser	0xe00077686080	14	-	0	True	2023-07-28 06:38:25.000000 UTC	N/A	Disabled
+1668	496	NisSrv.exe	0xe000778557c0	7	-	0	False	2023-07-28 06:38:27.000000 UTC	N/A	Disabled
+2256	1016	sihost.exe	0xe00077b5d7c0	8	-	1	False	2023-07-28 06:38:29.000000 UTC	N/A	Disabled
+2308	1016	taskhostw.exe	0xe000758987c0	9	-	1	False	2023-07-28 06:38:29.000000 UTC	N/A	Disabled
+2452	1612	TeamViewer.exe	0xe00077c8c580	6	-	1	True	2023-07-28 06:38:30.000000 UTC	N/A	Disabled
+2480	600	RuntimeBroker.	0xe00077ca1080	13	-	1	False	2023-07-28 06:38:31.000000 UTC	N/A	Disabled
+2516	472	userinit.exe	0xe00077ccd7c0	0	-	1	False	2023-07-28 06:38:31.000000 UTC	2023-07-28 06:39:01.000000 UTC	Disabled
+2548	2516	explorer.exe	0xe00077cdc7c0	40	-	1	False	2023-07-28 06:38:32.000000 UTC	N/A	Disabled
+2648	1612	tv_w32.exe	0xe00076cd47c0	1	-	1	True	2023-07-28 06:38:34.000000 UTC	N/A	Disabled
+2656	1612	tv_x64.exe	0xe00076c6c7c0	1	-	1	False	2023-07-28 06:38:34.000000 UTC	N/A	Disabled
+2796	496	SearchIndexer.	0xe00077d167c0	15	-	0	False	2023-07-28 06:38:38.000000 UTC	N/A	Disabled
+3056	600	ShellExperienc	0xe00077dbd7c0	30	-	1	False	2023-07-28 06:38:38.000000 UTC	N/A	Disabled
+2500	600	SearchUI.exe	0xe00077fc17c0	34	-	1	False	2023-07-28 06:38:39.000000 UTC	N/A	Disabled
+3764	2548	VBoxTray.exe	0xe00078178080	11	-	1	False	2023-07-28 06:38:52.000000 UTC	N/A	Disabled
+3936	2548	StikyNot.exe	0xe000780cd080	6	-	1	False	2023-07-28 06:38:53.000000 UTC	N/A	Disabled
+3580	496	svchost.exe	0xe000749657c0	1	-	1	False	2023-07-28 06:40:36.000000 UTC	N/A	Disabled
+744	600	SkypeHost.exe	0xe00077dc4080	24	-	1	True	2023-07-28 06:48:42.000000 UTC	N/A	Disabled
+1784	1016	taskhostw.exe	0xe00074a9d7c0	3	-	1	False	2023-07-28 07:04:33.000000 UTC	N/A	Disabled
+220	2548	mstsc.exe	0xe00074c43200	20	-	1	False	2023-07-28 07:09:02.000000 UTC	N/A	Disabled
+2460	2548	KeePass.exe	0xe00074a5f080	8	-	1	False	2023-07-28 07:20:16.000000 UTC	N/A	Disabled

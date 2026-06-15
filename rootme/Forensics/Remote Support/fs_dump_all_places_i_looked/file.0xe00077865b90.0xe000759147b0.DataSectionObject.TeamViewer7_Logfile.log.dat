@@ -1,0 +1,986 @@
+2023/07/28 08:33:19.473  3080  2164  0!! CheckCustomLogo(): ReadEntireFile() failed, Errorcode=1008
+2023/07/28 08:33:19.580  3080  2164  0   UpdateOnlineState newOnlineValue 1
+2023/07/28 08:33:19.601  3080  2164  0   Imported installer settings: Temp\SecurityPasswordW
+2023/07/28 08:33:19.601  3080  2164  0   Generating new RSA private/public key pair
+2023/07/28 08:33:19.616  3080  2164  0   QueryVPNRegKey: Subkey 'SYSTEM\CurrentControlSet\Control\Class\{4D36E972-E325-11CE-BFC1-08002BE10318}\Configuration' (5) has no 'MatchingDeviceID' entry. Continuing...
+2023/07/28 08:33:19.616  3080  2164  0   QueryVPNRegKey: Subkey 'SYSTEM\CurrentControlSet\Control\Class\{4D36E972-E325-11CE-BFC1-08002BE10318}\Properties' (6) has no 'MatchingDeviceID' entry. Continuing...
+2023/07/28 08:33:19.616  3080  2164 S0   DesiredServices: waiting for service rpcss
+2023/07/28 08:33:19.616  3080  2164 S0   DesiredServices: waiting for service winmgmt
+                    
+                    
+                    
+Start:              2023/07/28 08:33:19.868
+Version:            7.0.43148 H
+ID:                 0
+License:            0
+Server:             master3.teamviewer.com
+IC:                 345367517
+OS:                 Win_6.2.9200_W (64-bit)
+IP:                 10.0.2.15
+MID:                0x08002795a434_1d112dc31bae0f4_116666679
+MIDv:               0
+Proxy-Settings:     Type=1 IP= User=
+IE:                 9.11.10586.0
+AppPath:            C:\Program Files (x86)\TeamViewer\Version7\TeamViewer_Service.exe
+UserAccount:        Système
+
+2023/07/28 08:33:19.904  3080  2164 S0   Using IPC-Port 5939
+2023/07/28 08:33:19.904  3080  2164 S0   Force Autostart GUI for session ID 1
+2023/07/28 08:33:19.922  3080  2164 S0   CTerminalServer::getPathToApplicationExe(): Choosing standard filename.
+2023/07/28 08:33:19.922  3080  2164 S0   CTerminalServer::StartGUIProcess() Filename for GUI process is C:\Program Files (x86)\TeamViewer\Version7\TeamViewer.exe
+2023/07/28 08:33:19.941  3080  2164 S0   CTerminalServer::StartGUIProcess() GUI process 3780 started for user rootme\forensic in session 1
+2023/07/28 08:33:19.941  3080  2164 S0   CTerminalServer::StartGUIProcess() Event 5 sent to GUI.
+2023/07/28 08:33:19.941  3080  2164 S0   UpdateOnlineState newOnlineValue 1
+2023/07/28 08:33:19.941  3080  2164 S0   TeamViewer is going online!
+2023/07/28 08:33:20.139  3080  3268 S0   NetWatchdog: Internet is now connected
+2023/07/28 08:33:20.139  3080  2164 S0   API: The API is not registered with Windows.
+2023/07/28 08:33:20.157  3080  3684 S0   KeepAliveThread started
+2023/07/28 08:33:20.157  3080  3736 S0   CInterProcessNetwork::SetDyngateIDforSession() id=0 session=1 ptype=2
+2023/07/28 08:33:20.157  3080  3736 S0   UpdateOnlineState newOnlineValue 1
+2023/07/28 08:33:20.084  3780  3656 G1!! CheckCustomLogo(): ReadEntireFile() failed
+2023/07/28 08:33:20.121  3780  3656 G1   Monitors: Generic Non-PnP Monitor, \\.\DISPLAY1, 1920x983, flags=3
+2023/07/28 08:33:20.157  3780  3656 G1   Opening local TCP connection to 127.0.0.1:5939
+2023/07/28 08:33:20.157  3780  3656 G1   Local TCP connection established
+2023/07/28 08:33:20.157  3780  3656 G1   Received Control_InitIPC_Response processtype=1
+2023/07/28 08:33:20.157  3780  3656 G1   Received Control_InitIPC_Response runningProcesses=3
+2023/07/28 08:33:20.157  3780  3656 G1   Control_InitIPC_Response: all processes 3 completely initialized
+2023/07/28 08:33:20.192  3780  3656 G1   MachineHooks: Initialized Shm
+2023/07/28 08:33:20.192  3780  3656 G1   MachineHooks: refcount = 1
+2023/07/28 08:33:20.192  3780  3656 G1   MachineHooks: x64 Machine detected
+2023/07/28 08:33:20.192  3780  3656 G1   MachineHooks: w32 Loader is starting
+2023/07/28 08:33:20.192  3780  3656 G1   MachineHooks: x64 Loader is starting
+2023/07/28 08:33:20.192  3080  3736 S0   CToken::GetSystemToken() set session 1
+2023/07/28 08:33:20.192  3080  3736 S0   InterProcessNetwork: Loader process started, pid = 3872
+2023/07/28 08:33:20.192  3080  3736 S0   CToken::GetSystemToken() set session 1
+2023/07/28 08:33:20.192  3080  3736 S0   InterProcessNetwork: Loader process started, pid = 776
+2023/07/28 08:33:20.228  3780  4084 G1   ProxySearch: no PAC script detected via WPAD
+2023/07/28 08:33:20.228  3780  4084 G1   ProxySearch: no PAC script detected via WPAD
+2023/07/28 08:33:20.264  3080  3684 S0   CT2 CT.Send.CMD_PING From=0 To=0 L=4
+2023/07/28 08:33:20.318  3080  3684 S0   CT2 Activating support for ccmdV2
+2023/07/28 08:33:20.318  3080  3684 S0   CT2 CT.Receive.CMD_PINGOK From=0 To=0 L=4
+2023/07/28 08:33:20.318   776  3568 L64  Starting Loader
+2023/07/28 08:33:20.318  3872  3620 L32  Starting Loader
+2023/07/28 08:33:20.192  3780  3656 H32  Loader: SharedMem Connected (seg = 0x41e0000, refcnt = 1)
+2023/07/28 08:33:20.192  3780  3656 H32  teamviewer.exe: SharedMem Connected (seg = 0x41e0000, refcnt = 2)
+2023/07/28 08:33:20.373  3780  3656 G1   Tray created!
+2023/07/28 08:33:20.373  3780  3656 G1   CMainWindow::ShouldShowDynamicPassword(): dynPw=0 allowIncoming=1 id=0 ka=0 lanAllowed=0 lanOnly=0 networkState=1
+2023/07/28 08:33:20.373  3780  3656 G1   CMainWindow::ShouldShowDynamicPassword(): dynPw=0 allowIncoming=1 id=0 ka=0 lanAllowed=0 lanOnly=0 networkState=1
+2023/07/28 08:33:20.373  3780  3656 G1!! SetForegroundWindowForce: AttachThreadInput(TRUE) failed: 5, Errorcode=5
+2023/07/28 08:33:20.373  3780  3656 G1!! SetForegroundWindowForce: AttachThreadInput(FALSE) failed: 5, Errorcode=5
+2023/07/28 08:33:20.373  3780  3656 G1   P_FORCE_WINSTATE_ONCE = WinState_Maximized
+2023/07/28 08:33:20.408  3780  3296 G1   CTVUpdate::StartVersionFileDownloadWithCallback(): Start download of version file...
+2023/07/28 08:33:20.408  3780  3204 G1   ChangeThreadDesktop(): SetThreadDesktop to default successful
+2023/07/28 08:33:20.444  3780  3656 G1   PredefinedSessionPassword (reset) ForceId(1) CurrentId(1) ConsoleId(1)
+2023/07/28 08:33:20.444  3780  3656 G1   API: The API is not registered with Windows.
+2023/07/28 08:33:20.479  3080  3684 S0   NetWatchdog: Ping successful!
+2023/07/28 08:33:20.552  3080  3684 S0   CT3 CT.Send.CMD_MASTERCOMMAND From=0 To=0 L=403
+2023/07/28 08:33:20.588  3080  3684 S0   CT3 Activating support for ccmdV2
+2023/07/28 08:33:20.588  3080  3684 S0   CT3 CT.Receive.CMD_MASTERRESPONSE From=0 To=0 L=9
+2023/07/28 08:33:20.588  3080  3684 S0   CT3 CT.Disconnect
+2023/07/28 08:33:20.588  3080  3684 S0!  MC.Reg f=Reg&ic=345367517&id=0&iguid={925df185-67fe-4212-85bc-a938f209964a}&logging=1&mac=0x08002795a434_1d112dc31bae0f4_116666679&mid=0x08002795a434_1d112dc31bae0f4_116666679&midf=1&midhistory=0x08002795a434_1d112dc31bae0f4_116666679|u2fcb8a98c31e4a93a5bf21df8075012d08002795a434c28cb9d244297dda27dbef8549ea0f8d&midv=0&os=Win_6.2.9200_W&rhash={8cce4a00-5ca3-45d4-3a1e-26aeb8c74eff}&smidv=1&sro=0&v=7.0.43148 H - 0#BLOCKED
+2023/07/28 08:33:20.588  3080  3684 S0   Generating new RSA private/public key pair
+2023/07/28 08:33:20.679  3080  3684 S0   CInterProcessNetwork::SetDyngateIDforSession() id=4294967295 session=1 ptype=2
+2023/07/28 08:33:20.679  3780  3656 G1   CMainWindow::ShouldShowDynamicPassword(): dynPw=0 allowIncoming=1 id=-1 ka=0 lanAllowed=0 lanOnly=0 networkState=1
+2023/07/28 08:33:20.679  3780  3656 G1   CMainWindow::ShouldShowDynamicPassword(): dynPw=0 allowIncoming=1 id=-1 ka=0 lanAllowed=0 lanOnly=0 networkState=1
+2023/07/28 08:33:20.803  3080  3684 S0   CT4 CT.Send.CMD_MASTERCOMMAND From=4294967295 To=0 L=265
+2023/07/28 08:33:20.858  3080  3684 S0   CT4 Activating support for ccmdV2
+2023/07/28 08:33:20.858  3080  3684 S0   CT4 CT.Receive.CMD_MASTERRESPONSE From=0 To=4294967295 L=9
+2023/07/28 08:33:20.858  3080  3684 S0   CT4 CT.Disconnect
+2023/07/28 08:33:20.858  3080  3684 S0   Non-Commercial use
+2023/07/28 08:33:20.858  3080  3684 S0   Resource-Language:fr
+2023/07/28 08:33:21.037  3080  3684 S0   CT5 CT.Send.CMD_MASTERCOMMAND From=4294967295 To=0 L=588
+2023/07/28 08:33:21.091  3080  3684 S0   CT5 Activating support for ccmdV2
+2023/07/28 08:33:21.091  3080  3684 S0   CT5 CT.Receive.CMD_MASTERRESPONSE From=0 To=4294967295 L=15
+2023/07/28 08:33:21.091  3080  3684 S0   CT5 CT.Disconnect
+2023/07/28 08:33:21.091  3080  3684 S0   MC.L addonchannels=0&ckaportsenabled=0&client=TVH&f=Login&gw=1&gwlevel=431&hideonlinestatus=0&httpout=1&ic=345367517&id=-1&iguid={925df185-67fe-4212-85bc-a938f209964a}&keepalive=1&language=fr&licensetype=0&logging=1&mid=0x08002795a434_1d112dc31bae0f4_116666679&midf=1&midhistory=0x08002795a434_1d112dc31bae0f4_116666679|u2fcb8a98c31e4a93a5bf21df8075012d08002795a434c28cb9d244297dda27dbef8549ea0f8d&midv=0&noofactivekeepalive=0&os=Win_6.2.9200_W&port443out=0&rhash={8cce4a00-5ca3-45d4-3a1e-26aeb8c74eff}&runtime=1&smidv=1&sro=0&supportedfeatures=244701&tcpout=1&usageenvironment=2&v=7.0.43148 H - 0#VERSIONTOOOLD
+2023/07/28 08:33:21.720  3080  3684 S0   CT6 CT.Send.CMD_MASTERCOMMAND From=4294967295 To=0 L=265
+2023/07/28 08:33:21.883  3080  3684 S0   CT6 Activating support for ccmdV2
+2023/07/28 08:33:21.883  3080  3684 S0   CT6 CT.Receive.CMD_MASTERRESPONSE From=0 To=4294967295 L=9
+2023/07/28 08:33:21.883  3080  3684 S0   CT6 CT.Disconnect
+2023/07/28 08:33:21.883  3080  3684 S0   Non-Commercial use
+2023/07/28 08:33:21.883  3080  3684 S0   Resource-Language:fr
+2023/07/28 08:33:21.918  3080  3684 S0   CT7 CT.Send.CMD_MASTERCOMMAND From=4294967295 To=0 L=569
+2023/07/28 08:33:21.972  3080  3684 S0   CT7 Activating support for ccmdV2
+2023/07/28 08:33:21.972  3080  3684 S0   CT7 CT.Receive.CMD_MASTERRESPONSE From=0 To=4294967295 L=15
+2023/07/28 08:33:21.972  3080  3684 S0   CT7 CT.Disconnect
+2023/07/28 08:33:21.972  3080  3684 S0   MC.L addonchannels=0&ckaportsenabled=0&client=TVH&f=Login&gw=1&gwlevel=431&hideonlinestatus=0&httpout=1&ic=345367517&id=-1&iguid={925df185-67fe-4212-85bc-a938f209964a}&keepalive=1&language=fr&licensetype=0&logging=1&mid=0x08002795a434_1d112dc31bae0f4_116666679&midf=1&midhistory=0x08002795a434_1d112dc31bae0f4_116666679|u2fcb8a98c31e4a93a5bf21df8075012d08002795a434c28cb9d244297dda27dbef8549ea0f8d&midv=0&noofactivekeepalive=0&os=Win_6.2.9200_W&port443out=0&rhash={8cce4a00-5ca3-45d4-3a1e-26aeb8c74eff}&runtime=1&smidv=1&sro=0&supportedfeatures=244701&tcpout=1&v=7.0.43148 H - 0#VERSIONTOOOLD
+2023/07/28 08:33:22.619  3080  3340 S0   EnumComputers.0
+2023/07/28 08:33:28.930  3780  3656 G1   Monitors: Generic Non-PnP Monitor, \\.\DISPLAY1, 1920x983, flags=3
+2023/07/28 08:33:28.995  3780  3656 G1   Monitors: Generic Non-PnP Monitor, \\.\DISPLAY1, 1920x983, flags=3
+2023/07/28 08:33:33.138  3080  3684 S0   CT8 CT.Send.CMD_MASTERCOMMAND From=4294967295 To=0 L=265
+2023/07/28 08:33:33.186  3080  3684 S0   CT8 Activating support for ccmdV2
+2023/07/28 08:33:33.186  3080  3684 S0   CT8 CT.Receive.CMD_MASTERRESPONSE From=0 To=4294967295 L=9
+2023/07/28 08:33:33.186  3080  3684 S0   CT8 CT.Disconnect
+2023/07/28 08:33:33.186  3080  3684 S0   Non-Commercial use
+2023/07/28 08:33:33.186  3080  3684 S0   Resource-Language:fr
+2023/07/28 08:33:33.235  3080  3684 S0   CT9 CT.Send.CMD_MASTERCOMMAND From=4294967295 To=0 L=570
+2023/07/28 08:33:33.267  3080  3684 S0   CT9 Activating support for ccmdV2
+2023/07/28 08:33:33.267  3080  3684 S0   CT9 CT.Receive.CMD_MASTERRESPONSE From=0 To=4294967295 L=15
+2023/07/28 08:33:33.267  3080  3684 S0   CT9 CT.Disconnect
+2023/07/28 08:33:33.267  3080  3684 S0   MC.L addonchannels=0&ckaportsenabled=0&client=TVH&f=Login&gw=1&gwlevel=431&hideonlinestatus=0&httpout=1&ic=345367517&id=-1&iguid={925df185-67fe-4212-85bc-a938f209964a}&keepalive=1&language=fr&licensetype=0&logging=1&mid=0x08002795a434_1d112dc31bae0f4_116666679&midf=1&midhistory=0x08002795a434_1d112dc31bae0f4_116666679|u2fcb8a98c31e4a93a5bf21df8075012d08002795a434c28cb9d244297dda27dbef8549ea0f8d&midv=0&noofactivekeepalive=0&os=Win_6.2.9200_W&port443out=0&rhash={8cce4a00-5ca3-45d4-3a1e-26aeb8c74eff}&runtime=12&smidv=1&sro=0&supportedfeatures=244701&tcpout=1&v=7.0.43148 H - 0#VERSIONTOOOLD
+2023/07/28 08:33:33.817  3080  3684 S0   CT10 CT.Send.CMD_MASTERCOMMAND From=4294967295 To=0 L=265
+2023/07/28 08:33:33.866  3080  3684 S0   CT10 Activating support for ccmdV2
+2023/07/28 08:33:33.866  3080  3684 S0   CT10 CT.Receive.CMD_MASTERRESPONSE From=0 To=4294967295 L=9
+2023/07/28 08:33:33.866  3080  3684 S0   CT10 CT.Disconnect
+2023/07/28 08:33:33.866  3080  3684 S0   Non-Commercial use
+2023/07/28 08:33:33.866  3080  3684 S0   Resource-Language:fr
+2023/07/28 08:33:33.914  3080  3684 S0   CT11 CT.Send.CMD_MASTERCOMMAND From=4294967295 To=0 L=570
+2023/07/28 08:33:33.947  3080  3684 S0   CT11 Activating support for ccmdV2
+2023/07/28 08:33:33.947  3080  3684 S0   CT11 CT.Receive.CMD_MASTERRESPONSE From=0 To=4294967295 L=15
+2023/07/28 08:33:33.947  3080  3684 S0   CT11 CT.Disconnect
+2023/07/28 08:33:33.947  3080  3684 S0   MC.L addonchannels=0&ckaportsenabled=0&client=TVH&f=Login&gw=1&gwlevel=431&hideonlinestatus=0&httpout=1&ic=345367517&id=-1&iguid={925df185-67fe-4212-85bc-a938f209964a}&keepalive=1&language=fr&licensetype=0&logging=1&mid=0x08002795a434_1d112dc31bae0f4_116666679&midf=1&midhistory=0x08002795a434_1d112dc31bae0f4_116666679|u2fcb8a98c31e4a93a5bf21df8075012d08002795a434c28cb9d244297dda27dbef8549ea0f8d&midv=0&noofactivekeepalive=0&os=Win_6.2.9200_W&port443out=0&rhash={8cce4a00-5ca3-45d4-3a1e-26aeb8c74eff}&runtime=12&smidv=1&sro=0&supportedfeatures=244701&tcpout=1&v=7.0.43148 H - 0#VERSIONTOOOLD
+2023/07/28 08:33:43.009  3080  3684 S0   CT12 CT.Send.CMD_MASTERCOMMAND From=4294967295 To=0 L=265
+2023/07/28 08:33:43.054  3080  3684 S0   CT12 Activating support for ccmdV2
+2023/07/28 08:33:43.054  3080  3684 S0   CT12 CT.Receive.CMD_MASTERRESPONSE From=0 To=4294967295 L=9
+2023/07/28 08:33:43.054  3080  3684 S0   CT12 CT.Disconnect
+2023/07/28 08:33:43.054  3080  3684 S0   Non-Commercial use
+2023/07/28 08:33:43.054  3080  3684 S0   Resource-Language:fr
+2023/07/28 08:33:43.082  3080  3684 S0   CT13 CT.Send.CMD_MASTERCOMMAND From=4294967295 To=0 L=570
+2023/07/28 08:33:43.126  3080  3684 S0   CT13 Activating support for ccmdV2
+2023/07/28 08:33:43.126  3080  3684 S0   CT13 CT.Receive.CMD_MASTERRESPONSE From=0 To=4294967295 L=15
+2023/07/28 08:33:43.126  3080  3684 S0   CT13 CT.Disconnect
+2023/07/28 08:33:43.126  3080  3684 S0   MC.L addonchannels=0&ckaportsenabled=0&client=TVH&f=Login&gw=1&gwlevel=431&hideonlinestatus=0&httpout=1&ic=345367517&id=-1&iguid={925df185-67fe-4212-85bc-a938f209964a}&keepalive=1&language=fr&licensetype=0&logging=1&mid=0x08002795a434_1d112dc31bae0f4_116666679&midf=1&midhistory=0x08002795a434_1d112dc31bae0f4_116666679|u2fcb8a98c31e4a93a5bf21df8075012d08002795a434c28cb9d244297dda27dbef8549ea0f8d&midv=0&noofactivekeepalive=0&os=Win_6.2.9200_W&port443out=0&rhash={8cce4a00-5ca3-45d4-3a1e-26aeb8c74eff}&runtime=22&smidv=1&sro=0&supportedfeatures=244701&tcpout=1&v=7.0.43148 H - 0#VERSIONTOOOLD
+2023/07/28 08:33:43.636  3080  3684 S0   CT14 CT.Send.CMD_MASTERCOMMAND From=4294967295 To=0 L=265
+2023/07/28 08:33:43.694  3080  3684 S0   CT14 Activating support for ccmdV2
+2023/07/28 08:33:43.694  3080  3684 S0   CT14 CT.Receive.CMD_MASTERRESPONSE From=0 To=4294967295 L=9
+2023/07/28 08:33:43.694  3080  3684 S0   CT14 CT.Disconnect
+2023/07/28 08:33:43.694  3080  3684 S0   Non-Commercial use
+2023/07/28 08:33:43.694  3080  3684 S0   Resource-Language:fr
+2023/07/28 08:33:43.737  3080  3684 S0   CT15 CT.Send.CMD_MASTERCOMMAND From=4294967295 To=0 L=570
+2023/07/28 08:33:43.767  3080  3684 S0   CT15 Activating support for ccmdV2
+2023/07/28 08:33:43.767  3080  3684 S0   CT15 CT.Receive.CMD_MASTERRESPONSE From=0 To=4294967295 L=15
+2023/07/28 08:33:43.767  3080  3684 S0   CT15 CT.Disconnect
+2023/07/28 08:33:43.767  3080  3684 S0   MC.L addonchannels=0&ckaportsenabled=0&client=TVH&f=Login&gw=1&gwlevel=431&hideonlinestatus=0&httpout=1&ic=345367517&id=-1&iguid={925df185-67fe-4212-85bc-a938f209964a}&keepalive=1&language=fr&licensetype=0&logging=1&mid=0x08002795a434_1d112dc31bae0f4_116666679&midf=1&midhistory=0x08002795a434_1d112dc31bae0f4_116666679|u2fcb8a98c31e4a93a5bf21df8075012d08002795a434c28cb9d244297dda27dbef8549ea0f8d&midv=0&noofactivekeepalive=0&os=Win_6.2.9200_W&port443out=0&rhash={8cce4a00-5ca3-45d4-3a1e-26aeb8c74eff}&runtime=22&smidv=1&sro=0&supportedfeatures=244701&tcpout=1&v=7.0.43148 H - 0#VERSIONTOOOLD
+2023/07/28 08:33:52.785  3080  3684 S0   CT16 CT.Send.CMD_MASTERCOMMAND From=4294967295 To=0 L=265
+2023/07/28 08:33:52.810  3080  3684 S0   CT16 Activating support for ccmdV2
+2023/07/28 08:33:52.810  3080  3684 S0   CT16 CT.Receive.CMD_MASTERRESPONSE From=0 To=4294967295 L=9
+2023/07/28 08:33:52.810  3080  3684 S0   CT16 CT.Disconnect
+2023/07/28 08:33:52.810  3080  3684 S0   Non-Commercial use
+2023/07/28 08:33:52.810  3080  3684 S0   Resource-Language:fr
+2023/07/28 08:33:53.112  3080  3684 S0   CT17 CT.Send.CMD_MASTERCOMMAND From=4294967295 To=0 L=570
+2023/07/28 08:33:53.151  3080  3684 S0   CT17 Activating support for ccmdV2
+2023/07/28 08:33:53.151  3080  3684 S0   CT17 CT.Receive.CMD_MASTERRESPONSE From=0 To=4294967295 L=15
+2023/07/28 08:33:53.151  3080  3684 S0   CT17 CT.Disconnect
+2023/07/28 08:33:53.151  3080  3684 S0   MC.L addonchannels=0&ckaportsenabled=0&client=TVH&f=Login&gw=1&gwlevel=431&hideonlinestatus=0&httpout=1&ic=345367517&id=-1&iguid={925df185-67fe-4212-85bc-a938f209964a}&keepalive=1&language=fr&licensetype=0&logging=1&mid=0x08002795a434_1d112dc31bae0f4_116666679&midf=1&midhistory=0x08002795a434_1d112dc31bae0f4_116666679|u2fcb8a98c31e4a93a5bf21df8075012d08002795a434c28cb9d244297dda27dbef8549ea0f8d&midv=0&noofactivekeepalive=0&os=Win_6.2.9200_W&port443out=0&rhash={8cce4a00-5ca3-45d4-3a1e-26aeb8c74eff}&runtime=33&smidv=1&sro=0&supportedfeatures=244701&tcpout=1&v=7.0.43148 H - 0#VERSIONTOOOLD
+2023/07/28 08:33:53.597  3080  3684 S0   CT18 CT.Send.CMD_MASTERCOMMAND From=4294967295 To=0 L=265
+2023/07/28 08:33:53.637  3080  3684 S0   CT18 Activating support for ccmdV2
+2023/07/28 08:33:53.637  3080  3684 S0   CT18 CT.Receive.CMD_MASTERRESPONSE From=0 To=4294967295 L=9
+2023/07/28 08:33:53.637  3080  3684 S0   CT18 CT.Disconnect
+2023/07/28 08:33:53.637  3080  3684 S0   Non-Commercial use
+2023/07/28 08:33:53.637  3080  3684 S0   Resource-Language:fr
+2023/07/28 08:33:53.742  3080  3684 S0   CT19 CT.Send.CMD_MASTERCOMMAND From=4294967295 To=0 L=570
+2023/07/28 08:33:53.781  3080  3684 S0   CT19 Activating support for ccmdV2
+2023/07/28 08:33:53.781  3080  3684 S0   CT19 CT.Receive.CMD_MASTERRESPONSE From=0 To=4294967295 L=15
+2023/07/28 08:33:53.781  3080  3684 S0   CT19 CT.Disconnect
+2023/07/28 08:33:53.781  3080  3684 S0   MC.L addonchannels=0&ckaportsenabled=0&client=TVH&f=Login&gw=1&gwlevel=431&hideonlinestatus=0&httpout=1&ic=345367517&id=-1&iguid={925df185-67fe-4212-85bc-a938f209964a}&keepalive=1&language=fr&licensetype=0&logging=1&mid=0x08002795a434_1d112dc31bae0f4_116666679&midf=1&midhistory=0x08002795a434_1d112dc31bae0f4_116666679|u2fcb8a98c31e4a93a5bf21df8075012d08002795a434c28cb9d244297dda27dbef8549ea0f8d&midv=0&noofactivekeepalive=0&os=Win_6.2.9200_W&port443out=0&rhash={8cce4a00-5ca3-45d4-3a1e-26aeb8c74eff}&runtime=34&smidv=1&sro=0&supportedfeatures=244701&tcpout=1&v=7.0.43148 H - 0#VERSIONTOOOLD
+2023/07/28 08:34:01.365  3080  3684 S0   CT20 CT.Send.CMD_MASTERCOMMAND From=4294967295 To=0 L=265
+2023/07/28 08:34:01.388  3080  3684 S0   CT20 Activating support for ccmdV2
+2023/07/28 08:34:01.388  3080  3684 S0   CT20 CT.Receive.CMD_MASTERRESPONSE From=0 To=4294967295 L=9
+2023/07/28 08:34:01.388  3080  3684 S0   CT20 CT.Disconnect
+2023/07/28 08:34:01.388  3080  3684 S0   Non-Commercial use
+2023/07/28 08:34:01.388  3080  3684 S0   Resource-Language:fr
+2023/07/28 08:34:01.423  3080  3684 S0   CT21 CT.Send.CMD_MASTERCOMMAND From=4294967295 To=0 L=570
+2023/07/28 08:34:01.447  3080  3684 S0   CT21 Activating support for ccmdV2
+2023/07/28 08:34:01.447  3080  3684 S0   CT21 CT.Receive.CMD_MASTERRESPONSE From=0 To=4294967295 L=15
+2023/07/28 08:34:01.447  3080  3684 S0   CT21 CT.Disconnect
+2023/07/28 08:34:01.447  3080  3684 S0   MC.L addonchannels=0&ckaportsenabled=0&client=TVH&f=Login&gw=1&gwlevel=431&hideonlinestatus=0&httpout=1&ic=345367517&id=-1&iguid={925df185-67fe-4212-85bc-a938f209964a}&keepalive=1&language=fr&licensetype=0&logging=1&mid=0x08002795a434_1d112dc31bae0f4_116666679&midf=1&midhistory=0x08002795a434_1d112dc31bae0f4_116666679|u2fcb8a98c31e4a93a5bf21df8075012d08002795a434c28cb9d244297dda27dbef8549ea0f8d&midv=0&noofactivekeepalive=0&os=Win_6.2.9200_W&port443out=0&rhash={8cce4a00-5ca3-45d4-3a1e-26aeb8c74eff}&runtime=44&smidv=1&sro=0&supportedfeatures=244701&tcpout=1&v=7.0.43148 H - 0#VERSIONTOOOLD
+2023/07/28 08:34:01.860  3080  3684 S0   CT22 CT.Send.CMD_MASTERCOMMAND From=4294967295 To=0 L=265
+2023/07/28 08:34:01.895  3080  3684 S0   CT22 Activating support for ccmdV2
+2023/07/28 08:34:01.895  3080  3684 S0   CT22 CT.Receive.CMD_MASTERRESPONSE From=0 To=4294967295 L=9
+2023/07/28 08:34:01.895  3080  3684 S0   CT22 CT.Disconnect
+2023/07/28 08:34:01.895  3080  3684 S0   Non-Commercial use
+2023/07/28 08:34:01.895  3080  3684 S0   Resource-Language:fr
+2023/07/28 08:34:01.931  3080  3684 S0   CT23 CT.Send.CMD_MASTERCOMMAND From=4294967295 To=0 L=570
+2023/07/28 08:34:01.955  3080  3684 S0   CT23 Activating support for ccmdV2
+2023/07/28 08:34:01.955  3080  3684 S0   CT23 CT.Receive.CMD_MASTERRESPONSE From=0 To=4294967295 L=15
+2023/07/28 08:34:01.955  3080  3684 S0   CT23 CT.Disconnect
+2023/07/28 08:34:01.955  3080  3684 S0   MC.L addonchannels=0&ckaportsenabled=0&client=TVH&f=Login&gw=1&gwlevel=431&hideonlinestatus=0&httpout=1&ic=345367517&id=-1&iguid={925df185-67fe-4212-85bc-a938f209964a}&keepalive=1&language=fr&licensetype=0&logging=1&mid=0x08002795a434_1d112dc31bae0f4_116666679&midf=1&midhistory=0x08002795a434_1d112dc31bae0f4_116666679|u2fcb8a98c31e4a93a5bf21df8075012d08002795a434c28cb9d244297dda27dbef8549ea0f8d&midv=0&noofactivekeepalive=0&os=Win_6.2.9200_W&port443out=0&rhash={8cce4a00-5ca3-45d4-3a1e-26aeb8c74eff}&runtime=44&smidv=1&sro=0&supportedfeatures=244701&tcpout=1&v=7.0.43148 H - 0#VERSIONTOOOLD
+2023/07/28 08:34:09.426  3080  3684 S0   CT24 CT.Send.CMD_MASTERCOMMAND From=4294967295 To=0 L=265
+2023/07/28 08:34:09.453  3080  3684 S0   CT24 Activating support for ccmdV2
+2023/07/28 08:34:09.453  3080  3684 S0   CT24 CT.Receive.CMD_MASTERRESPONSE From=0 To=4294967295 L=9
+2023/07/28 08:34:09.453  3080  3684 S0   CT24 CT.Disconnect
+2023/07/28 08:34:09.453  3080  3684 S0   Non-Commercial use
+2023/07/28 08:34:09.453  3080  3684 S0   Resource-Language:fr
+2023/07/28 08:34:09.491  3080  3684 S0   CT25 CT.Send.CMD_MASTERCOMMAND From=4294967295 To=0 L=570
+2023/07/28 08:34:09.531  3080  3684 S0   CT25 Activating support for ccmdV2
+2023/07/28 08:34:09.531  3080  3684 S0   CT25 CT.Receive.CMD_MASTERRESPONSE From=0 To=4294967295 L=15
+2023/07/28 08:34:09.531  3080  3684 S0   CT25 CT.Disconnect
+2023/07/28 08:34:09.531  3080  3684 S0   MC.L addonchannels=0&ckaportsenabled=0&client=TVH&f=Login&gw=1&gwlevel=431&hideonlinestatus=0&httpout=1&ic=345367517&id=-1&iguid={925df185-67fe-4212-85bc-a938f209964a}&keepalive=1&language=fr&licensetype=0&logging=1&mid=0x08002795a434_1d112dc31bae0f4_116666679&midf=1&midhistory=0x08002795a434_1d112dc31bae0f4_116666679|u2fcb8a98c31e4a93a5bf21df8075012d08002795a434c28cb9d244297dda27dbef8549ea0f8d&midv=0&noofactivekeepalive=0&os=Win_6.2.9200_W&port443out=0&rhash={8cce4a00-5ca3-45d4-3a1e-26aeb8c74eff}&runtime=54&smidv=1&sro=0&supportedfeatures=244701&tcpout=1&v=7.0.43148 H - 0#VERSIONTOOOLD
+2023/07/28 08:34:09.985  3080  3684 S0   CT26 CT.Send.CMD_MASTERCOMMAND From=4294967295 To=0 L=265
+2023/07/28 08:34:10.023  3080  3684 S0   CT26 Activating support for ccmdV2
+2023/07/28 08:34:10.023  3080  3684 S0   CT26 CT.Receive.CMD_MASTERRESPONSE From=0 To=4294967295 L=9
+2023/07/28 08:34:10.023  3080  3684 S0   CT26 CT.Disconnect
+2023/07/28 08:34:10.023  3080  3684 S0   Non-Commercial use
+2023/07/28 08:34:10.023  3080  3684 S0   Resource-Language:fr
+2023/07/28 08:34:10.049  3080  3684 S0   CT27 CT.Send.CMD_MASTERCOMMAND From=4294967295 To=0 L=570
+2023/07/28 08:34:10.088  3080  3684 S0   CT27 Activating support for ccmdV2
+2023/07/28 08:34:10.088  3080  3684 S0   CT27 CT.Receive.CMD_MASTERRESPONSE From=0 To=4294967295 L=15
+2023/07/28 08:34:10.088  3080  3684 S0   CT27 CT.Disconnect
+2023/07/28 08:34:10.088  3080  3684 S0   MC.L addonchannels=0&ckaportsenabled=0&client=TVH&f=Login&gw=1&gwlevel=431&hideonlinestatus=0&httpout=1&ic=345367517&id=-1&iguid={925df185-67fe-4212-85bc-a938f209964a}&keepalive=1&language=fr&licensetype=0&logging=1&mid=0x08002795a434_1d112dc31bae0f4_116666679&midf=1&midhistory=0x08002795a434_1d112dc31bae0f4_116666679|u2fcb8a98c31e4a93a5bf21df8075012d08002795a434c28cb9d244297dda27dbef8549ea0f8d&midv=0&noofactivekeepalive=0&os=Win_6.2.9200_W&port443out=0&rhash={8cce4a00-5ca3-45d4-3a1e-26aeb8c74eff}&runtime=54&smidv=1&sro=0&supportedfeatures=244701&tcpout=1&v=7.0.43148 H - 0#VERSIONTOOOLD
+2023/07/28 08:34:18.223  3080  3684 S0   CT28 CT.Send.CMD_MASTERCOMMAND From=4294967295 To=0 L=265
+2023/07/28 08:34:18.266  3080  3684 S0   CT28 Activating support for ccmdV2
+2023/07/28 08:34:18.266  3080  3684 S0   CT28 CT.Receive.CMD_MASTERRESPONSE From=0 To=4294967295 L=9
+2023/07/28 08:34:18.266  3080  3684 S0   CT28 CT.Disconnect
+2023/07/28 08:34:18.266  3080  3684 S0   Non-Commercial use
+2023/07/28 08:34:18.266  3080  3684 S0   Resource-Language:fr
+2023/07/28 08:34:18.295  3080  3684 S0   CT29 CT.Send.CMD_MASTERCOMMAND From=4294967295 To=0 L=570
+2023/07/28 08:34:18.337  3080  3684 S0   CT29 Activating support for ccmdV2
+2023/07/28 08:34:18.337  3080  3684 S0   CT29 CT.Receive.CMD_MASTERRESPONSE From=0 To=4294967295 L=15
+2023/07/28 08:34:18.337  3080  3684 S0   CT29 CT.Disconnect
+2023/07/28 08:34:18.337  3080  3684 S0   MC.L addonchannels=0&ckaportsenabled=0&client=TVH&f=Login&gw=1&gwlevel=431&hideonlinestatus=0&httpout=1&ic=345367517&id=-1&iguid={925df185-67fe-4212-85bc-a938f209964a}&keepalive=1&language=fr&licensetype=0&logging=1&mid=0x08002795a434_1d112dc31bae0f4_116666679&midf=1&midhistory=0x08002795a434_1d112dc31bae0f4_116666679|u2fcb8a98c31e4a93a5bf21df8075012d08002795a434c28cb9d244297dda27dbef8549ea0f8d&midv=0&noofactivekeepalive=0&os=Win_6.2.9200_W&port443out=0&rhash={8cce4a00-5ca3-45d4-3a1e-26aeb8c74eff}&runtime=64&smidv=1&sro=0&supportedfeatures=244701&tcpout=1&v=7.0.43148 H - 0#VERSIONTOOOLD
+2023/07/28 08:34:18.823  3080  3684 S0   CT30 CT.Send.CMD_MASTERCOMMAND From=4294967295 To=0 L=265
+2023/07/28 08:34:18.865  3080  3684 S0   CT30 Activating support for ccmdV2
+2023/07/28 08:34:18.865  3080  3684 S0   CT30 CT.Receive.CMD_MASTERRESPONSE From=0 To=4294967295 L=9
+2023/07/28 08:34:18.865  3080  3684 S0   CT30 CT.Disconnect
+2023/07/28 08:34:18.865  3080  3684 S0   Non-Commercial use
+2023/07/28 08:34:18.865  3080  3684 S0   Resource-Language:fr
+2023/07/28 08:34:18.894  3080  3684 S0   CT31 CT.Send.CMD_MASTERCOMMAND From=4294967295 To=0 L=570
+2023/07/28 08:34:18.937  3080  3684 S0   CT31 Activating support for ccmdV2
+2023/07/28 08:34:18.937  3080  3684 S0   CT31 CT.Receive.CMD_MASTERRESPONSE From=0 To=4294967295 L=15
+2023/07/28 08:34:18.937  3080  3684 S0   CT31 CT.Disconnect
+2023/07/28 08:34:18.937  3080  3684 S0   MC.L addonchannels=0&ckaportsenabled=0&client=TVH&f=Login&gw=1&gwlevel=431&hideonlinestatus=0&httpout=1&ic=345367517&id=-1&iguid={925df185-67fe-4212-85bc-a938f209964a}&keepalive=1&language=fr&licensetype=0&logging=1&mid=0x08002795a434_1d112dc31bae0f4_116666679&midf=1&midhistory=0x08002795a434_1d112dc31bae0f4_116666679|u2fcb8a98c31e4a93a5bf21df8075012d08002795a434c28cb9d244297dda27dbef8549ea0f8d&midv=0&noofactivekeepalive=0&os=Win_6.2.9200_W&port443out=0&rhash={8cce4a00-5ca3-45d4-3a1e-26aeb8c74eff}&runtime=64&smidv=1&sro=0&supportedfeatures=244701&tcpout=1&v=7.0.43148 H - 0#VERSIONTOOOLD
+2023/07/28 08:35:21.141  3080  3684 S0   CT32 CT.Send.CMD_MASTERCOMMAND From=4294967295 To=0 L=265
+2023/07/28 08:35:21.173  3080  3684 S0   CT32 Activating support for ccmdV2
+2023/07/28 08:35:21.173  3080  3684 S0   CT32 CT.Receive.CMD_MASTERRESPONSE From=0 To=4294967295 L=9
+2023/07/28 08:35:21.173  3080  3684 S0   CT32 CT.Disconnect
+2023/07/28 08:35:21.173  3080  3684 S0   Non-Commercial use
+2023/07/28 08:35:21.173  3080  3684 S0   Resource-Language:fr
+2023/07/28 08:35:21.219  3080  3684 S0   CT33 CT.Send.CMD_MASTERCOMMAND From=4294967295 To=0 L=571
+2023/07/28 08:35:21.266  3080  3684 S0   CT33 Activating support for ccmdV2
+2023/07/28 08:35:21.266  3080  3684 S0   CT33 CT.Receive.CMD_MASTERRESPONSE From=0 To=4294967295 L=15
+2023/07/28 08:35:21.266  3080  3684 S0   CT33 CT.Disconnect
+2023/07/28 08:35:21.266  3080  3684 S0   MC.L addonchannels=0&ckaportsenabled=0&client=TVH&f=Login&gw=1&gwlevel=431&hideonlinestatus=0&httpout=1&ic=345367517&id=-1&iguid={925df185-67fe-4212-85bc-a938f209964a}&keepalive=1&language=fr&licensetype=0&logging=1&mid=0x08002795a434_1d112dc31bae0f4_116666679&midf=1&midhistory=0x08002795a434_1d112dc31bae0f4_116666679|u2fcb8a98c31e4a93a5bf21df8075012d08002795a434c28cb9d244297dda27dbef8549ea0f8d&midv=0&noofactivekeepalive=0&os=Win_6.2.9200_W&port443out=0&rhash={8cce4a00-5ca3-45d4-3a1e-26aeb8c74eff}&runtime=124&smidv=1&sro=0&supportedfeatures=244701&tcpout=1&v=7.0.43148 H - 0#VERSIONTOOOLD
+2023/07/28 08:35:21.814  3080  3684 S0   CT34 CT.Send.CMD_MASTERCOMMAND From=4294967295 To=0 L=265
+2023/07/28 08:35:21.860  3080  3684 S0   CT34 Activating support for ccmdV2
+2023/07/28 08:35:21.860  3080  3684 S0   CT34 CT.Receive.CMD_MASTERRESPONSE From=0 To=4294967295 L=9
+2023/07/28 08:35:21.860  3080  3684 S0   CT34 CT.Disconnect
+2023/07/28 08:35:21.860  3080  3684 S0   Non-Commercial use
+2023/07/28 08:35:21.860  3080  3684 S0   Resource-Language:fr
+2023/07/28 08:35:21.891  3080  3684 S0   CT35 CT.Send.CMD_MASTERCOMMAND From=4294967295 To=0 L=571
+2023/07/28 08:35:21.938  3080  3684 S0   CT35 Activating support for ccmdV2
+2023/07/28 08:35:21.938  3080  3684 S0   CT35 CT.Receive.CMD_MASTERRESPONSE From=0 To=4294967295 L=15
+2023/07/28 08:35:21.938  3080  3684 S0   CT35 CT.Disconnect
+2023/07/28 08:35:21.938  3080  3684 S0   MC.L addonchannels=0&ckaportsenabled=0&client=TVH&f=Login&gw=1&gwlevel=431&hideonlinestatus=0&httpout=1&ic=345367517&id=-1&iguid={925df185-67fe-4212-85bc-a938f209964a}&keepalive=1&language=fr&licensetype=0&logging=1&mid=0x08002795a434_1d112dc31bae0f4_116666679&midf=1&midhistory=0x08002795a434_1d112dc31bae0f4_116666679|u2fcb8a98c31e4a93a5bf21df8075012d08002795a434c28cb9d244297dda27dbef8549ea0f8d&midv=0&noofactivekeepalive=0&os=Win_6.2.9200_W&port443out=0&rhash={8cce4a00-5ca3-45d4-3a1e-26aeb8c74eff}&runtime=124&smidv=1&sro=0&supportedfeatures=244701&tcpout=1&v=7.0.43148 H - 0#VERSIONTOOOLD
+2023/07/28 08:36:21.500  3080  3684 S0   CT36 CT.Send.CMD_MASTERCOMMAND From=4294967295 To=0 L=265
+2023/07/28 08:36:21.548  3080  3684 S0   CT36 Activating support for ccmdV2
+2023/07/28 08:36:21.548  3080  3684 S0   CT36 CT.Receive.CMD_MASTERRESPONSE From=0 To=4294967295 L=9
+2023/07/28 08:36:21.548  3080  3684 S0   CT36 CT.Disconnect
+2023/07/28 08:36:21.548  3080  3684 S0   Non-Commercial use
+2023/07/28 08:36:21.548  3080  3684 S0   Resource-Language:fr
+2023/07/28 08:36:21.594  3080  3684 S0   CT37 CT.Send.CMD_MASTERCOMMAND From=4294967295 To=0 L=571
+2023/07/28 08:36:21.641  3080  3684 S0   CT37 Activating support for ccmdV2
+2023/07/28 08:36:21.641  3080  3684 S0   CT37 CT.Receive.CMD_MASTERRESPONSE From=0 To=4294967295 L=15
+2023/07/28 08:36:21.641  3080  3684 S0   CT37 CT.Disconnect
+2023/07/28 08:36:21.641  3080  3684 S0   MC.L addonchannels=0&ckaportsenabled=0&client=TVH&f=Login&gw=1&gwlevel=431&hideonlinestatus=0&httpout=1&ic=345367517&id=-1&iguid={925df185-67fe-4212-85bc-a938f209964a}&keepalive=1&language=fr&licensetype=0&logging=1&mid=0x08002795a434_1d112dc31bae0f4_116666679&midf=1&midhistory=0x08002795a434_1d112dc31bae0f4_116666679|u2fcb8a98c31e4a93a5bf21df8075012d08002795a434c28cb9d244297dda27dbef8549ea0f8d&midv=0&noofactivekeepalive=0&os=Win_6.2.9200_W&port443out=0&rhash={8cce4a00-5ca3-45d4-3a1e-26aeb8c74eff}&runtime=184&smidv=1&sro=0&supportedfeatures=244701&tcpout=1&v=7.0.43148 H - 0#VERSIONTOOOLD
+2023/07/28 08:36:22.173  3080  3684 S0   CT38 CT.Send.CMD_MASTERCOMMAND From=4294967295 To=0 L=265
+2023/07/28 08:36:22.219  3080  3684 S0   CT38 Activating support for ccmdV2
+2023/07/28 08:36:22.219  3080  3684 S0   CT38 CT.Receive.CMD_MASTERRESPONSE From=0 To=4294967295 L=9
+2023/07/28 08:36:22.219  3080  3684 S0   CT38 CT.Disconnect
+2023/07/28 08:36:22.219  3080  3684 S0   Non-Commercial use
+2023/07/28 08:36:22.219  3080  3684 S0   Resource-Language:fr
+2023/07/28 08:36:22.266  3080  3684 S0   CT39 CT.Send.CMD_MASTERCOMMAND From=4294967295 To=0 L=571
+2023/07/28 08:36:22.298  3080  3684 S0   CT39 Activating support for ccmdV2
+2023/07/28 08:36:22.298  3080  3684 S0   CT39 CT.Receive.CMD_MASTERRESPONSE From=0 To=4294967295 L=15
+2023/07/28 08:36:22.298  3080  3684 S0   CT39 CT.Disconnect
+2023/07/28 08:36:22.298  3080  3684 S0   MC.L addonchannels=0&ckaportsenabled=0&client=TVH&f=Login&gw=1&gwlevel=431&hideonlinestatus=0&httpout=1&ic=345367517&id=-1&iguid={925df185-67fe-4212-85bc-a938f209964a}&keepalive=1&language=fr&licensetype=0&logging=1&mid=0x08002795a434_1d112dc31bae0f4_116666679&midf=1&midhistory=0x08002795a434_1d112dc31bae0f4_116666679|u2fcb8a98c31e4a93a5bf21df8075012d08002795a434c28cb9d244297dda27dbef8549ea0f8d&midv=0&noofactivekeepalive=0&os=Win_6.2.9200_W&port443out=0&rhash={8cce4a00-5ca3-45d4-3a1e-26aeb8c74eff}&runtime=185&smidv=1&sro=0&supportedfeatures=244701&tcpout=1&v=7.0.43148 H - 0#VERSIONTOOOLD
+2023/07/28 08:37:22.188  3080  3684 S0   CT40 CT.Send.CMD_MASTERCOMMAND From=4294967295 To=0 L=265
+2023/07/28 08:37:22.235  3080  3684 S0   CT40 Activating support for ccmdV2
+2023/07/28 08:37:22.235  3080  3684 S0   CT40 CT.Receive.CMD_MASTERRESPONSE From=0 To=4294967295 L=9
+2023/07/28 08:37:22.235  3080  3684 S0   CT40 CT.Disconnect
+2023/07/28 08:37:22.235  3080  3684 S0   Non-Commercial use
+2023/07/28 08:37:22.235  3080  3684 S0   Resource-Language:fr
+2023/07/28 08:37:22.282  3080  3684 S0   CT41 CT.Send.CMD_MASTERCOMMAND From=4294967295 To=0 L=571
+2023/07/28 08:37:22.313  3080  3684 S0   CT41 Activating support for ccmdV2
+2023/07/28 08:37:22.313  3080  3684 S0   CT41 CT.Receive.CMD_MASTERRESPONSE From=0 To=4294967295 L=15
+2023/07/28 08:37:22.313  3080  3684 S0   CT41 CT.Disconnect
+2023/07/28 08:37:22.313  3080  3684 S0   MC.L addonchannels=0&ckaportsenabled=0&client=TVH&f=Login&gw=1&gwlevel=431&hideonlinestatus=0&httpout=1&ic=345367517&id=-1&iguid={925df185-67fe-4212-85bc-a938f209964a}&keepalive=1&language=fr&licensetype=0&logging=1&mid=0x08002795a434_1d112dc31bae0f4_116666679&midf=1&midhistory=0x08002795a434_1d112dc31bae0f4_116666679|u2fcb8a98c31e4a93a5bf21df8075012d08002795a434c28cb9d244297dda27dbef8549ea0f8d&midv=0&noofactivekeepalive=0&os=Win_6.2.9200_W&port443out=0&rhash={8cce4a00-5ca3-45d4-3a1e-26aeb8c74eff}&runtime=245&smidv=1&sro=0&supportedfeatures=244701&tcpout=1&v=7.0.43148 H - 0#VERSIONTOOOLD
+2023/07/28 08:37:22.844  3080  3684 S0   CT42 CT.Send.CMD_MASTERCOMMAND From=4294967295 To=0 L=265
+2023/07/28 08:37:22.891  3080  3684 S0   CT42 Activating support for ccmdV2
+2023/07/28 08:37:22.891  3080  3684 S0   CT42 CT.Receive.CMD_MASTERRESPONSE From=0 To=4294967295 L=9
+2023/07/28 08:37:22.891  3080  3684 S0   CT42 CT.Disconnect
+2023/07/28 08:37:22.891  3080  3684 S0   Non-Commercial use
+2023/07/28 08:37:22.891  3080  3684 S0   Resource-Language:fr
+2023/07/28 08:37:22.938  3080  3684 S0   CT43 CT.Send.CMD_MASTERCOMMAND From=4294967295 To=0 L=571
+2023/07/28 08:37:22.969  3080  3684 S0   CT43 Activating support for ccmdV2
+2023/07/28 08:37:22.969  3080  3684 S0   CT43 CT.Receive.CMD_MASTERRESPONSE From=0 To=4294967295 L=15
+2023/07/28 08:37:22.969  3080  3684 S0   CT43 CT.Disconnect
+2023/07/28 08:37:22.969  3080  3684 S0   MC.L addonchannels=0&ckaportsenabled=0&client=TVH&f=Login&gw=1&gwlevel=431&hideonlinestatus=0&httpout=1&ic=345367517&id=-1&iguid={925df185-67fe-4212-85bc-a938f209964a}&keepalive=1&language=fr&licensetype=0&logging=1&mid=0x08002795a434_1d112dc31bae0f4_116666679&midf=1&midhistory=0x08002795a434_1d112dc31bae0f4_116666679|u2fcb8a98c31e4a93a5bf21df8075012d08002795a434c28cb9d244297dda27dbef8549ea0f8d&midv=0&noofactivekeepalive=0&os=Win_6.2.9200_W&port443out=0&rhash={8cce4a00-5ca3-45d4-3a1e-26aeb8c74eff}&runtime=245&smidv=1&sro=0&supportedfeatures=244701&tcpout=1&v=7.0.43148 H - 0#VERSIONTOOOLD
+2023/07/28 08:37:45.065  3780  3656 G1   CMainWindow::OnEndSession: System shutdown
+2023/07/28 08:37:45.065  3780  3656 G1   Closing TeamViewer
+2023/07/28 08:37:45.078  3780  3656 G1   CMainWindow::OnEndSession: ShutdownIPC
+2023/07/28 08:37:45.078  3080  3736 S0   CInterProcessNetwork: Received DisconnectIPC from processID 3780 (ProcessType: 2 in Session 1) with reason 3
+2023/07/28 08:37:45.078  3080  3736 S0   Process 3780 in session 1 has terminated
+2023/07/28 08:37:45.078  3780  3296 G1   CTcpProcessConnector::HandleRead(): Socket gracefully closed (PID=3080)
+2023/07/28 08:37:45.078  3780  3296 G1!  CInterProcess::EventFunction(): IPC-Connection Closed
+2023/07/28 08:37:45.078  3080  3736 S0   CTcpProcessConnector::HandleRead(): Socket gracefully closed (PID=3780)
+2023/07/28 08:37:45.078  3080  3736 S0   CInterProcessNetwork::NewInterProcessDataAvailable(): ConnectionClosed session=1 ptype=2
+2023/07/28 08:37:45.078  3080  3736 S0   UpdateOnlineState newOnlineValue 1
+2023/07/28 08:37:50.266  3080  3088 S0   SERVICE_CONTROL_SESSIONCHANGE session=1, statusCode=WTS_SESSION_LOGOFF
+2023/07/28 08:37:50.579  3080  3088 S0   SERVICE_CONTROL_STOP/SERVICE_CONTROL_SHUTDOWN
+2023/07/28 08:37:50.579  3080  2164 S0   TeamViewer is going offline!
+2023/07/28 08:37:50.579  3080  2164 S0   Offline() StopListening.WT
+2023/07/28 08:37:50.954  3080  3684 S0   KeepAliveThread ended
+2023/07/28 08:37:51.469  3080  2164 S0   MainApp.Shutdown.GWS.Disconnect n=0
+2023/07/28 08:37:51.469  3080  2164 S0   Offline() CT.Terminate
+2023/07/28 08:37:51.469  3080  2164 S0   Offline() Shutdown.WT
+2023/07/28 08:37:51.469  3080  2164 S0   Service ended
+2023/07/28 08:38:26.220  1612  1820  0!! CheckCustomLogo(): ReadEntireFile() failed
+2023/07/28 08:38:26.288  1612  1820  0   UpdateOnlineState newOnlineValue 1
+2023/07/28 08:38:26.306  1612  1820  0   QueryVPNRegKey: Subkey 'SYSTEM\CurrentControlSet\Control\Class\{4D36E972-E325-11CE-BFC1-08002BE10318}\Configuration' (6) has no 'MatchingDeviceID' entry. Continuing...
+2023/07/28 08:38:26.306  1612  1820  0   QueryVPNRegKey: Subkey 'SYSTEM\CurrentControlSet\Control\Class\{4D36E972-E325-11CE-BFC1-08002BE10318}\Properties' (7) has no 'MatchingDeviceID' entry. Continuing...
+2023/07/28 08:38:26.306  1612  1820 S0   DesiredServices: waiting for service rpcss
+2023/07/28 08:38:26.323  1612  1820 S0   DesiredServices: waiting for service winmgmt
+                    
+                    
+                    
+Start:              2023/07/28 08:38:27.440
+Version:            7.0.43148 H
+ID:                 4294967295
+License:            0
+Server:             master16.teamviewer.com
+IC:                 345367517
+OS:                 Win_6.2.9200_W (64-bit)
+IP:                 127.0.0.1
+MID:                0x08002795958e_1d112dc31bae0f4_116666679
+MIDv:               0
+Proxy-Settings:     Type=1 IP= User=
+IE:                 9.11.10586.0
+AppPath:            C:\Program Files (x86)\TeamViewer\Version7\TeamViewer_Service.exe
+UserAccount:        Système
+
+2023/07/28 08:38:27.526  1612  1820 S0   Using IPC-Port 5939
+2023/07/28 08:38:27.543  1612  1820 S0   UpdateOnlineState newOnlineValue 1
+2023/07/28 08:38:27.543  1612  1820 S0   TeamViewer is going online!
+2023/07/28 08:38:27.715  1612  2080 S0   NetWatchdog: Completely disconnected. Going offline.
+2023/07/28 08:38:27.715  1612  2080 S0   NetWatchdog: LAN is now disconnected
+2023/07/28 08:38:27.715  1612  1820 S0   API: The API is not registered with Windows.
+2023/07/28 08:38:27.715  1612  2100 S0   KeepAliveThread started
+2023/07/28 08:38:27.715  1612  2100 S0!! S1 NC.ConnTcp.Resolve.Failed, last WSA error = 11001, Errorcode=11001
+2023/07/28 08:38:28.024  1612  2072 S0   EnumComputers.0
+2023/07/28 08:38:28.059  1612  2100 S0!! S2 NC.ConnectPort443: CURL RuntimeError Could not resolve host: ping3.teamviewer.com
+2023/07/28 08:38:28.059  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:38:29.211  1612  2080 S0   NetWatchdog: Completely disconnected. Going offline.
+2023/07/28 08:38:29.245  1612  1616 S0   SERVICE_CONTROL_SESSIONCHANGE session=1, statusCode=WTS_SESSION_LOGON
+2023/07/28 08:38:30.379  1612  1616 S0   CTerminalServer::getPathToApplicationExe(): Choosing standard filename.
+2023/07/28 08:38:30.379  1612  1616 S0   CTerminalServer::StartGUIProcess() Filename for GUI process is C:\Program Files (x86)\TeamViewer\Version7\TeamViewer.exe
+2023/07/28 08:38:30.672  1612  2100 S0!! S3 NC.HttpQueryInfo(20) size failed with error 12150, Errorcode=12150
+2023/07/28 08:38:30.672  1612  2100 S0!! S3 NC.ReadHttp: Could not establish a connection: 0 , Errorcode=12150
+2023/07/28 08:38:30.723  1612  2100 S0!! S3 NC.ReadHttp.Failed1.12007
+2023/07/28 08:38:30.723  1612  2100 S0!  S3 NC.ReadHttp.Retry
+2023/07/28 08:38:30.723  1612  2100 S0!! S3 NC.HttpQueryInfo(20) size failed with error 12150, Errorcode=12150
+2023/07/28 08:38:30.723  1612  2100 S0!! S3 NC.ReadHttp: Could not establish a connection: 0 , Errorcode=12150
+2023/07/28 08:38:30.723  1612  2100 S0!! S3 NC.ReadHttp.Failed1.12007
+2023/07/28 08:38:30.723  1612  2100 S0!! S3 NC.CHttp.Conn.Failed
+2023/07/28 08:38:30.723  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:38:30.774  1612  1616 S0   CTerminalServer::StartGUIProcess() GUI process 2452 started for user rootme\forensic in session 1
+2023/07/28 08:38:30.774  1612  1616 S0   CTerminalServer::StartGUIProcess() Event 5 sent to GUI.
+2023/07/28 08:38:30.774  1612  1616 S0   CTerminalServer::SendStatusInfo() Event 5 sent to GUI.
+2023/07/28 08:38:30.843  1612  2100 S0   Non-Commercial use
+2023/07/28 08:38:30.860  1612  2100 S0   Resource-Language:fr
+2023/07/28 08:38:31.019  1612  2100 S0!! S4 NC.HttpQueryInfo(20) size failed with error 12150, Errorcode=12150
+2023/07/28 08:38:31.019  1612  2100 S0!! S4 NC.ReadHttp: Could not establish a connection: 0 , Errorcode=12150
+2023/07/28 08:38:31.019  1612  2100 S0!! S4 NC.ReadHttp.Failed1.12007
+2023/07/28 08:38:31.019  1612  2100 S0!  S4 NC.ReadHttp.Retry
+2023/07/28 08:38:31.084  1612  2100 S0!! S4 NC.HttpQueryInfo(20) size failed with error 12150, Errorcode=12150
+2023/07/28 08:38:31.084  1612  2100 S0!! S4 NC.ReadHttp: Could not establish a connection: 0 , Errorcode=12150
+2023/07/28 08:38:31.084  1612  2100 S0!! S4 NC.ReadHttp.Failed1.12007
+2023/07/28 08:38:31.084  1612  2100 S0!! S4 NC.CHttp.Conn.Failed
+2023/07/28 08:38:31.084  1612  2100 S0!! CT5 CT.ConnectFailed: -1
+2023/07/28 08:38:31.084  1612  2100 S0   CT5 CT.Disconnect
+2023/07/28 08:38:31.084  1612  2100 S0!! LookUpDNS failed for master16.teamviewer.com, last WSA error = 11001, Errorcode=11001
+2023/07/28 08:38:31.084  1612  2100 S0!!!Connect to Master master16.teamviewer.com /  failed!, Errorcode=11001
+2023/07/28 08:38:31.084  1612  2100 S0!! MC.Connect.Failed, Errorcode=11001
+2023/07/28 08:38:31.084  1612  2100 S0!! MC.L addonchannels=0&ckaportsenabled=0&client=TVH&f=Login&gw=1&gwlevel=431&hideonlinestatus=0&httpout=1&iguid={925df185-67fe-4212-85bc-a938f209964a}&keepalive=1&language=fr&licensetype=0&midf=1&midhistory=0x08002795958e_1d112dc31bae0f4_116666679|u2fcb8a98c31e4a93a5bf21df8075012d08002795958ec28cb9d244297dda27dbef8549ea0f8d&noofactivekeepalive=0&os=Win_6.2.9200_W&port443out=0&rhash={104728f5-dc56-8800-c4fa-e9daea07ad30}&runtime=3&smidv=1&sro=0&supportedfeatures=244701&tcpout=0&v=7.0.43148 H - 10, Errorcode=11001
+2023/07/28 08:38:34.126  1612  2064 S0   CTerminalServer::SendStatusInfo() Event 5 sent to GUI.
+2023/07/28 08:38:34.126  1612  2064 S0   CInterProcessNetwork::SetDyngateIDforSession() id=4294967295 session=1 ptype=2
+2023/07/28 08:38:34.126  1612  2064 S0   UpdateOnlineState newOnlineValue 1
+2023/07/28 08:38:33.232  2452  2456 G1!! CheckCustomLogo(): ReadEntireFile() failed
+2023/07/28 08:38:33.593  2452  2456 G1   Monitors: Generic Non-PnP Monitor, \\.\DISPLAY1, 1920x983, flags=3
+2023/07/28 08:38:33.972  2452  2456 G1   Opening local TCP connection to 127.0.0.1:5939
+2023/07/28 08:38:34.074  2452  2456 G1   Local TCP connection established
+2023/07/28 08:38:34.126  2452  2456 G1   Received Control_InitIPC_Response processtype=1
+2023/07/28 08:38:34.126  2452  2456 G1   Received Control_InitIPC_Response runningProcesses=3
+2023/07/28 08:38:34.126  2452  2456 G1   Control_InitIPC_Response: all processes 3 completely initialized
+2023/07/28 08:38:34.573  2452  2456 G1   MachineHooks: Initialized Shm
+2023/07/28 08:38:34.573  2452  2456 G1   MachineHooks: refcount = 1
+2023/07/28 08:38:34.573  2452  2456 G1   MachineHooks: x64 Machine detected
+2023/07/28 08:38:34.573  2452  2456 G1   MachineHooks: w32 Loader is starting
+2023/07/28 08:38:34.573  2452  2456 G1   MachineHooks: x64 Loader is starting
+2023/07/28 08:38:34.573  1612  2064 S0   CToken::GetSystemToken() set session 1
+2023/07/28 08:38:34.573  1612  2064 S0   InterProcessNetwork: Loader process started, pid = 2648
+2023/07/28 08:38:34.573  1612  2064 S0   CToken::GetSystemToken() set session 1
+2023/07/28 08:38:34.573  1612  2064 S0   InterProcessNetwork: Loader process started, pid = 2656
+2023/07/28 08:38:34.917  2648  2652 L32  Starting Loader
+2023/07/28 08:38:34.917  2656  2660 L64  Starting Loader
+2023/07/28 08:38:34.573  2452  2456 H32  Loader: SharedMem Connected (seg = 0x1a00000, refcnt = 1)
+2023/07/28 08:38:34.573  2452  2456 H32  teamviewer.exe: SharedMem Connected (seg = 0x1a00000, refcnt = 2)
+2023/07/28 08:38:35.243  2452  2628 G1   ProxySearch: no PAC script detected via WPAD
+2023/07/28 08:38:35.243  2452  2628 G1   ProxySearch: no PAC script detected via WPAD
+2023/07/28 08:38:35.262  2452  2456 G1!! SetForegroundWindowForce: AttachThreadInput(TRUE) failed: 87, Errorcode=87
+2023/07/28 08:38:35.262  2452  2456 G1!! SetForegroundWindowForce: AttachThreadInput(FALSE) failed: 87, Errorcode=87
+2023/07/28 08:38:35.262  2452  2456 G1   Tray created!
+2023/07/28 08:38:35.262  2452  2456 G1!  Can't create/delete tray icon.
+2023/07/28 08:38:35.262  2452  2456 G1   CMainWindow::ShouldShowDynamicPassword(): dynPw=0 allowIncoming=1 id=-1 ka=0 lanAllowed=0 lanOnly=0 networkState=0
+2023/07/28 08:38:35.262  2452  2456 G1   CMainWindow::ShouldShowDynamicPassword(): dynPw=0 allowIncoming=1 id=-1 ka=0 lanAllowed=0 lanOnly=0 networkState=0
+2023/07/28 08:38:35.338  2452  2604 G1!  Can't create/delete tray icon.
+2023/07/28 08:38:35.679  2452  2456 G1   API: The API is not registered with Windows.
+2023/07/28 08:38:36.680  2452  2456 G1   Monitors: Generic Non-PnP Monitor, \\.\DISPLAY1, 1920x983, flags=3
+2023/07/28 08:38:39.119  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:38:39.119  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:38:40.669  2452  2456 G1   Tray created!
+2023/07/28 08:38:48.093  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:38:48.093  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:38:57.094  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:38:57.111  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:39:06.092  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:39:06.092  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:39:15.028  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:39:15.028  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:39:24.083  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:39:24.083  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:39:33.013  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:39:33.013  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:39:42.113  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:39:42.113  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:39:51.036  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:39:51.036  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:40:00.062  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:40:00.062  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:40:09.057  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:40:09.057  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:40:18.028  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:40:18.028  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:40:27.109  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:40:27.109  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:40:32.906  2452  2456 G1   Monitors: Generic Non-PnP Monitor, \\.\DISPLAY1, 1920x983, flags=3
+2023/07/28 08:40:32.926  2452  2456 G1   Monitors: Generic Non-PnP Monitor, \\.\DISPLAY1, 1920x983, flags=3
+2023/07/28 08:40:36.109  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:40:36.109  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:40:45.109  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:40:45.109  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:40:54.098  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:40:54.098  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:41:03.101  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:41:03.101  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:41:12.043  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:41:12.043  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:41:21.065  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:41:21.065  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:41:30.049  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:41:30.049  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:41:39.034  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:41:39.034  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:41:48.077  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:41:48.077  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:41:57.022  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:41:57.022  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:42:06.040  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:42:06.040  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:42:15.106  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:42:15.106  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:42:24.055  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:42:24.055  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:42:33.067  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:42:33.067  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:42:42.042  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:42:42.042  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:42:51.029  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:42:51.029  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:43:00.042  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:43:00.042  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:43:09.038  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:43:09.038  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:43:18.058  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:43:18.058  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:43:27.018  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:43:27.018  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:43:36.070  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:43:36.070  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:43:45.110  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:43:45.110  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:43:54.041  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:43:54.041  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:44:03.071  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:44:03.071  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:44:12.011  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:44:12.011  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:44:21.082  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:44:21.082  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:44:30.020  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:44:30.020  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:44:39.027  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:44:39.027  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:44:48.027  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:44:48.027  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:44:57.049  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:44:57.049  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:45:06.040  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:45:06.040  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:45:15.083  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:45:15.083  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:45:24.033  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:45:24.033  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:45:33.076  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:45:33.076  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:45:42.175  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:45:42.175  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:45:51.034  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:45:51.034  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:46:00.081  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:46:00.081  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:46:09.139  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:46:09.139  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:46:18.167  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:46:18.167  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:46:27.104  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:46:27.104  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:46:36.070  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:46:36.070  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:46:45.017  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:46:45.017  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:46:54.085  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:46:54.085  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:47:03.074  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:47:03.074  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:47:12.065  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:47:12.065  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:47:21.015  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:47:21.015  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:47:30.030  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:47:30.030  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:47:39.029  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:47:39.029  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:47:48.063  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:47:48.063  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:47:57.035  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:47:57.035  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:48:06.033  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:48:06.033  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:48:15.111  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:48:15.111  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:48:24.111  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:48:24.111  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:48:33.116  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:48:33.116  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:48:42.099  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:48:42.099  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:48:51.066  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:48:51.066  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:49:00.097  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:49:00.097  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:49:09.098  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:49:09.098  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:49:18.152  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:49:18.153  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:49:27.070  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:49:27.070  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:49:36.120  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:49:36.120  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:49:45.049  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:49:45.054  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:49:54.114  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:49:54.114  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:50:03.117  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:50:03.117  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:50:12.037  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:50:12.037  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:50:21.024  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:50:21.024  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:50:30.030  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:50:30.030  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:50:39.071  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:50:39.071  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:50:48.033  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:50:48.033  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:50:57.062  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:50:57.062  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:51:06.067  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:51:06.067  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:51:15.043  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:51:15.043  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:51:24.080  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:51:24.080  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:51:33.076  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:51:33.076  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:51:42.107  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:51:42.112  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:51:51.013  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:51:51.013  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:52:00.025  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:52:00.025  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:52:09.043  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:52:09.043  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:52:18.052  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:52:18.052  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:52:27.099  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:52:27.099  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:52:36.099  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:52:36.099  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:52:45.141  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:52:45.148  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:52:54.138  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:52:54.138  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:53:03.034  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:53:03.034  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:53:12.101  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:53:12.101  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:53:21.040  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:53:21.040  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:53:30.082  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:53:30.085  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:53:39.019  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:53:39.019  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:53:48.019  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:53:48.019  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:53:57.069  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:53:57.072  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:54:06.066  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:54:06.066  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:54:15.019  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:54:15.019  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:54:24.024  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:54:24.024  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:54:33.034  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:54:33.034  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:54:42.021  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:54:42.021  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:54:51.103  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:54:51.103  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:55:00.055  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:55:00.055  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:55:09.150  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:55:09.150  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:55:18.123  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:55:18.123  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:55:27.102  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:55:27.108  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:55:36.094  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:55:36.094  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:55:45.094  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:55:45.094  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:55:54.141  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:55:54.141  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:56:03.047  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:56:03.047  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:56:12.151  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:56:12.151  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:56:21.063  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:56:21.063  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:56:30.016  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:56:30.016  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:56:39.085  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:56:39.089  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:56:48.093  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:56:48.093  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:56:57.014  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:56:57.014  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:57:06.055  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:57:06.055  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:57:15.022  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:57:15.022  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:57:24.082  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:57:24.087  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:57:33.110  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:57:33.110  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:57:42.013  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:57:42.013  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:57:51.044  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:57:51.044  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:58:00.060  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:58:00.060  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:58:09.045  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:58:09.045  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:58:18.076  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:58:18.076  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:58:27.091  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:58:27.091  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:58:36.092  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:58:36.092  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:58:45.113  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:58:45.118  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:58:54.044  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:58:54.044  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:59:03.061  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:59:03.061  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:59:12.045  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:59:12.045  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:59:21.044  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:59:21.044  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:59:30.029  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:59:30.029  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:59:39.088  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:59:39.091  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:59:48.107  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:59:48.107  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 08:59:57.029  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 08:59:57.029  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:00:06.130  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:00:06.130  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:00:15.083  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:00:15.083  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:00:24.154  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:00:24.154  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:00:33.076  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:00:33.076  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:00:42.071  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:00:42.071  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:00:51.048  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:00:51.048  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:01:00.110  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:01:00.110  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:01:08.722  1612  2080 S0   NetWatchdog: Completely disconnected. Going offline.
+2023/07/28 09:01:09.039  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:01:09.070  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:02:01.422  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:02:01.422  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:02:04.614  1612  2080 S0   NetWatchdog: Completely disconnected. Going offline.
+2023/07/28 09:02:10.032  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:02:10.032  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:02:19.016  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:02:19.016  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:02:27.375  2452  2456 G1   Monitors: Generic Non-PnP Monitor, \\.\DISPLAY1, 1920x983, flags=3
+2023/07/28 09:02:28.078  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:02:28.078  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:02:37.032  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:02:37.032  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:02:46.036  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:02:46.036  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:02:55.022  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:02:55.024  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:03:04.047  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:03:04.047  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:03:13.063  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:03:13.063  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:03:22.016  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:03:22.016  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:03:31.078  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:03:31.078  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:03:41.056  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:03:41.056  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:03:50.016  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:03:50.016  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:03:59.079  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:03:59.079  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:04:08.078  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:04:08.078  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:04:17.110  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:04:17.110  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:04:26.094  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:04:26.094  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:04:35.094  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:04:35.094  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:04:44.110  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:04:44.110  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:04:53.110  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:04:53.110  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:05:02.016  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:05:02.016  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:05:11.094  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:05:11.094  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:05:20.016  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:05:20.016  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:05:29.094  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:05:29.094  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:05:38.016  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:05:38.016  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:05:47.031  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:05:47.031  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:05:56.020  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:05:56.022  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:06:05.110  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:06:05.110  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:06:14.016  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:06:14.016  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:06:23.063  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:06:23.063  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:06:32.094  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:06:32.094  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:06:41.110  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:06:41.110  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:06:50.068  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:06:50.069  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:06:59.094  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:06:59.094  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:07:08.109  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:07:08.109  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:07:17.063  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:07:17.063  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:07:26.016  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:07:26.016  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:07:35.016  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:07:35.016  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:07:44.047  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:07:44.047  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:07:53.063  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:07:53.063  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:08:02.099  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:08:02.101  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:08:11.032  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:08:11.032  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:08:20.110  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:08:20.110  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:08:29.063  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:08:29.063  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:08:38.047  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:08:38.047  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:08:47.079  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:08:47.079  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:08:56.094  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:08:56.094  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:09:05.110  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:09:05.110  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:09:14.032  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:09:14.032  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:09:23.042  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:09:23.042  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:09:32.065  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:09:32.065  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:09:41.028  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:09:41.028  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:09:50.063  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:09:50.063  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:09:59.035  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:09:59.035  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:10:08.089  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:10:08.089  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:10:17.019  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:10:17.019  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:10:26.042  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:10:26.042  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:10:35.054  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:10:35.054  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:10:44.032  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:10:44.032  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:10:53.079  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:10:53.079  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:11:02.090  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:11:02.090  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:11:11.015  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:11:11.015  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:11:20.099  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:11:20.101  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:11:29.032  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:11:29.032  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:11:38.135  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:11:38.135  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:11:47.037  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:11:47.037  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:11:56.059  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:11:56.059  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:12:05.062  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:12:05.062  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:12:14.055  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:12:14.055  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:12:23.070  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:12:23.070  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:12:32.096  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:12:32.096  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:12:41.035  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:12:41.035  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:12:50.102  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:12:50.102  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:12:59.068  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:12:59.068  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:13:08.059  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:13:08.059  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:13:17.095  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:13:17.104  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:13:26.037  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:13:26.037  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:13:35.049  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:13:35.049  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:13:44.091  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:13:44.091  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:13:53.054  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:13:53.054  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:14:02.012  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:14:02.012  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:14:11.095  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:14:11.095  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:14:20.022  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:14:20.022  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:14:29.027  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:14:29.027  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:14:38.045  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:14:38.045  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:14:47.016  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:14:47.016  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:14:56.025  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:14:56.025  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:15:05.126  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:15:05.126  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:15:14.047  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:15:14.047  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:15:23.136  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:15:23.136  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:15:32.092  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:15:32.092  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:15:41.023  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:15:41.023  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:15:50.123  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:15:50.123  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:15:59.090  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:15:59.090  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:16:08.087  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:16:08.087  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:16:17.019  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:16:17.019  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:16:26.074  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:16:26.074  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:16:35.040  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:16:35.040  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:16:44.090  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:16:44.090  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:16:53.117  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:16:53.117  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:17:02.067  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:17:02.067  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:17:11.029  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:17:11.029  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:17:20.066  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:17:20.066  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:17:29.063  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:17:29.063  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:17:38.080  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:17:38.080  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:17:47.083  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:17:47.083  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:17:56.057  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:17:56.057  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:18:05.049  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:18:05.049  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:18:14.044  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:18:14.044  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:18:23.061  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:18:23.061  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:18:32.017  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:18:32.017  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:18:41.079  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:18:41.079  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:18:50.134  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:18:50.134  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:18:59.043  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:18:59.043  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:19:08.101  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:19:08.101  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:19:17.070  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:19:17.070  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:19:26.048  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:19:26.048  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:19:35.031  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:19:35.031  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:19:44.099  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:19:44.099  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:19:53.043  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:19:53.043  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:20:02.054  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:20:02.056  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:20:11.026  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:20:11.026  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:20:20.079  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:20:20.079  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:20:29.039  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:20:29.042  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+2023/07/28 09:20:38.089  1612  2100 S0!! NetWatchdog: Port 443 proxy search failed! No working setting found.
+2023/07/28 09:20:38.089  1612  2100 S0!! NetWatchdog: Port 80 proxy search failed! No working setting found.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
