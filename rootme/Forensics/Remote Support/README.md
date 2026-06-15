@@ -736,7 +736,7 @@ $ head smbshare/todo_verification/hive_hklm.reg -n 10
 "AdapterID"=hex:46,71,00,00
 ```
 
-..it's the entire hklm hive in plaintext. It `hive_hklm.reg` isn't a raw registry hive file, it's a plaintext export.. of the entire hive.. which is why registry explorer gave us a bad signature Woah. How redundant. Let's look for the TeamViewer password:
+..it's the entire hklm hive in plaintext. `hive_hklm.reg` isn't a raw registry hive file, it's a plaintext export.. of the entire hive.. which is why registry explorer gave us a bad signature. Woah. How redundant. Let's look for the TeamViewer password:
 
 ```bash
 $ rg teamviewer -i smbshare/todo_verification/hive_hklm.reg  -B 10 -A 10
