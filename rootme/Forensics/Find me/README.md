@@ -232,7 +232,7 @@ $ cat file.0x1e0c66b8.0x853fdb48.DataSectionObject.Configuration.xml.dat
 </TrueCrypt>
 ```
 
-Well that's sad, no volume information here, on volatility2 we could use the truecrypt summary plugin, but for vol3 we don't have that luxury, let's look at filescan output and find desktop/document files, if nothing stands out we might have to port the vol2 truecrypt plugins to python3.
+ As the `CachePasswords` key was set to true we could get the password from memory. But no volume information here, that's sad. On volatility2 we could use the truecrypt summary plugin, but for vol3 we don't have that luxury, let's look at filescan output and find desktop/document files, if nothing stands out we might have to port the vol2 truecrypt plugins to python3.
 
 ```bash
 $ rg 'Desktop|Documents' files.txt
