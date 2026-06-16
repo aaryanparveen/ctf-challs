@@ -480,7 +480,9 @@ with open("passwords.txt", "w") as p:
                     p.write(password + "\n")
 
 print("all your passwords are belong to us") 
-    
+```
+
+```bash 
 $ python3 solve.py
 all your password are belong to us
 
