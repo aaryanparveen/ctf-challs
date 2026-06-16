@@ -209,6 +209,8 @@ The official apache docker hub account is `apache`, definitely not apachetwo, th
 Looking at the docker hub account:
 https://hub.docker.com/r/apachetwo/
 
+![](attachments/1.png)
+
 It only has one image: apach2_php, with only 2.8k downloads, this is most definitely the source of our supply chain attack.  Let's pull it.
 
 ```bash
