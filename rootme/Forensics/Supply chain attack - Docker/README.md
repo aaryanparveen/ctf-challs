@@ -6,7 +6,7 @@
 - Points: 25
 - Validation: 1672
 - Author: Nishacid
-- Status: TODO
+- Status: Done
 # Handout
 `Supply chain attack - Docker: Awesome WebServer`
 `Your DevOps intern has deployed a web server using Docker. Everything seems to be working fine, however several security alerts are coming up from this server, even after reinstallation. Can you look into the source of the problem?`
