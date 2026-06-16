@@ -6,7 +6,7 @@
 - Points: 35
 - Validation: 5746
 - Author: makhno
-- Status: TODO
+- Status: Done
 # Handout
 `Job interview: Hide-and-seek`
 `You are invited to an interview for a forensics investigator position at the NSA. For your first technical evaluation they ask you to analyze this file. Prove to them that you’re a fitting candidate for this job.`
