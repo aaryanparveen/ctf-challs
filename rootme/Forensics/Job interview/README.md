@@ -85,7 +85,7 @@ bcache24.bmc
 
 RDP CACHE! Basically if caching is enabled, the RDP protocol records hundreds of 64by64 bmp images, called tiles, of the screen, and saves them to bcache24.bmc or Cache0000.bin. `bmc-tools` is used to reconstruct these. Let's re-construct the RDP session. 
 
-We can use `-b` with bmc-tools.py to tell it to make it's best reconstruction, as a collage.
+We can use `-b` with bmc-tools.py to tell it to make it's best reconstruction guess, as a collage.
 
 ```bash
 $ python3 bmc-tools.py -s bcache24.bmc -d RDPCACHE  -b
