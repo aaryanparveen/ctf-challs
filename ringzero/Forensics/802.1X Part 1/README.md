@@ -10,20 +10,25 @@
 # Handout
 `802.1X Part 1; Find the shared secret`
 https://ringzer0ctf.com/files/ae5b20f66d8d7d96e2269c2731dad045.zip
+
 ## Walkthrough
 802.1X is used for authentication before joining a wifi network, we must have to crack the 802.1X shared secret and that would be our flag!
 Unzipping:
+
 ```bash
 $ unzip ae5b20f66d8d7d96e2269c2731dad045.zip
 Archive:  ae5b20f66d8d7d96e2269c2731dad045.zip
   inflating: e02d87707841f558986b78537e7c3ddc.pcap
 ```
+
 Network capture, that's expected, let's inspect in wireshark. 
 Interesting things noticed so far:
 - Aruba ESSID here is `Rao likes 1X Movies`
 - Protocol 802.11
 - A RADIUS server was used, more later
+
 ![image 20260530100657](attachments/1.png)
+
 There are a lot of 802.11 packets, but we already know what we have to do: crack the 802.1X secret, let's directly use aircrack-ng for this.
 
 ```bash
@@ -39,7 +44,9 @@ No networks found, exiting.
 Quitting aircrack-ng...
 
 ```
+
 Interesting, let's quickly double check if the capture has a valid WPA-PSK handshake for aircrack to crack and EAPoL packets
+
 ```bash
 $ tshark -r e02d87707841f558986b78537e7c3ddc.pcap -Y eapol
    41 23177.909033 HewlettPacka_7e:21:69 → Intel_6b:61:98 EAP 84 Request, Identity
@@ -69,20 +76,27 @@ $ tshark -r e02d87707841f558986b78537e7c3ddc.pcap -Y eapol
    89 23178.198403 HewlettPacka_7e:21:69 → Intel_6b:61:98 EAPOL 193 Key (Message 3 of 4)
    91 23178.198923 Intel_6b:61:98 → HewlettPacka_7e:21:69 EAPOL 137 Key (Message 4 of 4)
 ```
+
 ![image 20260530102120](attachments/2.png)
+
 This is the actual handshake.. and it's not WPA-PSK which aircrack-ng expects, Looking online, I found https://networklessons.com/wireless/eapol-extensible-authentication-protocol-over-lan
-Interesting thing:
+Interesting things:
 - Our mac: `10:0b:a9:6b:61:98` (transmitter address from EAPoL start packet)
 - Destination mac: `00:0b:86:7e:21:69`
 - Version of 802.1X: 802.1X-2001 (1)
+
 ![image 20260530102459](attachments/3.png)
+
 We can see the identity from the response: identity that it is`ARUBANETWORKS\rao`, fits the ESSID story we found.
 We also see that it is using EAP-PEAP
+
 ![image 20260530102657](attachments/4.png)
+
 https://arubanetworking.hpe.com/techdocs/ClearPass/6.12/PolicyManager/Content/CPPM_UserGuide/Auth/AuthMethod_eap-peap.htm
 `EAP-Protected Extensible Authentication Protocol (EAP-PEAP) is a protocol that creates an encrypted (and more secure) channel before the password-based authentication occurs. PEAP is an 802.1X authentication method that uses server-side public key certificate to establish a secure tunnel in which the client authenticates with server. The PEAP authentication creates an encrypted SSL/TLS tunnel between client and authentication server. The exchange of information is encrypted and stored in the tunnel ensuring that the user credentials are kept secure.`
 However there is a RADIUS server involved. This is not a standard Wi-Fi login, which would be using WPA-PSK
 A standard trace would look like:
+
 ```text
 802.11 Probe Request
 802.11 Authentication
@@ -93,12 +107,16 @@ EAPOL Key Message 2 of 4
 EAPOL Key Message 3 of 4
 EAPOL Key Message 4 of 4
 ```
+
 Where the wifi password used + ssid (PBKDF2-HMAC-SHA1, 4096 rounds), would form the pmk, or the pairwise master key. This is what is attacked by aircrack-ng by default; It mimics creation of a PMK, and then a PTK by:
+
 PMK + AP address + Our MAC + ANonce + SNonce  > PTK
+
 And calculates the MIC over the EAPoL MESSAGE, then compares the captured MIC to the one calculated using the words in our wordlist dictionary.
 
 
 But we have a very different trace:
+
 ```text
 EAP Request, Identity
 EAPOL Start
@@ -141,6 +159,7 @@ EAPOL Key Message 2 of 4
 EAPOL Key Message 3 of 4
 EAPOL Key Message 4 of 4
 ```
+
 At this point I realize that the challenge had always wanted us to crack the RADIUS shared secret!
 Notice how the PSK standard doesn't have a TLS Login, or the PEAP auth. For the most obvious difference, there was no username exchange like we see here.
 Looking online, this trace matches that of WPA Enterprise. That's why aircrack-ng couldn't find it!
@@ -157,13 +176,16 @@ PMK + AP address + client MAC + ANonce + SNonce > PTK
 So the PTK derivation step is still similar to WPA-PSK, but the PMK source is completely different! In WPA-PSK, aircrack-ng can guess the password and recreate the PMK directly, but here, we need to get the radius secret, then then the mppe key to get to the PMK.
 
 We got the identity from the packets before, but let's extract properly:
+
 ```bash
 $ tshark -r e02d87707841f558986b78537e7c3ddc.pcap   -Y "eap.identity"   -T fields   -e frame.number   -e eap.identity
 3       ARUBANETWORKS\\rao
 47      ARUBANETWORKS\\rao
 49      ARUBANETWORKS\\rao
 ```
+
 Let's also look at the TLS certificate used for the EAP authentication:
+
 ```bash
 $ tshark -r e02d87707841f558986b78537e7c3ddc.pcap \
   -Y "tls.handshake.certificate" \
@@ -649,7 +671,9 @@ Extensible Authentication Protocol
                 Length: 0
 
 ```
+
 `commonName=raodius.wifi.ctf`, that's funny.
+
 Main findings:
 ```text
 commonName:           raodius.wifi.ctf
@@ -661,8 +685,10 @@ cipher suite:         TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
 curve:                secp256r1
 subject key id:       406001b2de29864118ed2522e3bdd6bc804e0143
 ```
+
 Location NK! Definitely made by someone with a sense of humour. epheremal diffie hellman  is a bummer though.
 Let's also get the RADIUS server username:
+
 ```bash
 $ tshark -r e02d87707841f558986b78537e7c3ddc.pcap \
   -Y "radius.User_Name" \
@@ -672,7 +698,9 @@ $ tshark -r e02d87707841f558986b78537e7c3ddc.pcap \
 1       ARUBANETWORKS\\rao
 3       ARUBANETWORKS\\rao
 ```
+
 Let's analyse the file itself using capinfos.
+
 ```bash
 $ capinfos -M e02d87707841f558986b78537e7c3ddc.pcap
 File name:           e02d87707841f558986b78537e7c3ddc.pcap
@@ -716,22 +744,30 @@ Interface #1 info:
                      Number of stat entries = 0
                      Number of packets = 22
 ```
-Okay, so it's a merged pcap file from 2 different files /Users/ggermain/Desktop/chal1-radius.pcap and /Users/ggermain/Desktop/final-no-radius.pcap, presumably one contains the radius data we saw and the other the eap capture.
+
+Okay, so it's a merged pcap file from 2 different files; `/Users/ggermain/Desktop/chal1-radius.pcap` and `/Users/ggermain/Desktop/final-no-radius.pcap`, presumably one contains the radius data we saw and the other the eap capture.
 The only real thing we have got so far is:
+
 `ARUBANETWORKS\rao:Rao likes 1X Movies`
-The wireless side shows the 802.1X/PEAP exchange, but the Linux cooked-mode side contains the backend RADIUS traffic. That is what we need.
+
+The wireless side shows the `802.1X/PEAP` exchange, but the Linux cooked-mode side contains the backend RADIUS traffic. That is what we need.
 
 For RADIUS packets, the shared secret can be tested (or cracked) using fields already present in the capture:
+
 `message authenticator = HMAC-MD5(packet_with_MessageAuthenticator_zeroed, shared_secret)`
 `response authenticator = MD5(Code + ID + Length + RequestAuthenticator + Attributes + shared_secret)`
+
 Source: https://stackoverflow.com/questions/10995568/radius-and-eap-calculating-the-message-authenticator
 
 Let's extract the radius packets to their own separate capture file, and create its hash using radius2john.
+
 ```bash
 $ tshark -r e02d87707841f558986b78537e7c3ddc.pcap -Y "radius" -w radius_only.pcap && radius2john radius_only.pcap > radius.hash && cat radius.hash
 192.168.10.13(/mnt/d/CTF/ringzer0ctf/forensics/802/radius_only.pcap):$dynamic_1017$c25afab211e4ba93cb7769be4c742e9d$HEX$05c50014d936fe3ccbe8e7a79f58a19a6adf26f3
 ```
+
 And let's crack it!
+
 ```bash
 $ john radius.hash --wordlist=~/wordlists/rockyou.txt  --format=dynamic_1017
 Using default input encoding: UTF-8
@@ -743,6 +779,7 @@ karaoke          (192.168.10.13(/mnt/d/CTF/ringzer0ctf/forensics/802/radius_only
 Use the "--show --format=dynamic_1017" options to display all of the cracked passwords reliably
 Session completed.
 ```
+
 AND IT'S DONE! `karaoke` 
 
 ![image 20260530111958](attachments/5.png)

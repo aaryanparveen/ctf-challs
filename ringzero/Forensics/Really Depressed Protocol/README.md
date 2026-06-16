@@ -20,14 +20,21 @@ Archive:  69b937a4cdcd4a5c4d9bb1d6b7ff800b.zip
   inflating: pcap3.pcap
 ```
 Woah it's not a dump file, still rdp suggests we are looking at traffic over the rdp protocol, we are given a cert.pfx, and a network capture, opening it in wireshark I can see encrypted TLS packets.
+
 ![](attachments/1.png)
+
 Interestingly there are a few RDP packets as well:
+
 ![](attachments/2.png)
+
 We might see more later.
 Given a pfx certificate file, it's probably the one used for the encrypted tls communication. We should try to decode the TLS packets. It doesn't work for decrypting ephermal diffie hellman exchange packets(tlsv1.2 and tlsv1.3 directly), but here we are in luck as it's using TLSv1. 
 Let's setup this as a decong preference RSA key for TLS.
+
 ![](attachments/3.png) 
+
 ![](attachments/4.png)
+
 Why does it need a password?
 Looking online, pfx is an encrypted pkcs container, the keys are encrypted and must be decrypted themselves for them to be able to decrypt tls packets. 
 Let's use jtr on this.
@@ -45,10 +52,13 @@ Use the "--show" option to display all of the cracked passwords reliably
 Session completed
 ```
 Anticlimactic. Using this cracked top secret: `secret`; we can decrypt the tls packets in wireshark:
+
 ![](attachments/5.png)
+
 ![](attachments/6.png)
 
 ![](attachments/7.png)
+
 And now we have all the packets decrypted!
 Let's try to analyse the packets themselves what we can find here. I've done challenges where you had to extract usbhiddata from a usb mouse and draw that for the flag, and one where usb hiddate encoded keystrokes from a usb keyboard, could we be looking at something similar? Maybe we can construct our own rdp-cache like artifact?
 Let's see the rdp packets for initial recon.
@@ -57,7 +67,9 @@ Communication between `10.153.108.145` and `10.153.108.140`
  `10.153.108.140` uses port 3389
  As 3389 is the default port for rdp, it's safe to assume this is our host machine, and `10.153.108.145` is the one with remote access.
  Knowing this, packets from `10.153.108.140` should contain mainly bitmap reconstructions of the desktop and `10.153.108.145` packets should contain mouse and keyboard input data, as `PDU`, `fastpath` or `slowpath` data. Scrolling through I immediately noticed the most obvious path here, keystrokes, RDP uses the `Scancode` header for this communication, where `KeyCode` contains the byte containing the keystroke itself. If this fails, we might have to draw mouse movements from `Mouse` headers or a make a bmp reconstruction from the packets from `10.153.108.140`
+
  ![](attachments/8.png)
+
  We can extract these and assign them to a mapping online to decode what keys were pressed. 
  I found: https://sources.debian.org/src/xrdp/0.9.1-9%2Bdeb9u3/xrdp/rdp-scan-codes.txt
  I extracted all the packets as json, then wrote a parser to extract just the `KeyCode` values and assign them according to this mapping: 

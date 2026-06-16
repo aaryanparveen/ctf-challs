@@ -551,15 +551,22 @@ $ i=0; for f in thumbs/dumps/*.dat; do foremost -i "$f" -o "thumbs/out_$i"; i=$(
 ```
 These images were absolutely useless, some thumbnails seemed corrupted, and I tried fixing them using a hexeditor, imagemagick and pngcheck/relevant tool but I couldn't get anything other than standard windows thumbnails.
 Let's just look at the raw image data once, colour mode could be brga or rgb, let's try bgra for now, and a random 600 width just to test the waters:
+
 ![](rawtest.png)
 
 This is the raw memory data represented as a 32 bit image, obviously it doesn't make sense because we don't know the width, but playing around with the dimensions I found a few things:
+
 ![recovered paint ui at width 272](attachments/2.png)
+
 A close recovery of the paint ui at width 272, and the text below seems like our flag in the paint canvas!
-Also found other items such as:![recovered artifact](attachments/3.png)
+
+Also found other items such as:
+
+![recovered artifact](attachments/3.png)
 ![recovered artifact](attachments/4.png)
 ![recovered artifact](attachments/5.png)
 ![recovered artifact](attachments/6.png)
+
 this is the closest to the flag  I could get by eyeballing, but this won't work, I can't manually brute all possible widths from 50 to 1000. 
 Interestingly at widths of `2**x`, like 512, a lot of data seemed symmetrical, this is probably unrelated system memory.
 

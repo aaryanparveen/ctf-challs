@@ -20,9 +20,13 @@ Archive:  a26a10853f9d170feba6ab9b627ad156.zip
 ```
 Network capture file for wireshark, nice.
 Opening it up.
+
 ![image 20260529225141](attachments/1.png)
+
 A lot of HTTP and TCP packets. Let's first dump http objects and then we will look at tcp/http streams.
+
 ![image 20260529225305](attachments/2.png)
+
 One object stands out, it's a php script, let's save it.
 ```bash
 $ cat askldj3lkj234.php

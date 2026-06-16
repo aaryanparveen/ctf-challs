@@ -136,6 +136,7 @@ dc3817f29d2199446639538113064277:#1Godfather
 ```
 
 And there's the login password.. and it's.. not our flag..? 
+
 ![](attachments/3.png)
 
 Maybe this password has been reused somewhere? `Validation password` and `login password` weren't referring to the same thing i guess. Let's look at pslist.

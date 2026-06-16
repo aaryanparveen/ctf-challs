@@ -51,7 +51,9 @@ full of full
 
 Flag-1s4g76jk89f
 ```
+
 ![image 20260529224707](attachments/1.png)
+
 and there's our flag!
 # FLAG
 Flag-1s4g76jk89f

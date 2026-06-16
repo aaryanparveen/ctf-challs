@@ -18,12 +18,19 @@ Archive:  bdc8c86f1c082715762b4d9cb755c4c7.zip
   inflating: 6338c3e33776b9844814d2daadf208bc.pcap
 ```
 Network capture! Let's open it in wireshark
+
 ![image 20260530093810](attachments/1.png)
+
 ![image 20260530093816](attachments/2.png)
+
 There are a lot of TCP, DNS, SSH, ICMP packets. Let's first just look at the TCP and UDP streams to look for anything.
+
 ![image 20260530093922](attachments/3.png)
+
 A total of 16 tcp streams, the end few contained a lot many random domains, maybe we have to use the domain names and perform an acrostic extraction or something similar? Let's also take a look at the udp streams and then come back to the domains.
+
 ![image 20260530094048](attachments/4.png)
+
 There are 60 udp streams, and in the very first one: stream 0, we see a dns query to a suspicious location: 5647687063794270.192.168.191.129
 5647687063794270 is almost certainly ascii encodings for text
 ```bash
@@ -36,6 +43,7 @@ $ echo 5647687063794270 | xxd -p -r | base64 -di
 This i
 ```
 This is the right path! But the message is incomplete, maybe there are more such queries? 
+
 ![image 20260530094309](attachments/5.png)
 
 And yup! There are multiple dns queries to <ciphertext>.192.168.191.129

@@ -113,7 +113,9 @@ Key things of interest:
 `GPS Position                    : 44 deg 38' 46.43" N, 63 deg 34' 23.83" W`
 `Author                          : Steve Finger`
 Looking online, the coordinates are for... drumroll....
+
 ![image 20260529204012](attachments/1.png)
+
 HALIFAX
 
 We already have the name of the author: steve finger, so now we can assemble the flag

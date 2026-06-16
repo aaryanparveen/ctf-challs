@@ -10,19 +10,24 @@
 # Handout
 `Agent Smith reloaded; Can you find the matrix password again?`
 https://ringzer0ctf.com/files/2b4d08e1a1eac8a8c9034036d420bd88.zip
+
 ## Walkthrough
 Unzipping:
+
 ```bash
 $ unzip 2b4d08e1a1eac8a8c9034036d420bd88.zip
 Archive:  2b4d08e1a1eac8a8c9034036d420bd88.zip
   inflating: BK
 ```
+
 Let's identify what we are dealing with:
 ```bash
 $ file BK
 BK: Linux rev 1.0 ext3 filesystem data, UUID=ca014691-c6ea-4a5a-8da4-74a1aa1c9a80
 ```
+
 A raw ext3 linux fs, again we could go autopsy, but, if it's solvable by sleuthkit why load such a heavy software, running fls for basic recon:
+
 ```bash
 $ fls BK
 d/d 11: lost+found
@@ -33,7 +38,9 @@ d/d 17: .ls
 r/r * 16:       secret.odg
 V/V 1281:       $OrphanFiles
 ```
+
 and in the directories discovered
+
 ```bash
 $ fls BK 11
 (no output)
@@ -47,6 +54,7 @@ $ fls BK 17
 $ fls BK 1281
 (no output)
 ```
+
 Okay, so we have:
 TODO.me inode 14
 secret.sve inode 12 which has been deleted, some sve format
@@ -55,6 +63,7 @@ secret.odg inode 16 which has been deleted
 and a few empty dirs.
 
 Let's start with TODO.me, as it has the best chance of giving us a hint as to what's going on:
+
 ```bash
 $ icat BK 14
 -cryt my password file with Secret Vault Encrypt
@@ -62,14 +71,20 @@ $ icat BK 14
 -buy flower for my love !
 -restric my my little brother permission to delete file.
 ```
+
 Okay so the deleted files are probably important, and the sve stans for secret vault encrypt, some custom format which contains a password, which is presumably our flag. So, we need to recover what's in secret.sve, `icat` the remaining files the deleted files don't show (empty outputs on icat), but we can recover inode 15 secret.odg
+
 ```bash
 $ icat BK 15 > secret.odg && file secret.odg
 secret.odg: OpenDocument Drawing
 ```
+
 Let's open it in libreoffice. As odg, and other office files are essentially zip files, we could also looking at zip contents if we're at a dead end.
+
 ![](attachments/1.png)
+
 Yup, they're right it WOULD have been too easy. Let's look at the zip structure:
+
 ```bash
 $ unzip -l secret.odg
 Archive:  secret.odg
@@ -94,7 +109,9 @@ Archive:  secret.odg
 ---------                     -------
     38795                     16 files
 ```
+
 This seems unlikely, nothing stands out to me, let's pivot back to the deleted files, they can definitely be recovered by using ext3grep for the deleted files at inodes: 12:secret.sve and 16:secret.odg , or analyzing the journal file:
+
 ```bash
 $ ext3grep BK --inode 12
 Running ext3grep version 0.10.2
@@ -175,7 +192,9 @@ Deletion time:  1391739038 = Fri Feb  7 07:40:38 2014
 
 Direct Blocks: 0
 ```
+
 As expected, ext3grep says the inode is unallocated, that's why icat failed to get the files as well. Let's retry to parse these from the journal file of the fs:
+
 ```bash
 $ ext3grep BK --show-journal-inodes 12
 Running ext3grep version 0.10.2
@@ -296,13 +315,17 @@ Deletion time:  0
 
 Direct Blocks: 0
 ```
+
 Great! The journal has recoverable copies of these deleted files:
+
 ```text
 inode 12 transaction 43: size 212, block 1229  
 inode 12 transaction 3: size 184, block 1228  
 inode 16 transaction 40: size 9526, blocks 1230-1239
 ```
+
 Let's restore them
+
 ```bash
 $ ext3grep BK --restore-inode 12
 Running ext3grep version 0.10.2
@@ -329,19 +352,26 @@ $ file RESTORED_FILES/*
 RESTORED_FILES/inode.12: Zip archive data, made by v3.0 UNIX, extract using at least v2.0, last modified Feb 06 2014 20:33:02, uncompressed size 16, method=deflate
 RESTORED_FILES/inode.16: OpenDocument Drawing
 ```
+
 We got the files! The one at inode 12, `secret.sve` identified as a zip file, common for office documents. Let's first look at this odg file:
+
 ```bash
 $ cp RESTORED_FILES/inode.16 RESTORED_FILES/secretdeleted.odg
 ```
 It seems to be the exact same as before:
+
 ![](attachments/2.png)
+
 Let's verify:
+
 ```bash
 $ md5sum RESTORED_FILES/secretdeleted.odg secret.odg
 6ae4c488e2ed80c961af0e1d7ecbb624  RESTORED_FILES/secretdeleted.odg
 6ae4c488e2ed80c961af0e1d7ecbb624  secret.odg
 ```
+
 Yup, they're the same file (unless they got an md5 collision somehow??) My main focus shifts to inode 12, it's probably another opendocument, but judging the name `Vault`, it's probably password protected. Running `unzip -l`
+
 ```bash
 $ unzip -l RESTORED_FILES/inode.12
 Archive:  RESTORED_FILES/inode.12
@@ -355,13 +385,17 @@ $ unzip RESTORED_FILES/inode.12
 Archive:  RESTORED_FILES/inode.12
 [RESTORED_FILES/inode.12] secret.txt password:
 ```
+
 I guess not, it's just our flag in a text file, but it is password protected, no worries we can get the hash using zip2john and crack using johntheripper:
+
 ```bash
 $ zip2john RESTORED_FILES/inode.12 > secret.sve.hash && cat secret.sve.hash
 ver 2.0 efh 5455 efh 7875 inode.12/secret.txt PKZIP Encr: TS_chk, cmplen=26, decmplen=16, crc=EE8F939A ts=A421 cs=a421 type=8
 inode.12/secret.txt:$pkzip$1*1*2*0*1a*10*ee8f939a*0*44*8*1a*a421*bab041197a7d69df7197aa75bbb5fac22c908a0d999a2b85e162*$/pkzip$:secret.txt:inode.12::RESTORED_FILES/inode.12
 ```
+
 Let's crack using rockyou and jtr:
+
 ```bash
 $ john secret.sve.hash --wordlist=~/wordlists/rockyou.txt
 Using default input encoding: UTF-8
@@ -373,7 +407,9 @@ Press 'q' or Ctrl-C to abort, almost any other key for status
 Use the "--show" option to display all of the cracked passwords reliably
 Session completed.
 ```
+
 And there's our password: 12345, how anticlimactic. Let's get our flag:
+
 ```bash
 $ unzip RESTORED_FILES/inode.12 && cat secret.txt
 Archive:  RESTORED_FILES/inode.12

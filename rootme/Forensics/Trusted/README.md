@@ -72,7 +72,9 @@ Archive:  ch46.zip
 I guess they were feeling generous they just gave us the full mountable filesystem as is without a memory dump, with installations for npcap, wireshark, keepass and god knows what else, talk about self sufficient. Let's first get our password, they have keepass installed, so let's look for a kdbx file, if that fails we can look for saved passwords in microsoft edge.
 
 I guess this is one time where windows defender actually comes in handy:
+
 ![](attachments/1.png)
+
 So the keepass.exe in startup is infected?
 
 Let's get the password first:
@@ -229,6 +231,7 @@ VT says modify registry, let's see what it modified on tria.ge
 ![](attachments/17.png)
 
 tria.ge also flags it as metasploit, so thats out c2
+
 ![](attachments/18.png)
 
 Interestingly, tria.ge doesn't find any registry keys modified, but confirms what we already know:

@@ -19,16 +19,23 @@ Archive:  5f848a2b5b8d1c9fa130866c8bd15307.zip
   inflating: B51BAB1F23694A95D6E5665737688F08.pcap
 ```
 Network Capture! Opening in wireshark:
+
 ![image 20260529233304](attachments/1.png)
+
 There's a lot of noise (get it?!?!?)
 Let's just look for  any audio related protocols, could be SBC, or anything.
+
 ![image 20260530001558](attachments/2.png)
+
 ![image 20260529233346](attachments/3.png)
+
 And there we go! RTP, Real time Transport Protocol, our flag is almost certainly in the data transmitted over RTP. Lets extract it: https://wiki.wireshark.org/RTP_statistics#:~:text=Supported%20codecs%20with%208000%20Hz,'Sun%20Audio'%20file%20format
 If this fails we can look at the SIP data to try and understand.
 By going to telephony > rtp > rtp streams
 There are 3 streams:
+
 ![image 20260529234322](attachments/4.png)
+
 ![image 20260529233915](attachments/5.png)
 ![image 20260529234444](attachments/6.png)
 
@@ -37,11 +44,17 @@ There are 3 streams:
 1st one probably contains the flag, visible through its spectrogram. 2nd is a person saying something about a password. 3rd is a telephone dial tone.
 Let's export all of them as Stream Synchronized Audio.
 Telephony > RTP > RTP Streams > Export > Stream Synchronized Audio
+
 ![image 20260529235408](attachments/8.png)
+
 Hmm, a normal spectrogram doesn't contain anything suspicious or resembling a flag.
+
 ![image 20260530000329](attachments/9.png)
+
 Nothing here.. Could the audio route have been a dead end? We just got "password" Let's step back and look at the SIP data, following the SIP call we see a few interesting things. 
+
 ![image 20260530001824](attachments/10.png)
+
 1. Call IDs are base64 strings: NTQxODg2OTA3NDBlOTY4OWE0ODM3OTg4YWRmNzQ0MmU (54188690740e9689a4837988adf7442e), OWU0YTA0M2I4MzViNmVkMGYzNjhmYWI3NzNkMDNjOGM (9e4a043b835b6ed0f368fab773d03c8c)
 2. Call from sip:133700@montreal.voip.ms to sip:5145551337@montreal.voip.ms;transport=TCP
 3. SIP FROM TAG: 7798907f, 37b7803a
@@ -58,12 +71,15 @@ algorithm=MD5
 ```
 Hmm, how does SIP encode the hash? https://hacktricks.wiki/en/network-services-pentesting/pentesting-voip/basic-voip-protocols/sip-session-initiation-protocol.html
 Here's the formula:
+
 ![image 20260530003613](attachments/11.png)
+
 username:realm:method:uri:nonce:cnonce:nc:qop:response
 But we don't have a qop or a cnone, let's research more:
 https://datatracker.ietf.org/doc/html/draft-smith-sip-auth-examples-00#section-2.2
 Here it is, Absent qop.
 So there are different forms of sip auth, hacktricks had a different version, we have An RFC 2069-compatible Absent QOP digest.
+
 ![image 20260530004210](attachments/12.png)
 
 So in essence, SIP uses HTTP Digest auth, and RFC 3261 says that SIP Digest follows the HTTP Digest rules while preserving RFC 2069 compatibility. RFC 2617 defines two different request-digest constructions: one when qop is present, using `nonce:nc:cnonce:qop:H(A2)`, and one when qop is absent, using only `nonce:H(A2)`. Therefore, an absent qop digest must have been generated using the legacy no-qop formula:
