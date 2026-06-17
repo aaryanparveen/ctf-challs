@@ -6,7 +6,7 @@
 - Points: 35
 - Validation: 723
 - Author: blackjack
-- Status: TODO
+- Status: Done
 # Handout
 `C2 Mythic: Don’t look her in the eye...`
 `One of our machines seems to have been infected by a **command and control** agent. Fortunately for us, our NIDS was able to capture the exchange between the server and our machine. We were also able to recover the agent in question. Your mission is to retrieve the information that has been extracted.`
@@ -34,7 +34,7 @@ Yeah, it contains tcp streams which are sending encoded data to their c2: `10.0.
 
 ![medusa2](attachments/4.png)
 
-Mild levels of "obfuscation". Basically, it takes a massive base64 string, the main *hacking* snippet, decodes it, and xor'ing the base64 decoded payload with the repeated hex key `66ec80c110f42039d7d0dcb3db5f43b7`. Let's peel off the first layer of obfuscation.
+Mild levels of "obfuscation". Basically, it takes a massive base64 string, the main *hacking* snippet, decodes it, and XORs the base64 decoded payload with the repeated hex key `66ec80c110f42039d7d0dcb3db5f43b7`. Let's peel off the first layer of obfuscation.
 
 ```python
 import base64
